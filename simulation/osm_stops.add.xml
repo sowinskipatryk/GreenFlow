@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-03-07T14:26:48.793649+01:00 by Eclipse SUMO netconvert 1.26.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}\data\typemap\osmNetconvert.typ.xml,${SUMO_HOME}\data\typemap\osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+        <ptline-clean-up value="true"/>
+    </output>
+
+    <projection>
+        <proj value="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <edge_removal>
+        <keep-edges.by-vclass value="passenger,bus,tram,rail_urban,subway,cable_car,rail"/>
+    </edge_removal>
+
+    <junctions>
+        <junctions.join value="true"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+</netconvertConfiguration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-10582561980" name="Nad Stawem 02" lane="-1337359712#2_0" startPos="13.56" endPos="28.56" friendlyPos="true" lines="149"/>
+    <busStop id="-1770503273" name="Kilińskiego 01" lane="-397056712#2_0" startPos="57.01" endPos="72.01" friendlyPos="true" lines="N2 127"/>
+    <busStop id="-2076145884" name="Skarżyńskiego 01" lane="-1027271884#2_0" startPos="188.57" endPos="203.57" friendlyPos="true" lines="258 158 127 227"/>
+    <trainStop id="-3279422501" name="Gdańsk Wrzeszcz" lane="-999619913#1_0" startPos="240.93" endPos="440.93" friendlyPos="true" lines="R">
+        <access lane="-1091389055_0" pos="115.39" length="225.01" friendlyPos="1"/>
+        <access lane="1091389056#0_0" pos="0.00" length="224.45" friendlyPos="1"/>
+        <access lane="449253144_0" pos="129.16" length="271.50" friendlyPos="1"/>
+        <access lane="661430011#0_0" pos="172.55" length="257.43" friendlyPos="1"/>
+    </trainStop>
+    <busStop id="-3701948563" name="Wrzeszcz PKP" lane="-1187686184_0" startPos="30.49" endPos="45.49" friendlyPos="true" lines="810">
+        <access lane="-1091389055_0" pos="115.39" length="186.01" friendlyPos="1"/>
+        <access lane="1091389056#0_0" pos="0.00" length="181.33" friendlyPos="1"/>
+        <access lane="27476146#0_0" pos="0.00" length="117.34" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-3701948569" name="Wrzeszcz PKP" lane="-368641585#1_0" startPos="41.50" endPos="56.50" friendlyPos="true" lines="124 N2 199 149 258 158">
+        <access lane="-1091389055_0" pos="115.39" length="144.00" friendlyPos="1"/>
+        <access lane="1091389056#0_0" pos="0.00" length="139.30" friendlyPos="1"/>
+        <access lane="27476146#0_0" pos="0.00" length="114.88" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-9875512697" name="Wrzeszcz PKP" lane="-1316855122#3_0" startPos="282.13" endPos="297.13" friendlyPos="true" lines="136 110 126 149 258 158 127 157 199 116 N3 162"/>
+    <trainStop id="-9932028115" name="Gdańsk Wrzeszcz" lane="-1083813154#0_0" startPos="72.46" endPos="272.46" friendlyPos="true" lines="PR">
+        <access lane="-1091389055_0" pos="115.39" length="182.62" friendlyPos="1"/>
+        <access lane="1091389056#0_0" pos="0.00" length="181.55" friendlyPos="1"/>
+        <access lane="27476146#0_0" pos="0.00" length="293.00" friendlyPos="1"/>
+    </trainStop>
+    <trainStop id="1014671550" name="Politechnika" lane="24811285#6_0" startPos="1559.12" endPos="1584.12" friendlyPos="true"/>
+    <busStop id="10582561979" name="Nad Stawem 01" lane="1337359712#0_0" startPos="46.20" endPos="61.20" friendlyPos="true" lines="149"/>
+    <trainStop id="1706849198" name="Jaśkowa Dolina 01" lane="182045481#3_0" startPos="91.18" endPos="116.18" friendlyPos="true">
+        <access lane="1163972696#0_0" pos="203.46" length="184.92" friendlyPos="1"/>
+        <access lane="200568454#0_0" pos="581.27" length="37.56" friendlyPos="1"/>
+        <access lane="236832919#0_0" pos="102.35" length="28.32" friendlyPos="1"/>
+        <access lane="25659802#0_0" pos="3.53" length="159.77" friendlyPos="1"/>
+    </trainStop>
+    <busStop id="1732884308" name="Skarżyńskiego" lane="348733401#0_0" startPos="21.38" endPos="36.38" friendlyPos="true" lines="227"/>
+    <busStop id="1770503190" name="Kilińskiego 02" lane="1069052593_0" startPos="34.86" endPos="49.86" friendlyPos="true" lines="124 N2 127"/>
+    <trainStop id="1923923828" name="Klonowa" lane="182045481#3_0" startPos="549.56" endPos="574.56" friendlyPos="true">
+        <access lane="1104505921#0_0" pos="56.30" length="204.95" friendlyPos="1"/>
+        <access lane="1147624737#1_0" pos="220.17" length="212.98" friendlyPos="1"/>
+        <access lane="200568454#0_0" pos="124.57" length="40.25" friendlyPos="1"/>
+        <access lane="200568455#0_0" pos="0.00" length="206.83" friendlyPos="1"/>
+        <access lane="236832919#0_0" pos="560.68" length="30.22" friendlyPos="1"/>
+    </trainStop>
+    <trainStop id="1923923831" name="Miszewskiego 01" lane="182045481#0_0" startPos="1153.41" endPos="1178.41" friendlyPos="true"/>
+    <trainStop id="1923923896" name="Galeria Bałtycka 01" lane="182045481#4_0" startPos="570.39" endPos="595.39" friendlyPos="true">
+        <access lane="187938710#0_0" pos="98.59" length="57.04" friendlyPos="1"/>
+        <access lane="287311357#0_0" pos="14.13" length="53.43" friendlyPos="1"/>
+        <access lane="287311357#3_0" pos="0.00" length="58.63" friendlyPos="1"/>
+        <access lane="287311357#4_0" pos="0.00" length="72.62" friendlyPos="1"/>
+        <access lane="771467599#0_0" pos="17.28" length="93.61" friendlyPos="1"/>
+    </trainStop>
+    <trainStop id="2448014062" name="Politechnika" lane="182045481#0_0" startPos="365.54" endPos="390.54" friendlyPos="true"/>
+    <trainStop id="2467382035" name="Gdańsk Przymorze-Uniwersytet" lane="173381248#11_0" startPos="520.39" endPos="720.39" friendlyPos="true" lines="S2 S1"/>
+    <trainStop id="2472070935" name="Gdańsk Wrzeszcz" lane="684638796#1_0" startPos="429.58" endPos="629.58" friendlyPos="true" lines="R 5500 EC 54">
+        <access lane="-1091389055_0" pos="115.39" length="215.14" friendlyPos="1"/>
+        <access lane="1091389056#0_0" pos="0.00" length="214.47" friendlyPos="1"/>
+        <access lane="661430011#0_0" pos="177.29" length="266.10" friendlyPos="1"/>
+    </trainStop>
+    <trainStop id="269557592" name="Miszewskiego 02" lane="24811285#6_0" startPos="771.26" endPos="796.26" friendlyPos="true"/>
+    <trainStop id="269557594" name="Klonowa" lane="24811285#4_0" startPos="111.32" endPos="136.32" friendlyPos="true">
+        <access lane="1104505921#0_0" pos="56.30" length="201.16" friendlyPos="1"/>
+        <access lane="1147624737#1_0" pos="220.17" length="210.29" friendlyPos="1"/>
+        <access lane="200568454#0_0" pos="123.78" length="31.10" friendlyPos="1"/>
+        <access lane="200568455#0_0" pos="0.00" length="207.08" friendlyPos="1"/>
+        <access lane="236832919#0_0" pos="561.57" length="39.35" friendlyPos="1"/>
+    </trainStop>
+    <trainStop id="269557596" name="Galeria Bałtycka 02" lane="24811285#3_0" startPos="92.05" endPos="117.05" friendlyPos="true">
+        <access lane="-1063332489#1_0" pos="0.00" length="136.69" friendlyPos="1"/>
+        <access lane="1063332489#0_0" pos="108.80" length="138.56" friendlyPos="1"/>
+        <access lane="187938710#0_0" pos="25.70" length="65.27" friendlyPos="1"/>
+        <access lane="236818214_0" pos="48.23" length="80.35" friendlyPos="1"/>
+        <access lane="771467599#0_0" pos="25.74" length="138.11" friendlyPos="1"/>
+    </trainStop>
+    <busStop id="2817336512" name="Wojska Polskiego 04" lane="277203721_0" startPos="86.25" endPos="101.25" friendlyPos="true" lines="199 258 158 N4 262 N14"/>
+    <trainStop id="3279422501" name="Gdańsk Wrzeszcz" lane="999619913#1_0" startPos="295.33" endPos="495.33" friendlyPos="true" lines="R 45103 3504 15111 EC 55">
+        <access lane="-1091389055_0" pos="115.39" length="225.01" friendlyPos="1"/>
+        <access lane="1091389056#0_0" pos="0.00" length="224.45" friendlyPos="1"/>
+        <access lane="449253144_0" pos="129.16" length="271.50" friendlyPos="1"/>
+        <access lane="661430011#0_0" pos="172.55" length="257.43" friendlyPos="1"/>
+    </trainStop>
+    <trainStop id="3680535418" name="Jaśkowa Dolina 02" lane="24811285#4_0" startPos="621.29" endPos="646.29" friendlyPos="true">
+        <access lane="1163972696#0_0" pos="203.46" length="144.95" friendlyPos="1"/>
+        <access lane="200568454#0_0" pos="581.27" length="84.21" friendlyPos="1"/>
+        <access lane="236832919#0_0" pos="51.76" length="39.01" friendlyPos="1"/>
+        <access lane="25659802#0_0" pos="6.87" length="85.66" friendlyPos="1"/>
+    </trainStop>
+    <busStop id="3699707966" name="Galeria Bałtycka 04" lane="224821292#0_0" startPos="154.20" endPos="169.20" friendlyPos="true" lines="810 N4 N14 127">
+        <access lane="-1063332489#1_0" pos="0.00" length="78.18" friendlyPos="1"/>
+        <access lane="1063332489#0_0" pos="108.80" length="75.49" friendlyPos="1"/>
+        <access lane="227216231#0_0" pos="213.46" length="161.15" friendlyPos="1"/>
+        <access lane="236818214_0" pos="0.00" length="155.93" friendlyPos="1"/>
+        <access lane="236818215_0" pos="35.26" length="149.87" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3699707967" name="Galeria Bałtycka 06" lane="1451328237#0_0" startPos="91.13" endPos="106.13" friendlyPos="true" lines="116 126 810 227 110 157 N3 149 136"/>
+    <busStop id="3699707968" name="Galeria Bałtycka 05" lane="27476801_0" startPos="24.09" endPos="39.09" friendlyPos="true" lines="136 110 126 N2 199 149 258 158 127 262 157 116 N3 162"/>
+    <busStop id="3699707969" name="Galeria Bałtycka 03" lane="1232799370_0" startPos="46.66" endPos="61.66" friendlyPos="true" lines="N14 199 N4 262"/>
+    <busStop id="3701948568" name="Wrzeszcz PKP" lane="61293509_0" startPos="39.18" endPos="54.18" friendlyPos="true" lines="116 126 110 157 N3 149 136">
+        <access lane="-1091389055_0" pos="115.39" length="111.00" friendlyPos="1"/>
+        <access lane="1091389056#0_0" pos="0.00" length="106.76" friendlyPos="1"/>
+        <access lane="27476146#0_0" pos="0.00" length="156.80" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3701948570" name="Wrzeszcz PKP" lane="168136132_0" startPos="50.70" endPos="65.70" friendlyPos="true" lines="168 115 262 162 N2 199">
+        <access lane="-1091389055_0" pos="115.39" length="141.15" friendlyPos="1"/>
+        <access lane="1091389056#0_0" pos="0.00" length="136.81" friendlyPos="1"/>
+        <access lane="27476146#0_0" pos="0.00" length="148.68" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3702069139" name="Zabytkowa 01" lane="29114711#0_0" startPos="78.62" endPos="93.62" friendlyPos="true" lines="136 110 126 149 157 116 N3 227"/>
+    <busStop id="3711898568" name="Wrzeszcz PKP" lane="1220574353_0" startPos="23.63" endPos="38.63" friendlyPos="true" lines="168 115 124">
+        <access lane="176329199_0" pos="10.24" length="213.84" friendlyPos="1"/>
+        <access lane="27475506#0_0" pos="0.00" length="169.20" friendlyPos="1"/>
+        <access lane="449253144_0" pos="16.65" length="226.63" friendlyPos="1"/>
+        <access lane="661430011#0_0" pos="313.14" length="207.72" friendlyPos="1"/>
+        <access lane="820514338#0_0" pos="0.00" length="207.68" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3715012927" name="Jaśkowa Dolina 03" lane="236832919#0_0" startPos="88.25" endPos="103.25" friendlyPos="true" lines="N14 N2 N4 127 262 162"/>
+    <busStop id="3715012929" name="Galeria Bałtycka 07" lane="287956205_0" startPos="26.05" endPos="41.05" friendlyPos="true" lines="124 N2 258 158 127 136 227"/>
+    <trainStop id="3785989417" name="Gdańsk Przymorze-Uniwersytet" lane="27751832#0_0" startPos="46.29" endPos="246.29" friendlyPos="true" lines="S2 S1"/>
+    <trainStop id="5677627725" name="Gdańsk Zaspa" lane="173381248#6_0" startPos="106.39" endPos="306.39" friendlyPos="true" lines="S2 S1"/>
+    <trainStop id="5677627726" name="Gdańsk Zaspa" lane="27751832#5_0" startPos="118.05" endPos="318.05" friendlyPos="true" lines="S2 S1"/>
+    <trainStop id="5677628690" name="Gdańsk Wrzeszcz" lane="173381248#1_0" startPos="108.93" endPos="308.93" friendlyPos="true" lines="S2 S1">
+        <access lane="-1337359712#2_0" pos="0.00" length="294.14" friendlyPos="1"/>
+        <access lane="1337359712#0_0" pos="166.04" length="286.88" friendlyPos="1"/>
+        <access lane="449253144_0" pos="183.53" length="225.23" friendlyPos="1"/>
+        <access lane="661430011#0_0" pos="118.00" length="211.66" friendlyPos="1"/>
+    </trainStop>
+    <trainStop id="5677628691" name="Gdańsk Wrzeszcz" lane="27751832#10_0" startPos="115.75" endPos="315.75" friendlyPos="true" lines="S2 S1">
+        <access lane="449253144_0" pos="163.04" length="244.89" friendlyPos="1"/>
+        <access lane="661430011#0_0" pos="138.57" length="231.14" friendlyPos="1"/>
+    </trainStop>
+    <trainStop id="9932028115" name="Gdańsk Wrzeszcz" lane="684638797#1_0" startPos="327.50" endPos="527.50" friendlyPos="true" lines="PR">
+        <access lane="-1091389055_0" pos="115.39" length="182.62" friendlyPos="1"/>
+        <access lane="1091389056#0_0" pos="0.00" length="181.55" friendlyPos="1"/>
+        <access lane="27476146#0_0" pos="0.00" length="293.00" friendlyPos="1"/>
+    </trainStop>
+    <trainStop id="9932028116" name="Gdańsk Wrzeszcz" lane="1417601252#1_0" startPos="215.50" endPos="415.50" friendlyPos="true" lines="PR">
+        <access lane="449253144_0" pos="144.64" length="240.18" friendlyPos="1"/>
+        <access lane="661430011#0_0" pos="156.94" length="226.25" friendlyPos="1"/>
+    </trainStop>
+</additional>

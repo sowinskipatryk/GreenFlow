@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-03-07T14:26:48.794837+01:00 by Eclipse SUMO netconvert 1.26.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}\data\typemap\osmNetconvert.typ.xml,${SUMO_HOME}\data\typemap\osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+        <ptline-clean-up value="true"/>
+    </output>
+
+    <projection>
+        <proj value="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <edge_removal>
+        <keep-edges.by-vclass value="passenger,bus,tram,rail_urban,subway,cable_car,rail"/>
+    </edge_removal>
+
+    <junctions>
+        <junctions.join value="true"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+</netconvertConfiguration>
+-->
+
+<ptLines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/ptlines_file.xsd">
+    <ptLine id="1000202" name="Bus 136: Niedźwiednik =&gt; Wrzeszcz PKP" line="136" type="bus" vClass="bus" completeness="0.19" missingBefore="11">
+        <route edges="29114711#0 1362017843 1362017842 313992354#0 313992354#1 1362017841 313992351#0 60264047 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="3702069139" name="Zabytkowa 01"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="1000203" name="Bus 116: Wrzeszcz PKP =&gt; Matemblewo" line="116" type="bus" vClass="bus" completeness="0.08" missingAfter="20">
+        <route edges="61293509 61293493 1180195345 -61293500 1147626421#0 61293002 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 27348632 287956206#0 287956206#2 1451328237#0 430532791 1323631883 430532793 430532795"/>
+        <busStop id="3701948568" name="Wrzeszcz PKP"/>
+        <busStop id="3699707967" name="Galeria Bałtycka 06"/>
+    </ptLine>
+    <ptLine id="1000600" name="Bus 110: Port Lotniczy =&gt; Wrzeszcz PKP" line="110" type="bus" vClass="bus" completeness="0.10" missingBefore="26">
+        <route edges="29114711#0 1362017843 1362017842 313992354#0 313992354#1 1362017841 313992351#0 60264047 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="3702069139" name="Zabytkowa 01"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="1015073" name="Bus N14: Olimpijska =&gt; Żabianka SKM" line="N14" type="bus" vClass="bus" nightService="only" completeness="0.02" missingBefore="42" missingAfter="37">
+        <route edges="236832919#0 200568455#0 227216231#0 236818215 236818214 187938710#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#0 1232799371#2 1232799371#3 1232799371#4 277203712 236809165"/>
+        <busStop id="3715012927" name="Jaśkowa Dolina 03"/>
+        <busStop id="3699707969" name="Galeria Bałtycka 03"/>
+    </ptLine>
+    <ptLine id="1022254" name="Bus 124: Wrzeszcz PKP =&gt; Zaspa - Szpital" line="124" type="bus" vClass="bus" completeness="0.17" missingAfter="13">
+        <route edges="-368641585#1 1164203052 27476146#0 1343590243 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490 1233834164 161297937 227216233 227681211 373856612 1069052593 227216232#0 1164856803#0 397056712#0 362762664#0 397056711#0 397056711#1"/>
+        <busStop id="-3701948569" name="Wrzeszcz PKP"/>
+        <busStop id="3715012929" name="Galeria Bałtycka 07"/>
+        <busStop id="1770503190" name="Kilińskiego 02"/>
+    </ptLine>
+    <ptLine id="1022940" name="Bus 126: Wrzeszcz PKP =&gt; Banino Pszenna" line="126" type="bus" vClass="bus" completeness="0.04" missingAfter="46">
+        <route edges="61293509 61293493 1180195345 -61293500 1147626421#0 61293002 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 27348632 287956206#0 287956206#2 1451328237#0 430532791 1323631883 430532793 430532795"/>
+        <busStop id="3701948568" name="Wrzeszcz PKP"/>
+        <busStop id="3699707967" name="Galeria Bałtycka 06"/>
+    </ptLine>
+    <ptLine id="1023644" name="Bus 168: Kiełpino Górne =&gt; Wrzeszcz PKP" line="168" type="bus" vClass="bus" completeness="0.02" missingBefore="61">
+        <route edges="29177181#0 176329208#0 1027195294#0 1220574353"/>
+        <busStop id="3711898568" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="12021924" name="Bus 126: Wrzeszcz PKP =&gt; Żukowo Urząd Gminy" line="126" type="bus" vClass="bus" completeness="0.03" missingAfter="60">
+        <route edges="61293509 61293493 1180195345 -61293500 1147626421#0 61293002 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 27348632 287956206#0 287956206#2 1451328237#0 430532791 1323631883 430532793 430532795"/>
+        <busStop id="3701948568" name="Wrzeszcz PKP"/>
+        <busStop id="3699707967" name="Galeria Bałtycka 06"/>
+    </ptLine>
+    <ptLine id="12021953" name="Bus 126: Żukowo Urząd Gminy =&gt; Wrzeszcz PKP" line="126" type="bus" vClass="bus" completeness="0.05" missingBefore="55">
+        <route edges="29114711#0 1362017843 1362017842 313992354#0 313992354#1 1362017841 313992351#0 60264047 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="3702069139" name="Zabytkowa 01"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="12021958" name="Bus 126: Banino Pszenna =&gt; Wrzeszcz PKP" line="126" type="bus" vClass="bus" completeness="0.07" missingBefore="41">
+        <route edges="29114711#0 1362017843 1362017842 313992354#0 313992354#1 1362017841 313992351#0 60264047 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="3702069139" name="Zabytkowa 01"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="1226987" name="Bus N2: Starogardzka =&gt; Grudziądzka" line="N2" type="bus" vClass="bus" nightService="only" completeness="0.09" missingBefore="40" missingAfter="7">
+        <route edges="236832919#0 200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3 -1147626421#1 61293500 -1180195345 -368641585#1 1164203052 27476146#0 1343590243 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490 1233834164 161297937 227216233 227681211 373856612 1069052593 227216232#0 1164856803#0 397056712#0 362762664#0 397056711#0 397056711#1"/>
+        <busStop id="3715012927" name="Jaśkowa Dolina 03"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-3701948569" name="Wrzeszcz PKP"/>
+        <busStop id="3715012929" name="Galeria Bałtycka 07"/>
+        <busStop id="1770503190" name="Kilińskiego 02"/>
+    </ptLine>
+    <ptLine id="14425124" name="PR: Gdańsk Wrzeszcz - Gdynia Główna" line="PR" type="train" vClass="rail" completeness="0.07" missingAfter="13">
+        <route edges="-1083813154#0 -684638797#0 -999619915 -298828640#2 -298828640#1 -298828640#0"/>
+        <busStop id="-9932028115" name="Gdańsk Wrzeszcz"/>
+    </ptLine>
+    <ptLine id="14425125" name="PR: Gdynia Główna - Gdańsk Wrzeszcz" line="PR" type="train" vClass="rail" completeness="0.07" missingAfter="13">
+        <route edges="-1083813154#0 -684638797#0 -999619915 -298828640#2 -298828640#1 -298828640#0"/>
+        <busStop id="-9932028115" name="Gdańsk Wrzeszcz"/>
+    </ptLine>
+    <ptLine id="14434314" name="R: Elbląg =&gt; Słupsk" line="R" type="train" vClass="rail" color="229,0,0" completeness="0.02" missingBefore="20" missingAfter="24">
+        <route edges="321284935 999619907#1 999619913#1 999619913#2 999619920#0 999619920#1 999619920#2"/>
+        <busStop id="3279422501" name="Gdańsk Wrzeszcz"/>
+    </ptLine>
+    <ptLine id="14434315" name="R: Słupsk =&gt; Elbląg" line="R" type="train" vClass="rail" color="229,0,0" completeness="0.02" missingBefore="24" missingAfter="19">
+        <route edges="239430023 999619921#1 999619921#2 684638796#0 684638796#1 684638796#2 321284936"/>
+        <busStop id="2472070935" name="Gdańsk Wrzeszcz"/>
+    </ptLine>
+    <ptLine id="14512555" name="R: Gdynia Główna =&gt; Bydgoszcz Główna" line="R" type="train" vClass="rail" color="229,0,0" completeness="0.03" missingBefore="4" missingAfter="28">
+        <route edges="239430023 999619921#1 999619921#2 684638796#0 684638796#1 684638796#2 321284936"/>
+        <busStop id="2472070935" name="Gdańsk Wrzeszcz"/>
+    </ptLine>
+    <ptLine id="14512556" name="R: Bydgoszcz Główna =&gt; Gdynia Główna" line="R" type="train" vClass="rail" color="229,0,0" completeness="0.03" missingBefore="4" missingAfter="28">
+        <route edges="-177188734 -999619920#1 -999619920#0 -999619913#2 -999619913#1 -999619913#0 -999619907#0"/>
+        <busStop id="-3279422501" name="Gdańsk Wrzeszcz"/>
+    </ptLine>
+    <ptLine id="15957448" name="Bus 168: Wrzeszcz PKP =&gt; Kiełpino Górne" line="168" type="bus" vClass="bus" completeness="0.01" missingAfter="67">
+        <route edges="168136132 -61293493 -61293490 -1178303967#1 -61292939#1 -225078984#2 1027195295#0 895854935 27475506#0 1163972696#0"/>
+        <busStop id="3701948570" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="15998339" name="Bus 115: Jaworzniaków =&gt; Wrzeszcz PKP" line="115" type="bus" vClass="bus" completeness="0.02" missingBefore="60">
+        <route edges="29177181#0 176329208#0 1027195294#0 1220574353"/>
+        <busStop id="3711898568" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="15998437" name="Bus 115: Wrzeszcz PKP =&gt; Jaworzniaków" line="115" type="bus" vClass="bus" completeness="0.01" missingAfter="69">
+        <route edges="168136132 -61293493 -61293490 -1178303967#1 -61292939#1 -225078984#2 1027195295#0 895854935 27475506#0 1163972696#0"/>
+        <busStop id="3701948570" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="15998438" name="Bus 115: Jaworzniaków =&gt; Wrzeszcz PKP" line="115" type="bus" vClass="bus" completeness="0.02" missingBefore="62">
+        <route edges="29177181#0 176329208#0 1027195294#0 1220574353"/>
+        <busStop id="3711898568" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="16000836" name="Bus 262: Wrzeszcz PKP =&gt; Jaworzniaków" line="262" type="bus" vClass="bus" completeness="0.03" missingAfter="35">
+        <route edges="168136132 -61293493 -61293490 -1178303967#1 -61292939#1 -225078984#2 1027195295#0 895854935 27475506#0 1163972696#0"/>
+        <busStop id="3701948570" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="16052829" name="Bus 162: Wrzeszcz PKP =&gt; Orunia Górna" line="162" type="bus" vClass="bus" completeness="0.03" missingAfter="33">
+        <route edges="168136132 -61293493 -61293490 -1178303967#1 -61292939#1 -225078984#2 1027195295#0 895854935 27475506#0 1163972696#0"/>
+        <busStop id="3701948570" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="16058670" name="Bus 810: Kartuzy =&gt; Gdańsk, Dworzec PKS" line="810" type="bus" vClass="bus" completeness="0.01" missingBefore="57" missingAfter="8">
+        <route edges="29114711#0 1362017843 1362017842 313992354#0 313992354#1 1362017841 153776638#0 224821292#0 1147624737#0 1147624737#1 200568454#0"/>
+        <busStop id="3699707966" name="Galeria Bałtycka 04"/>
+    </ptLine>
+    <ptLine id="16058698" name="Bus 810: Gdańsk, Dworzec PKS =&gt; Kartuzy" line="810" type="bus" vClass="bus" completeness="0.03" missingBefore="5" missingAfter="62">
+        <route edges="29177181#0 176329208#0 1027195294#0 1220574353 -1178303352#1 -368641560#1 -1178302486 -1187686184 -61293500 1147626421#0 61293002 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 27348632 287956206#0 287956206#2 1451328237#0 430532791 1323631883 430532793 430532795"/>
+        <busStop id="-3701948563" name="Wrzeszcz PKP"/>
+        <busStop id="3699707967" name="Galeria Bałtycka 06"/>
+    </ptLine>
+    <ptLine id="16854995" name="Bus N2: Grudziądzka =&gt; Ujeścisko" line="N2" type="bus" vClass="bus" nightService="only" completeness="0.07" missingBefore="5" missingAfter="20">
+        <route edges="-397056711#1 -397056711#0 -362762664#2 -397056712#2 -1164856803#1 -227216232#1 169400750#0 169400751#0 161297933 161297934 1362019276 29092803 432309717 -27476683 942711942 1232964862 1232964863 287311364 236825277 -1316855122#3 -1147626421#1 81638130#0 61293524 168136132 -61293493 -61293490 -1178303967#1 -61292939#1 -225078984#2 1027195295#0 895854935 27475506#0 1163972696#0"/>
+        <busStop id="-1770503273" name="Kilińskiego 01"/>
+        <busStop id="3701948570" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="17671865" name="Bus 199: Plac Solidarności =&gt; Oliwa PKP" line="199" type="bus" vClass="bus" completeness="0.03" missingBefore="36" missingAfter="32">
+        <route edges="29177181#0 176329208#0 1027195294#0 1220574353 61292939#0 1178303967#0 61293490 61293493 -368641585#1 1164203052 27476146#0 1343590243 227216231#0 236818215 236818214 187938710#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#0 1232799371#2 1232799371#3 1232799371#4 277203712 236809165"/>
+        <busStop id="-3701948569" name="Wrzeszcz PKP"/>
+        <busStop id="3699707969" name="Galeria Bałtycka 03"/>
+    </ptLine>
+    <ptLine id="17671866" name="Bus 199: Oliwa PKP =&gt; Plac Solidarności" line="199" type="bus" vClass="bus" completeness="0.04" missingBefore="32" missingAfter="41">
+        <route edges="277203721 277203724 200568452#0 961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3 -1147626421#1 81638130#0 61293524 168136132 -61293493 -61293490 -1178303967#1 -61292939#1 -225078984#2 1027195295#0 895854935 27475506#0 1163972696#0"/>
+        <busStop id="2817336512" name="Wojska Polskiego 04"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="3701948570" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="18049528" name="Bus 149: Krynicka =&gt; Letnica Węzeł Harfa" line="149" type="bus" vClass="bus" completeness="0.11" missingBefore="29" missingAfter="10">
+        <route edges="29114711#0 1362017843 1362017842 313992354#0 313992354#1 1362017841 313992351#0 60264047 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3 -1147626421#1 61293500 -1180195345 -368641585#1 1164203052 368641560#0 1178303352#0 -225078984#2 1027195295#0 1180195346 -895850337 -256314608#1 664388547#0 224779155#0 449253144 -1337359712#2 -27475852 -1337360592#1 -1233897558#1 -1233892219 -1233892220#2 362762664#0 397056711#0 397056711#1"/>
+        <busStop id="3702069139" name="Zabytkowa 01"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+        <busStop id="-3701948569" name="Wrzeszcz PKP"/>
+        <busStop id="-10582561980" name="Nad Stawem 02"/>
+    </ptLine>
+    <ptLine id="18049612" name="Bus 124: Zaspa - Szpital =&gt; Wrzeszcz PKP" line="124" type="bus" vClass="bus" completeness="0.05" missingBefore="18">
+        <route edges="29177181#0 176329208#0 1027195294#0 1220574353"/>
+        <busStop id="3711898568" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="18051428" name="Bus 258: Stogi =&gt; Wrzeszcz PKP" line="258" type="bus" vClass="bus" completeness="0.07" missingBefore="37" missingAfter="1">
+        <route edges="277203721 277203724 200568452#0 961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="2817336512" name="Wojska Polskiego 04"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="18051549" name="Bus 258: Wrzeszcz PKP =&gt; Stogi" line="258" type="bus" vClass="bus" completeness="0.07" missingAfter="37">
+        <route edges="-368641585#1 1164203052 27476146#0 1343590243 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490 1233834164 161297937 227216233 161297932 348733402#0 -203465646 -1027271884#2"/>
+        <busStop id="-3701948569" name="Wrzeszcz PKP"/>
+        <busStop id="3715012929" name="Galeria Bałtycka 07"/>
+        <busStop id="-2076145884" name="Skarżyńskiego 01"/>
+    </ptLine>
+    <ptLine id="18114665" name="Tram 11: Lawendowe Wzgórze =&gt; Strzyża PKM" line="11" type="tram" vClass="tram" color="0,167,89" completeness="0.16" missingBefore="22" missingAfter="4">
+        <busStop id="2448014062" name="Politechnika"/>
+        <busStop id="1923923831" name="Miszewskiego 01"/>
+        <busStop id="1706849198" name="Jaśkowa Dolina 01"/>
+        <busStop id="1923923828" name="Klonowa"/>
+        <busStop id="1923923896" name="Galeria Bałtycka 01"/>
+    </ptLine>
+    <ptLine id="18114666" name="Tram 11: Strzyża PKM =&gt; Lawendowe Wzgórze" line="11" type="tram" vClass="tram" color="0,167,89" completeness="0.16" missingBefore="4" missingAfter="22">
+        <busStop id="269557596" name="Galeria Bałtycka 02"/>
+        <busStop id="269557594" name="Klonowa"/>
+        <busStop id="3680535418" name="Jaśkowa Dolina 02"/>
+        <busStop id="269557592" name="Miszewskiego 02"/>
+        <busStop id="1014671550" name="Politechnika"/>
+    </ptLine>
+    <ptLine id="18116131" name="Bus 158: Stogi =&gt; Wrzeszcz PKP" line="158" type="bus" vClass="bus" completeness="0.07" missingBefore="37" missingAfter="1">
+        <route edges="277203721 277203724 200568452#0 961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="2817336512" name="Wojska Polskiego 04"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="18116132" name="Bus 158: Wrzeszcz PKP =&gt; Stogi" line="158" type="bus" vClass="bus" completeness="0.09" missingAfter="30">
+        <route edges="-368641585#1 1164203052 27476146#0 1343590243 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490 1233834164 161297937 227216233 161297932 348733402#0 -203465646 -1027271884#2"/>
+        <busStop id="-3701948569" name="Wrzeszcz PKP"/>
+        <busStop id="3715012929" name="Galeria Bałtycka 07"/>
+        <busStop id="-2076145884" name="Skarżyńskiego 01"/>
+    </ptLine>
+    <ptLine id="18116295" name="Bus N2: Nowy Port Szaniec Zachodni =&gt; Starogardzka" line="N2" type="bus" vClass="bus" nightService="only" completeness="0.03" missingBefore="22" missingAfter="40">
+        <route edges="-397056711#1 -397056711#0 -362762664#2 -397056712#2 -1164856803#1 -227216232#1 169400750#0 169400751#0 161297933 161297934 1362019276 29092803 432309717 -27476683 942711942 1232964862 1232964863 287311364 236825277 -1316855122#3 -1147626421#1 81638130#0 61293524 168136132 -61293493 -61293490 -1178303967#1 -61292939#1 -225078984#2 1027195295#0 895854935 27475506#0 1163972696#0"/>
+        <busStop id="-1770503273" name="Kilińskiego 01"/>
+        <busStop id="3701948570" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="18116421" name="Bus N4: Jelitkowo =&gt; Olimpijska" line="N4" type="bus" vClass="bus" nightService="only" completeness="0.02" missingBefore="21" missingAfter="62">
+        <route edges="277203721 277203724 200568452#0 961539471 961539472 236811148 236811149#0 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1 200568454#0"/>
+        <busStop id="2817336512" name="Wojska Polskiego 04"/>
+        <busStop id="3699707966" name="Galeria Bałtycka 04"/>
+    </ptLine>
+    <ptLine id="18116422" name="Bus N4: Olimpijska =&gt; Jelitkowo" line="N4" type="bus" vClass="bus" nightService="only" completeness="0.02" missingBefore="60" missingAfter="25">
+        <route edges="236832919#0 200568455#0 227216231#0 236818215 236818214 187938710#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#0 1232799371#2 1232799371#3 1232799371#4 277203712 236809165"/>
+        <busStop id="3715012927" name="Jaśkowa Dolina 03"/>
+        <busStop id="3699707969" name="Galeria Bałtycka 03"/>
+    </ptLine>
+    <ptLine id="18196732" name="Bus 227: Jelitkowo =&gt; Chełm Cienista" line="227" type="bus" vClass="bus" completeness="0.04" missingBefore="16" missingAfter="27">
+        <route edges="1027271884#0 169400748 348733401#0 161297933 161297934 1362019276 29092803 942711932#0 61316958 236818220#0 27348632 287956206#0 287956206#2 1451328237#0 430532791 1323631883 430532793 430532795"/>
+        <busStop id="1732884308" name="Skarżyńskiego"/>
+        <busStop id="3699707967" name="Galeria Bałtycka 06"/>
+    </ptLine>
+    <ptLine id="18451828" name="Tram 5: Strzyża PKM =&gt; Nowy Port Oliwska" line="5" type="tram" vClass="tram" color="238,180,22" completeness="0.16" missingBefore="4" missingAfter="22">
+        <busStop id="269557596" name="Galeria Bałtycka 02"/>
+        <busStop id="269557594" name="Klonowa"/>
+        <busStop id="3680535418" name="Jaśkowa Dolina 02"/>
+        <busStop id="269557592" name="Miszewskiego 02"/>
+        <busStop id="1014671550" name="Politechnika"/>
+    </ptLine>
+    <ptLine id="18451829" name="Tram 5: Strzyża PKM =&gt; Nowy Port Zajezdnia" line="5" type="tram" vClass="tram" color="238,180,22" completeness="0.17" missingBefore="4" missingAfter="20">
+        <busStop id="269557596" name="Galeria Bałtycka 02"/>
+        <busStop id="269557594" name="Klonowa"/>
+        <busStop id="3680535418" name="Jaśkowa Dolina 02"/>
+        <busStop id="269557592" name="Miszewskiego 02"/>
+        <busStop id="1014671550" name="Politechnika"/>
+    </ptLine>
+    <ptLine id="18451830" name="Tram 5: Władysława IV =&gt; Strzyża PKM" line="5" type="tram" vClass="tram" color="238,180,22" completeness="0.16" missingBefore="22" missingAfter="4">
+        <busStop id="2448014062" name="Politechnika"/>
+        <busStop id="1923923831" name="Miszewskiego 01"/>
+        <busStop id="1706849198" name="Jaśkowa Dolina 01"/>
+        <busStop id="1923923828" name="Klonowa"/>
+        <busStop id="1923923896" name="Galeria Bałtycka 01"/>
+    </ptLine>
+    <ptLine id="18451831" name="Tram 5: Władysława IV =&gt; Strzyża PKM" line="5" type="tram" vClass="tram" color="238,180,22" completeness="0.25" missingBefore="11" missingAfter="4">
+        <busStop id="2448014062" name="Politechnika"/>
+        <busStop id="1923923831" name="Miszewskiego 01"/>
+        <busStop id="1706849198" name="Jaśkowa Dolina 01"/>
+        <busStop id="1923923828" name="Klonowa"/>
+        <busStop id="1923923896" name="Galeria Bałtycka 01"/>
+    </ptLine>
+    <ptLine id="18451832" name="Tram 5: Nowy Port Oliwska =&gt; Oliwa" line="5" type="tram" vClass="tram" color="238,180,22" completeness="0.14" missingBefore="20" missingAfter="10">
+        <busStop id="2448014062" name="Politechnika"/>
+        <busStop id="1923923831" name="Miszewskiego 01"/>
+        <busStop id="1706849198" name="Jaśkowa Dolina 01"/>
+        <busStop id="1923923828" name="Klonowa"/>
+        <busStop id="1923923896" name="Galeria Bałtycka 01"/>
+    </ptLine>
+    <ptLine id="18453441" name="Tram 6: Łostowice Świętokrzyska =&gt; Strzyża PKM" line="6" type="tram" vClass="tram" color="0,163,212" completeness="0.17" missingBefore="20" missingAfter="4">
+        <busStop id="2448014062" name="Politechnika"/>
+        <busStop id="1923923831" name="Miszewskiego 01"/>
+        <busStop id="1706849198" name="Jaśkowa Dolina 01"/>
+        <busStop id="1923923828" name="Klonowa"/>
+        <busStop id="1923923896" name="Galeria Bałtycka 01"/>
+    </ptLine>
+    <ptLine id="18453442" name="Tram 6: Strzyża PKM =&gt; Łostowice Świętokrzyska" line="6" type="tram" vClass="tram" color="0,163,212" completeness="0.18" missingBefore="4" missingAfter="19">
+        <busStop id="269557596" name="Galeria Bałtycka 02"/>
+        <busStop id="269557594" name="Klonowa"/>
+        <busStop id="3680535418" name="Jaśkowa Dolina 02"/>
+        <busStop id="269557592" name="Miszewskiego 02"/>
+        <busStop id="1014671550" name="Politechnika"/>
+    </ptLine>
+    <ptLine id="18453443" name="Tram 6: Strzyża PKM =&gt; Chełm Witosa" line="6" type="tram" vClass="tram" color="0,163,212" completeness="0.22" missingBefore="4" missingAfter="14">
+        <busStop id="269557596" name="Galeria Bałtycka 02"/>
+        <busStop id="269557594" name="Klonowa"/>
+        <busStop id="3680535418" name="Jaśkowa Dolina 02"/>
+        <busStop id="269557592" name="Miszewskiego 02"/>
+        <busStop id="1014671550" name="Politechnika"/>
+    </ptLine>
+    <ptLine id="18453924" name="Tram 11: Wilka-Krzyżanowskiego =&gt; Lawendowe Wzgórze" line="11" type="tram" vClass="tram" color="0,167,89" completeness="0.17" missingBefore="3" missingAfter="22">
+        <busStop id="269557596" name="Galeria Bałtycka 02"/>
+        <busStop id="269557594" name="Klonowa"/>
+        <busStop id="3680535418" name="Jaśkowa Dolina 02"/>
+        <busStop id="269557592" name="Miszewskiego 02"/>
+        <busStop id="1014671550" name="Politechnika"/>
+    </ptLine>
+    <ptLine id="18454021" name="Tram 12: Ujeścisko =&gt; Strzyża PKM" line="12" type="tram" vClass="tram" color="242,126,0" completeness="0.15" missingBefore="25" missingAfter="4">
+        <busStop id="2448014062" name="Politechnika"/>
+        <busStop id="1923923831" name="Miszewskiego 01"/>
+        <busStop id="1706849198" name="Jaśkowa Dolina 01"/>
+        <busStop id="1923923828" name="Klonowa"/>
+        <busStop id="1923923896" name="Galeria Bałtycka 01"/>
+    </ptLine>
+    <ptLine id="18498760" name="Bus 158: Stogi =&gt; Wrzeszcz PKP" line="158" type="bus" vClass="bus" completeness="0.07" missingBefore="34" missingAfter="1">
+        <route edges="277203721 277203724 200568452#0 961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="2817336512" name="Wojska Polskiego 04"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="18498761" name="Bus 158: Stogi =&gt; Wrzeszcz PKP" line="158" type="bus" vClass="bus" completeness="0.08" missingBefore="33" missingAfter="1">
+        <route edges="277203721 277203724 200568452#0 961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="2817336512" name="Wojska Polskiego 04"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="18502913" name="Bus 162: Wrzeszcz PKP =&gt; Łostowice Świętokrzyska" line="162" type="bus" vClass="bus" completeness="0.04" missingAfter="23">
+        <route edges="168136132 -61293493 -61293490 -1178303967#1 -61292939#1 -225078984#2 1027195295#0 895854935 27475506#0 1163972696#0"/>
+        <busStop id="3701948570" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="18503052" name="Bus 110: Wrzeszcz PKP =&gt; Port Lotniczy" line="110" type="bus" vClass="bus" completeness="0.07" missingAfter="26">
+        <route edges="61293509 61293493 1180195345 -61293500 1147626421#0 61293002 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 27348632 287956206#0 287956206#2 1451328237#0 430532791 1323631883 430532793 430532795"/>
+        <busStop id="3701948568" name="Wrzeszcz PKP"/>
+        <busStop id="3699707967" name="Galeria Bałtycka 06"/>
+    </ptLine>
+    <ptLine id="18503053" name="Bus 110: Port Lotniczy =&gt; Wrzeszcz PKP" line="110" type="bus" vClass="bus" completeness="0.12" missingBefore="20">
+        <route edges="29114711#0 1362017843 1362017842 313992354#0 313992354#1 1362017841 313992351#0 60264047 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="3702069139" name="Zabytkowa 01"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="18503530" name="Bus 127: Jasień PKM =&gt; Wrzeszcz PKP" line="127" type="bus" vClass="bus" completeness="0.10" missingBefore="23">
+        <route edges="236832919#0 200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="3715012927" name="Jaśkowa Dolina 03"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="18503532" name="Bus 127: Jasień PKM =&gt; Grudziądzka" line="127" type="bus" vClass="bus" completeness="0.09" missingBefore="23" missingAfter="18">
+        <route edges="236832919#0 200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490 1233834164 161297937 227216233 227681211 373856612 1069052593 227216232#0 1164856803#0 397056712#0 362762664#0 397056711#0 397056711#1 313994435#0 -1027271884#2"/>
+        <busStop id="3715012927" name="Jaśkowa Dolina 03"/>
+        <busStop id="3715012929" name="Galeria Bałtycka 07"/>
+        <busStop id="1770503190" name="Kilińskiego 02"/>
+        <busStop id="-2076145884" name="Skarżyńskiego 01"/>
+    </ptLine>
+    <ptLine id="18509814" name="Bus 136: Niedźwiednik =&gt; Wrzeszcz PKP" line="136" type="bus" vClass="bus" completeness="0.14" missingBefore="16">
+        <route edges="29114711#0 1362017843 1362017842 313992354#0 313992354#1 1362017841 313992351#0 60264047 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="3702069139" name="Zabytkowa 01"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="18509815" name="Bus 136: Niedźwiednik =&gt; Galeria Bałtycka" line="136" type="bus" vClass="bus" completeness="0.14" missingBefore="11">
+        <route edges="29114711#0 1362017843 1362017842 313992354#0 313992354#1 1362017841 313992351#0 60264047 287311357#0 287311357#3 287311357#4 27348585#0 61316915 287956205"/>
+        <busStop id="3702069139" name="Zabytkowa 01"/>
+        <busStop id="3715012929" name="Galeria Bałtycka 07"/>
+    </ptLine>
+    <ptLine id="18511431" name="Bus 262: Przymorze SKM =&gt; Jaworzniaków" line="262" type="bus" vClass="bus" completeness="0.06" missingBefore="8" missingAfter="36">
+        <route edges="277203721 277203724 200568452#0 961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3 -1147626421#1 81638130#0 61293524 168136132 -61293493 -61293490 -1178303967#1 -61292939#1 -225078984#2 1027195295#0 895854935 27475506#0 1163972696#0"/>
+        <busStop id="2817336512" name="Wojska Polskiego 04"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="3701948570" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="18511815" name="Bus 157: Wrzeszcz PKP =&gt; Bysewo" line="157" type="bus" vClass="bus" completeness="0.05" missingAfter="38">
+        <route edges="61293509 61293493 1180195345 -61293500 1147626421#0 61293002 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 27348632 287956206#0 287956206#2 1451328237#0 430532791 1323631883 430532793 430532795"/>
+        <busStop id="3701948568" name="Wrzeszcz PKP"/>
+        <busStop id="3699707967" name="Galeria Bałtycka 06"/>
+    </ptLine>
+    <ptLine id="18511816" name="Bus 157: Bysewo =&gt; Wrzeszcz PKP" line="157" type="bus" vClass="bus" completeness="0.07" missingBefore="38">
+        <route edges="29114711#0 1362017843 1362017842 313992354#0 313992354#1 1362017841 313992351#0 60264047 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="3702069139" name="Zabytkowa 01"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="18514353" name="Bus 168: Wrzeszcz PKP =&gt; Kiełpino Górne" line="168" type="bus" vClass="bus" completeness="0.01" missingAfter="69">
+        <route edges="168136132 -61293493 -61293490 -1178303967#1 -61292939#1 -225078984#2 1027195295#0 895854935 27475506#0 1163972696#0"/>
+        <busStop id="3701948570" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="18514354" name="Bus 168: Kiełpino Górne =&gt; Wrzeszcz PKP" line="168" type="bus" vClass="bus" completeness="0.02" missingBefore="63">
+        <route edges="29177181#0 176329208#0 1027195294#0 1220574353"/>
+        <busStop id="3711898568" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="18528793" name="Bus 199: Oliwa PKP =&gt; Dworzec Główny" line="199" type="bus" vClass="bus" completeness="0.04" missingBefore="32" missingAfter="39">
+        <route edges="277203721 277203724 200568452#0 961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3 -1147626421#1 81638130#0 61293524 168136132 -61293493 -61293490 -1178303967#1 -61292939#1 -225078984#2 1027195295#0 895854935 27475506#0 1163972696#0"/>
+        <busStop id="2817336512" name="Wojska Polskiego 04"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="3701948570" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="18528794" name="Bus 199: Oliwa PKP =&gt; Wrzeszcz PKP" line="199" type="bus" vClass="bus" completeness="0.08" missingBefore="32" missingAfter="1">
+        <route edges="277203721 277203724 200568452#0 961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="2817336512" name="Wojska Polskiego 04"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="18528795" name="Bus 199: Plac Solidarności =&gt; Biały Dwór" line="199" type="bus" vClass="bus" completeness="0.03" missingBefore="36" missingAfter="20">
+        <route edges="29177181#0 176329208#0 1027195294#0 1220574353 61292939#0 1178303967#0 61293490 61293493 -368641585#1 1164203052 27476146#0 1343590243 227216231#0 236818215 236818214 187938710#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#0 1232799371#2 1232799371#3 1232799371#4 277203712 236809165"/>
+        <busStop id="-3701948569" name="Wrzeszcz PKP"/>
+        <busStop id="3699707969" name="Galeria Bałtycka 03"/>
+    </ptLine>
+    <ptLine id="18528826" name="Bus 199: Wrzeszcz PKP =&gt; Oliwa PKP" line="199" type="bus" vClass="bus" completeness="0.06" missingAfter="32">
+        <route edges="-368641585#1 1164203052 27476146#0 1343590243 227216231#0 236818215 236818214 187938710#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#0 1232799371#2 1232799371#3 1232799371#4 277203712 236809165"/>
+        <busStop id="-3701948569" name="Wrzeszcz PKP"/>
+        <busStop id="3699707969" name="Galeria Bałtycka 03"/>
+    </ptLine>
+    <ptLine id="18558269" name="Bus N2: Grudziądzka =&gt; Starogardzka" line="N2" type="bus" vClass="bus" nightService="only" completeness="0.04" missingBefore="5" missingAfter="40">
+        <route edges="-397056711#1 -397056711#0 -362762664#2 -397056712#2 -1164856803#1 -227216232#1 169400750#0 169400751#0 161297933 161297934 1362019276 29092803 432309717 -27476683 942711942 1232964862 1232964863 287311364 236825277 -1316855122#3 -1147626421#1 81638130#0 61293524 168136132 -61293493 -61293490 -1178303967#1 -61292939#1 -225078984#2 1027195295#0 895854935 27475506#0 1163972696#0"/>
+        <busStop id="-1770503273" name="Kilińskiego 01"/>
+        <busStop id="3701948570" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="18558801" name="Bus N3: Wrzeszcz PKP =&gt; Port Lotniczy" line="N3" type="bus" vClass="bus" nightService="only" completeness="0.08" missingAfter="22">
+        <route edges="61293509 61293493 1180195345 -61293500 1147626421#0 61293002 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 27348632 287956206#0 287956206#2 1451328237#0 430532791 1323631883 430532793 430532795"/>
+        <busStop id="3701948568" name="Wrzeszcz PKP"/>
+        <busStop id="3699707967" name="Galeria Bałtycka 06"/>
+    </ptLine>
+    <ptLine id="18558836" name="Bus N4: Jaworzniaków =&gt; Jelitkowo" line="N4" type="bus" vClass="bus" nightService="only" completeness="0.02" missingBefore="54" missingAfter="25">
+        <route edges="236832919#0 200568455#0 227216231#0 236818215 236818214 187938710#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#0 1232799371#2 1232799371#3 1232799371#4 277203712 236809165"/>
+        <busStop id="3715012927" name="Jaśkowa Dolina 03"/>
+        <busStop id="3699707969" name="Galeria Bałtycka 03"/>
+    </ptLine>
+    <ptLine id="18558838" name="Bus N4: Olimpijska =&gt; Oliwa PKP" line="N4" type="bus" vClass="bus" nightService="only" completeness="0.02" missingBefore="60" missingAfter="18">
+        <route edges="236832919#0 200568455#0 227216231#0 236818215 236818214 187938710#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#0 1232799371#2 1232799371#3 1232799371#4 277203712 236809165"/>
+        <busStop id="3715012927" name="Jaśkowa Dolina 03"/>
+        <busStop id="3699707969" name="Galeria Bałtycka 03"/>
+    </ptLine>
+    <ptLine id="18558839" name="Bus N4: Jelitkowo =&gt; Dworzec Główny" line="N4" type="bus" vClass="bus" nightService="only" completeness="0.05" missingBefore="21" missingAfter="13">
+        <route edges="277203721 277203724 200568452#0 961539471 961539472 236811148 236811149#0 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1 200568454#0"/>
+        <busStop id="2817336512" name="Wojska Polskiego 04"/>
+        <busStop id="3699707966" name="Galeria Bałtycka 04"/>
+    </ptLine>
+    <ptLine id="18558840" name="Bus N4: Jelitkowo =&gt; Jaworzniaków" line="N4" type="bus" vClass="bus" nightService="only" completeness="0.03" missingBefore="21" missingAfter="56">
+        <route edges="277203721 277203724 200568452#0 961539471 961539472 236811148 236811149#0 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1 200568454#0"/>
+        <busStop id="2817336512" name="Wojska Polskiego 04"/>
+        <busStop id="3699707966" name="Galeria Bałtycka 04"/>
+    </ptLine>
+    <ptLine id="18559175" name="Bus N14: Żabianka SKM =&gt; Galeria Bałtycka" line="N14" type="bus" vClass="bus" nightService="only" completeness="0.05" missingBefore="39" missingAfter="1">
+        <route edges="277203721 277203724 200568452#0 961539471 961539472 236811148 236811149#0 1271126935 169400610#0 771467599#0 224821292#0"/>
+        <busStop id="2817336512" name="Wojska Polskiego 04"/>
+        <busStop id="3699707966" name="Galeria Bałtycka 04"/>
+    </ptLine>
+    <ptLine id="18559176" name="Bus N14: Piastowska =&gt; Olimpijska" line="N14" type="bus" vClass="bus" nightService="only" completeness="0.03" missingBefore="31" missingAfter="46">
+        <route edges="277203721 277203724 200568452#0 961539471 961539472 236811148 236811149#0 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1 200568454#0"/>
+        <busStop id="2817336512" name="Wojska Polskiego 04"/>
+        <busStop id="3699707966" name="Galeria Bałtycka 04"/>
+    </ptLine>
+    <ptLine id="18559177" name="Bus N14: Olimpijska =&gt; Przymorze Wielkie" line="N14" type="bus" vClass="bus" nightService="only" completeness="0.03" missingBefore="42" missingAfter="25">
+        <route edges="236832919#0 200568455#0 227216231#0 236818215 236818214 187938710#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#0 1232799371#2 1232799371#3 1232799371#4 277203712 236809165"/>
+        <busStop id="3715012927" name="Jaśkowa Dolina 03"/>
+        <busStop id="3699707969" name="Galeria Bałtycka 03"/>
+    </ptLine>
+    <ptLine id="18653155" name="Bus 227: Pomorska =&gt; Chełm Cienista" line="227" type="bus" vClass="bus" completeness="0.04" missingBefore="14" missingAfter="27">
+        <route edges="1027271884#0 169400748 348733401#0 161297933 161297934 1362019276 29092803 942711932#0 61316958 236818220#0 27348632 287956206#0 287956206#2 1451328237#0 430532791 1323631883 430532793 430532795"/>
+        <busStop id="1732884308" name="Skarżyńskiego"/>
+        <busStop id="3699707967" name="Galeria Bałtycka 06"/>
+    </ptLine>
+    <ptLine id="18756023" name="Bus 199: Dworzec Główny =&gt; Oliwa PKP" line="199" type="bus" vClass="bus" completeness="0.03" missingBefore="34" missingAfter="32">
+        <route edges="29177181#0 176329208#0 1027195294#0 1220574353 61292939#0 1178303967#0 61293490 61293493 -368641585#1 1164203052 27476146#0 1343590243 227216231#0 236818215 236818214 187938710#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#0 1232799371#2 1232799371#3 1232799371#4 277203712 236809165"/>
+        <busStop id="-3701948569" name="Wrzeszcz PKP"/>
+        <busStop id="3699707969" name="Galeria Bałtycka 03"/>
+    </ptLine>
+    <ptLine id="18920420" name="R: Olsztyn Główny =&gt; Gdynia Chylonia" line="R" type="train" vClass="rail" color="229,0,0" completeness="0.02" missingBefore="38" missingAfter="5">
+        <route edges="321284935 999619907#1 999619913#1 999619913#2 999619920#0 999619920#1 999619920#2"/>
+        <busStop id="3279422501" name="Gdańsk Wrzeszcz"/>
+    </ptLine>
+    <ptLine id="19119770" name="Bus 262: Łostowice Świętokrzyska =&gt; Przymorze SKM" line="262" type="bus" vClass="bus" completeness="0.06" missingBefore="24" missingAfter="8">
+        <route edges="236832919#0 200568455#0 227216231#0 236818215 236818214 187938710#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#0 1232799371#2 1232799371#3 1232799371#4 277203712 236809165"/>
+        <busStop id="3715012927" name="Jaśkowa Dolina 03"/>
+        <busStop id="3699707969" name="Galeria Bałtycka 03"/>
+    </ptLine>
+    <ptLine id="19121752" name="Bus 157: Wrzeszcz PKP =&gt; Kokoszki" line="157" type="bus" vClass="bus" completeness="0.07" missingAfter="24">
+        <route edges="61293509 61293493 1180195345 -61293500 1147626421#0 61293002 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 27348632 287956206#0 287956206#2 1451328237#0 430532791 1323631883 430532793 430532795"/>
+        <busStop id="3701948568" name="Wrzeszcz PKP"/>
+        <busStop id="3699707967" name="Galeria Bałtycka 06"/>
+    </ptLine>
+    <ptLine id="19121753" name="Bus 157: Kokoszki =&gt; Wrzeszcz PKP" line="157" type="bus" vClass="bus" completeness="0.10" missingBefore="24">
+        <route edges="29114711#0 1362017843 1362017842 313992354#0 313992354#1 1362017841 313992351#0 60264047 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="3702069139" name="Zabytkowa 01"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="19392819" name="PR: Kartuzy =&gt; Gdańsk Wrzeszcz" line="PR" type="train" vClass="rail" completeness="0.08" missingBefore="12">
+        <route edges="298828640#0 298828640#1 298828640#2 999619915 684638797#0 684638797#1"/>
+        <busStop id="9932028115" name="Gdańsk Wrzeszcz"/>
+    </ptLine>
+    <ptLine id="19392820" name="PR: Gdańsk Wrzeszcz =&gt; Kartuzy" line="PR" type="train" vClass="rail" completeness="0.08" missingAfter="12">
+        <route edges="1417601252#1 999619917#1 375212953#0 375212953#1"/>
+        <busStop id="9932028116" name="Gdańsk Wrzeszcz"/>
+    </ptLine>
+    <ptLine id="19613735" name="TLK 45103 Flisak: Katowice → Gdynia Główna" line="45103" type="train" vClass="rail" completeness="0.03" missingBefore="24" missingAfter="4">
+        <route edges="321284935 999619907#1 999619913#1 999619913#2 999619920#0 999619920#1 999619920#2"/>
+        <busStop id="3279422501" name="Gdańsk Wrzeszcz"/>
+    </ptLine>
+    <ptLine id="19817251" name="EIP IC3504: Kraków Główny → Gdynia Główna" line="3504" type="train" vClass="rail" color="0,128,255" completeness="0.08" missingBefore="8" missingAfter="3">
+        <route edges="321284935 999619907#1 999619913#1 999619913#2 999619920#0 999619920#1 999619920#2"/>
+        <busStop id="3279422501" name="Gdańsk Wrzeszcz"/>
+    </ptLine>
+    <ptLine id="19848703" name="Bus 116: Galeria Bałtycka =&gt; Matemblewo" line="116" type="bus" vClass="bus" completeness="0.05" missingAfter="20">
+        <route edges="1451328237#0 430532791 1323631883 430532793 430532795"/>
+        <busStop id="3699707967" name="Galeria Bałtycka 06"/>
+    </ptLine>
+    <ptLine id="19933499" name="TLK 15111 Biebrza: Warszawa Wschodnia → Gdynia Główna" line="15111" type="train" vClass="rail" completeness="0.03" missingBefore="3" missingAfter="29">
+        <route edges="321284935 999619907#1 999619913#1 999619913#2 999619920#0 999619920#1 999619920#2"/>
+        <busStop id="3279422501" name="Gdańsk Wrzeszcz"/>
+    </ptLine>
+    <ptLine id="1996526" name="Bus N14: Żabianka SKM =&gt; Olimpijska" line="N14" type="bus" vClass="bus" nightService="only" completeness="0.02" missingBefore="37" missingAfter="46">
+        <route edges="277203721 277203724 200568452#0 961539471 961539472 236811148 236811149#0 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1 200568454#0"/>
+        <busStop id="2817336512" name="Wojska Polskiego 04"/>
+        <busStop id="3699707966" name="Galeria Bałtycka 04"/>
+    </ptLine>
+    <ptLine id="20083204" name="TLK 5500 Powiśle: Gdynia Główna → Bydgoszcz Główna" line="5500" type="train" vClass="rail" completeness="0.10" missingBefore="3" missingAfter="6">
+        <route edges="239430023 999619921#1 999619921#2 684638796#0 684638796#1 684638796#2 321284936"/>
+        <busStop id="2472070935" name="Gdańsk Wrzeszcz"/>
+    </ptLine>
+    <ptLine id="20267042" name="R: Gdynia Chylonia =&gt; Olsztyn Główny" line="R" type="train" vClass="rail" color="229,0,0" completeness="0.02" missingBefore="5" missingAfter="39">
+        <route edges="239430023 999619921#1 999619921#2 684638796#0 684638796#1 684638796#2 321284936"/>
+        <busStop id="2472070935" name="Gdańsk Wrzeszcz"/>
+    </ptLine>
+    <ptLine id="2216342" name="Tram 6: Łostowice Świętokrzyska =&gt; Jelitkowo" line="6" type="tram" vClass="tram" color="0,163,212" completeness="0.12" missingBefore="20" missingAfter="16">
+        <busStop id="2448014062" name="Politechnika"/>
+        <busStop id="1923923831" name="Miszewskiego 01"/>
+        <busStop id="1706849198" name="Jaśkowa Dolina 01"/>
+        <busStop id="1923923828" name="Klonowa"/>
+        <busStop id="1923923896" name="Galeria Bałtycka 01"/>
+    </ptLine>
+    <ptLine id="3816221" name="Tram 12: Ujeścisko =&gt; Zaspa" line="12" type="tram" vClass="tram" color="242,126,0" completeness="0.10" missingBefore="25" missingAfter="19">
+        <busStop id="2448014062" name="Politechnika"/>
+        <busStop id="1923923831" name="Miszewskiego 01"/>
+        <busStop id="1706849198" name="Jaśkowa Dolina 01"/>
+        <busStop id="1923923828" name="Klonowa"/>
+        <busStop id="1923923896" name="Galeria Bałtycka 01"/>
+    </ptLine>
+    <ptLine id="3816222" name="Tram 12: Zaspa =&gt; Ujeścisko" line="12" type="tram" vClass="tram" color="242,126,0" completeness="0.10" missingBefore="20" missingAfter="25">
+        <busStop id="269557596" name="Galeria Bałtycka 02"/>
+        <busStop id="269557594" name="Klonowa"/>
+        <busStop id="3680535418" name="Jaśkowa Dolina 02"/>
+        <busStop id="269557592" name="Miszewskiego 02"/>
+        <busStop id="1014671550" name="Politechnika"/>
+    </ptLine>
+    <ptLine id="3819486" name="Bus 149: Letnica Węzeł Harfa =&gt; Krynicka" line="149" type="bus" vClass="bus" completeness="0.08" missingBefore="10" missingAfter="24">
+        <route edges="-397056711#1 -397056711#0 -362762664#2 1233892220#0 1233892219 1233897558#0 665075088 27475852 1337359712#0 661430011#0 820514338#0 29114162 176329208#0 1027195294#0 1220574353 61292939#0 1178303967#0 61293490 61293493 1180195345 61293046#0 61293524 368641580 61293509 61293493 1180195345 -61293500 1147626421#0 61293002 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 27348632 287956206#0 287956206#2 1451328237#0 430532791 1323631883 430532793 430532795"/>
+        <busStop id="10582561979" name="Nad Stawem 01"/>
+        <busStop id="3701948568" name="Wrzeszcz PKP"/>
+        <busStop id="3699707967" name="Galeria Bałtycka 06"/>
+    </ptLine>
+    <ptLine id="3821458" name="Bus 158: Wrzeszcz PKP =&gt; Stogi" line="158" type="bus" vClass="bus" completeness="0.09" missingAfter="30">
+        <route edges="-368641585#1 1164203052 27476146#0 1343590243 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490 1233834164 161297937 227216233 161297932 348733402#0 -203465646 -1027271884#2"/>
+        <busStop id="-3701948569" name="Wrzeszcz PKP"/>
+        <busStop id="3715012929" name="Galeria Bałtycka 07"/>
+        <busStop id="-2076145884" name="Skarżyńskiego 01"/>
+    </ptLine>
+    <ptLine id="3821459" name="Bus 158: Stogi =&gt; Wrzeszcz PKP" line="158" type="bus" vClass="bus" completeness="0.08" missingBefore="30" missingAfter="1">
+        <route edges="277203721 277203724 200568452#0 961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="2817336512" name="Wojska Polskiego 04"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="3863734" name="Bus 127: Jasień PKM =&gt; Oliwa PKP" line="127" type="bus" vClass="bus" completeness="0.07" missingBefore="23" missingAfter="26">
+        <route edges="236832919#0 200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490 1233834164 161297937 227216233 227681211 373856612 1069052593 227216232#0 1164856803#0 397056712#0 362762664#0 397056711#0 397056711#1 313994435#0 -1027271884#2"/>
+        <busStop id="3715012927" name="Jaśkowa Dolina 03"/>
+        <busStop id="3715012929" name="Galeria Bałtycka 07"/>
+        <busStop id="1770503190" name="Kilińskiego 02"/>
+        <busStop id="-2076145884" name="Skarżyńskiego 01"/>
+    </ptLine>
+    <ptLine id="3876828" name="Bus 116: Matemblewo =&gt; Wrzeszcz PKP" line="116" type="bus" vClass="bus" completeness="0.12" missingBefore="20">
+        <route edges="29114711#0 1362017843 1362017842 313992354#0 313992354#1 1362017841 313992351#0 60264047 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="3702069139" name="Zabytkowa 01"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="5412705" name="Tram 9: Głęboka =&gt; Strzyża PKM" line="9" type="tram" vClass="tram" color="44,82,148" completeness="0.20" missingBefore="16" missingAfter="4">
+        <busStop id="2448014062" name="Politechnika"/>
+        <busStop id="1923923831" name="Miszewskiego 01"/>
+        <busStop id="1706849198" name="Jaśkowa Dolina 01"/>
+        <busStop id="1923923828" name="Klonowa"/>
+        <busStop id="1923923896" name="Galeria Bałtycka 01"/>
+    </ptLine>
+    <ptLine id="5447429" name="Bus 136: Wrzeszcz PKP =&gt; Niedźwiednik" line="136" type="bus" vClass="bus" completeness="0.10" missingAfter="16">
+        <route edges="61293509 -61293490 -1178303967#1 61293073#0 -368641560#1 27476146#0 1343590243 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#0 287956206#2 1451328237#0 430532791 1323631883 430532793 430532795"/>
+        <busStop id="3701948568" name="Wrzeszcz PKP"/>
+        <busStop id="3699707967" name="Galeria Bałtycka 06"/>
+    </ptLine>
+    <ptLine id="5449763" name="Bus 110: Wrzeszcz PKP =&gt; Port Lotniczy" line="110" type="bus" vClass="bus" completeness="0.06" missingAfter="32">
+        <route edges="61293509 61293493 1180195345 -61293500 1147626421#0 61293002 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 27348632 287956206#0 287956206#2 1451328237#0 430532791 1323631883 430532793 430532795"/>
+        <busStop id="3701948568" name="Wrzeszcz PKP"/>
+        <busStop id="3699707967" name="Galeria Bałtycka 06"/>
+    </ptLine>
+    <ptLine id="5449764" name="Bus 157: Bysewo =&gt; Wrzeszcz PKP" line="157" type="bus" vClass="bus" completeness="0.09" missingBefore="28">
+        <route edges="29114711#0 1362017843 1362017842 313992354#0 313992354#1 1362017841 313992351#0 60264047 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="3702069139" name="Zabytkowa 01"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="5449765" name="Bus 157: Wrzeszcz PKP =&gt; Bysewo" line="157" type="bus" vClass="bus" completeness="0.05" missingAfter="33">
+        <route edges="61293509 61293493 1180195345 -61293500 1147626421#0 61293002 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 27348632 287956206#0 287956206#2 1451328237#0 430532791 1323631883 430532793 430532795"/>
+        <busStop id="3701948568" name="Wrzeszcz PKP"/>
+        <busStop id="3699707967" name="Galeria Bałtycka 06"/>
+    </ptLine>
+    <ptLine id="5469850" name="Bus N3: Dworzec Główny =&gt; Wrzeszcz PKP" line="N3" type="bus" vClass="bus" nightService="only" completeness="0.03" missingBefore="103">
+        <route edges="29114711#0 1362017843 1362017842 313992354#0 313992354#1 1362017841 313992351#0 60264047 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="3702069139" name="Zabytkowa 01"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="5469851" name="Bus N3: Dworzec Główny =&gt; Wrzeszcz PKP" line="N3" type="bus" vClass="bus" nightService="only" completeness="0.03" missingBefore="83">
+        <route edges="29114711#0 1362017843 1362017842 313992354#0 313992354#1 1362017841 313992351#0 60264047 287311357#0 287311357#3 287311357#4 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="3702069139" name="Zabytkowa 01"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="5469852" name="Bus N3: Wrzeszcz PKP =&gt; Dworzec Główny" line="N3" type="bus" vClass="bus" nightService="only" completeness="0.02" missingAfter="83">
+        <route edges="61293509 61293493 1180195345 -61293500 1147626421#0 61293002 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 27348632 287956206#0 287956206#2 1451328237#0 430532791 1323631883 430532793 430532795"/>
+        <busStop id="3701948568" name="Wrzeszcz PKP"/>
+        <busStop id="3699707967" name="Galeria Bałtycka 06"/>
+    </ptLine>
+    <ptLine id="5469853" name="Bus N3: Wrzeszcz PKP =&gt; Dworzec Główny" line="N3" type="bus" vClass="bus" nightService="only" completeness="0.02" missingAfter="103">
+        <route edges="61293509 61293493 1180195345 -61293500 1147626421#0 61293002 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 27348632 287956206#0 287956206#2 1451328237#0 430532791 1323631883 430532793 430532795"/>
+        <busStop id="3701948568" name="Wrzeszcz PKP"/>
+        <busStop id="3699707967" name="Galeria Bałtycka 06"/>
+    </ptLine>
+    <ptLine id="5587311" name="Tram 5: Władysława IV =&gt; Oliwa" line="5" type="tram" vClass="tram" color="238,180,22" completeness="0.14" missingBefore="22" missingAfter="10">
+        <busStop id="2448014062" name="Politechnika"/>
+        <busStop id="1923923831" name="Miszewskiego 01"/>
+        <busStop id="1706849198" name="Jaśkowa Dolina 01"/>
+        <busStop id="1923923828" name="Klonowa"/>
+        <busStop id="1923923896" name="Galeria Bałtycka 01"/>
+    </ptLine>
+    <ptLine id="5587312" name="Tram 5: Oliwa =&gt; Nowy Port Oliwska" line="5" type="tram" vClass="tram" color="238,180,22" completeness="0.14" missingBefore="10" missingAfter="22">
+        <busStop id="269557596" name="Galeria Bałtycka 02"/>
+        <busStop id="269557594" name="Klonowa"/>
+        <busStop id="3680535418" name="Jaśkowa Dolina 02"/>
+        <busStop id="269557592" name="Miszewskiego 02"/>
+        <busStop id="1014671550" name="Politechnika"/>
+    </ptLine>
+    <ptLine id="8367834" name="SKM S2 Wejherowo - Gdańsk Śródmieście" line="S2" type="train" vClass="rail" completeness="0.11" missingBefore="21" missingAfter="4">
+        <route edges="27751832#0 27751832#1 27751832#2 27751832#3 27751832#4 27751832#5 27751832#6 27751832#7 27751832#8 27751832#9 27751832#10 27751832#11 29120439#1 29120439#2 29120439#3"/>
+        <busStop id="3785989417" name="Gdańsk Przymorze-Uniwersytet"/>
+        <busStop id="5677627726" name="Gdańsk Zaspa"/>
+        <busStop id="5677628691" name="Gdańsk Wrzeszcz"/>
+    </ptLine>
+    <ptLine id="8367868" name="SKM S1 Gdynia Chylonia - Gdańsk Śródmieście" line="S1" type="train" vClass="rail" completeness="0.15" missingBefore="13" missingAfter="4">
+        <route edges="27751832#0 27751832#1 27751832#2 27751832#3 27751832#4 27751832#5 27751832#6 27751832#7 27751832#8 27751832#9 27751832#10 27751832#11 29120439#1 29120439#2 29120439#3"/>
+        <busStop id="3785989417" name="Gdańsk Przymorze-Uniwersytet"/>
+        <busStop id="5677627726" name="Gdańsk Zaspa"/>
+        <busStop id="5677628691" name="Gdańsk Wrzeszcz"/>
+    </ptLine>
+    <ptLine id="8367972" name="SKM S1 Gdynia Cisowa - Gdańsk Śródmieście" line="S1" type="train" vClass="rail" completeness="0.14" missingBefore="14" missingAfter="4">
+        <route edges="27751832#0 27751832#1 27751832#2 27751832#3 27751832#4 27751832#5 27751832#6 27751832#7 27751832#8 27751832#9 27751832#10 27751832#11 29120439#1 29120439#2 29120439#3"/>
+        <busStop id="3785989417" name="Gdańsk Przymorze-Uniwersytet"/>
+        <busStop id="5677627726" name="Gdańsk Zaspa"/>
+        <busStop id="5677628691" name="Gdańsk Wrzeszcz"/>
+    </ptLine>
+    <ptLine id="8367987" name="SKM S2 Gdańsk Śródmieście - Wejherowo" line="S2" type="train" vClass="rail" completeness="0.10" missingBefore="4" missingAfter="22">
+        <route edges="160344254#0 160344254#1 160344254#2 160344254#3 173381248#1 173381248#2 173381248#3 173381248#4 173381248#5 173381248#6 173381248#7 173381248#8 173381248#9 173381248#10 173381248#11"/>
+        <busStop id="5677628690" name="Gdańsk Wrzeszcz"/>
+        <busStop id="5677627725" name="Gdańsk Zaspa"/>
+        <busStop id="2467382035" name="Gdańsk Przymorze-Uniwersytet"/>
+    </ptLine>
+    <ptLine id="8368085" name="SKM S1 Gdańsk Śródmieście - Gdynia Cisowa" line="S2" type="train" vClass="rail" completeness="0.14" missingBefore="4" missingAfter="14">
+        <route edges="160344254#0 160344254#1 160344254#2 160344254#3 173381248#1 173381248#2 173381248#3 173381248#4 173381248#5 173381248#6 173381248#7 173381248#8 173381248#9 173381248#10 173381248#11"/>
+        <busStop id="5677628690" name="Gdańsk Wrzeszcz"/>
+        <busStop id="5677627725" name="Gdańsk Zaspa"/>
+        <busStop id="2467382035" name="Gdańsk Przymorze-Uniwersytet"/>
+    </ptLine>
+    <ptLine id="8368087" name="SKM S1 Gdańsk Śródmieście - Gdynia Chylonia" line="S1" type="train" vClass="rail" completeness="0.15" missingBefore="4" missingAfter="13">
+        <route edges="160344254#0 160344254#1 160344254#2 160344254#3 173381248#1 173381248#2 173381248#3 173381248#4 173381248#5 173381248#6 173381248#7 173381248#8 173381248#9 173381248#10 173381248#11"/>
+        <busStop id="5677628690" name="Gdańsk Wrzeszcz"/>
+        <busStop id="5677627725" name="Gdańsk Zaspa"/>
+        <busStop id="2467382035" name="Gdańsk Przymorze-Uniwersytet"/>
+    </ptLine>
+    <ptLine id="8834797" name="Bus 162: Orunia Górna =&gt; Wrzeszcz PKP" line="162" type="bus" vClass="bus" completeness="0.09" missingBefore="26">
+        <route edges="236832919#0 200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 27476801 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
+        <busStop id="3715012927" name="Jaśkowa Dolina 03"/>
+        <busStop id="3699707968" name="Galeria Bałtycka 05"/>
+        <busStop id="-9875512697" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="8922805" name="EC 54: Gdynia → Berlin" line="EC 54" type="train" vClass="rail" completeness="0.06" missingBefore="3" missingAfter="12">
+        <route edges="239430023 999619921#1 999619921#2 684638796#0 684638796#1 684638796#2 321284936"/>
+        <busStop id="2472070935" name="Gdańsk Wrzeszcz"/>
+    </ptLine>
+    <ptLine id="8922806" name="EC 55: Berlin → Gdynia" line="EC 55" type="train" vClass="rail" completeness="0.06" missingBefore="12" missingAfter="3">
+        <route edges="321284935 999619907#1 999619913#1 999619913#2 999619920#0 999619920#1 999619920#2"/>
+        <busStop id="3279422501" name="Gdańsk Wrzeszcz"/>
+    </ptLine>
+    <ptLine id="951942" name="Bus 127: Oliwa PKP =&gt; Jasień PKM" line="127" type="bus" vClass="bus" completeness="0.04" missingBefore="27" missingAfter="23">
+        <route edges="1027271884#0 203465646 169400749 348733403 -397056711#1 -397056711#0 -362762664#2 -397056712#2 -1164856803#1 -227216232#1 169400750#0 169400751#0 161297933 161297934 1362019276 29092803 942711932#0 61316958 236818220#0 27348632 287956206#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1 200568454#0"/>
+        <busStop id="-1770503273" name="Kilińskiego 01"/>
+        <busStop id="3699707966" name="Galeria Bałtycka 04"/>
+    </ptLine>
+    <ptLine id="953268" name="Tram 6: Jelitkowo =&gt; Łostowice Świętokrzyska" line="6" type="tram" vClass="tram" color="0,163,212" completeness="0.12" missingBefore="17" missingAfter="19">
+        <busStop id="269557596" name="Galeria Bałtycka 02"/>
+        <busStop id="269557594" name="Klonowa"/>
+        <busStop id="3680535418" name="Jaśkowa Dolina 02"/>
+        <busStop id="269557592" name="Miszewskiego 02"/>
+        <busStop id="1014671550" name="Politechnika"/>
+    </ptLine>
+    <ptLine id="953276" name="Tram 9: Strzyża PKM =&gt; Głęboka" line="9" type="tram" vClass="tram" color="44,82,148" completeness="0.20" missingBefore="4" missingAfter="16">
+        <busStop id="269557596" name="Galeria Bałtycka 02"/>
+        <busStop id="269557594" name="Klonowa"/>
+        <busStop id="3680535418" name="Jaśkowa Dolina 02"/>
+        <busStop id="269557592" name="Miszewskiego 02"/>
+        <busStop id="1014671550" name="Politechnika"/>
+    </ptLine>
+    <ptLine id="953303" name="Tram 5: Oliwa =&gt; Nowy Port Zajezdnia" line="5" type="tram" vClass="tram" color="238,180,22" completeness="0.14" missingBefore="10" missingAfter="20">
+        <busStop id="269557596" name="Galeria Bałtycka 02"/>
+        <busStop id="269557594" name="Klonowa"/>
+        <busStop id="3680535418" name="Jaśkowa Dolina 02"/>
+        <busStop id="269557592" name="Miszewskiego 02"/>
+        <busStop id="1014671550" name="Politechnika"/>
+    </ptLine>
+    <ptLine id="965570" name="Bus 227: Chełm Cienista =&gt; Jelitkowo" line="227" type="bus" vClass="bus" completeness="0.07" missingBefore="23" missingAfter="13">
+        <route edges="29114711#0 1362017843 1362017842 313992354#0 313992354#1 1362017841 313992351#0 60264047 287311357#0 287311357#3 287311357#4 27348585#0 61316915 287956205 25126523 1362019277 1362020490 1233834164 161297937 227216233 161297932 348733402#0 -203465646 -1027271884#2"/>
+        <busStop id="3702069139" name="Zabytkowa 01"/>
+        <busStop id="3715012929" name="Galeria Bałtycka 07"/>
+        <busStop id="-2076145884" name="Skarżyńskiego 01"/>
+    </ptLine>
+    <ptLine id="967697" name="Bus 115: Wrzeszcz PKP =&gt; Jaworzniaków" line="115" type="bus" vClass="bus" completeness="0.01" missingAfter="65">
+        <route edges="168136132 -61293493 -61293490 -1178303967#1 -61292939#1 -225078984#2 1027195295#0 895854935 27475506#0 1163972696#0"/>
+        <busStop id="3701948570" name="Wrzeszcz PKP"/>
+    </ptLine>
+    <ptLine id="970776" name="Bus 262: Jaworzniaków =&gt; Przymorze SKM" line="262" type="bus" vClass="bus" completeness="0.04" missingBefore="36" missingAfter="8">
+        <route edges="236832919#0 200568455#0 227216231#0 236818215 236818214 187938710#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#0 1232799371#2 1232799371#3 1232799371#4 277203712 236809165"/>
+        <busStop id="3715012927" name="Jaśkowa Dolina 03"/>
+        <busStop id="3699707969" name="Galeria Bałtycka 03"/>
+    </ptLine>
+</ptLines>
