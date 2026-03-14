@@ -2,9 +2,9 @@
 
 <!-- generated on 2026-03-14 12:02:56.609916 by Eclipse SUMO randomTrips.py v1_26_0+0000-fa7df22d7f1
 <configuration>
-    <net-file value="C:\Users\breje\Desktop\projektKoncowy\simulation\network\osm.net.xml"/>
-    <additional-files value="C:\Users\breje\Desktop\projektKoncowy\simulation\demand\vtypes.add.xml"/>
-    <route-file value="C:\Users\breje\Desktop\projektKoncowy\simulation\demand\cars.rou.xml"/>
+    <net-file value=" simulation\network\osm.net.xml"/>
+    <additional-files value="simulation\demand\vtypes.add.xml"/>
+    <route-file value="simulation\demand\cars.rou.xml"/>
     <prefix value="car_"/>
     <trip-attributes value="type=&quot;car&quot; departLane=&quot;free&quot; departSpeed=&quot;max&quot;"/>
     <fringe-factor value="15.0"/>
@@ -18,13 +18,13 @@
 <duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
-        <net-file value="C:\Users\breje\Desktop\projektKoncowy\simulation\network\osm.net.xml"/>
-        <additional-files value="C:\Users\breje\Desktop\projektKoncowy\simulation\demand\vtypes.add.xml"/>
+        <net-file value=" simulation\network\osm.net.xml"/>
+        <additional-files value=" simulation\demand\vtypes.add.xml"/>
         <route-files value="trips.trips.xml"/>
     </input>
 
     <output>
-        <output-file value="C:\Users\breje\Desktop\projektKoncowy\simulation\demand\cars.rou.xml"/>
+        <output-file value=" simulation\demand\cars.rou.xml"/>
         <alternatives-output value="NUL"/>
     </output>
 

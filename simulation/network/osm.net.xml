@@ -4,14 +4,14 @@
 <neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
-        <sumocfg-file value="C:\Users\breje\Desktop\projektKoncowy\simulation\osm.sumocfg"/>
-        <additional-files value="C:\Users\breje\Desktop\projektKoncowy\simulation\osm.add.xml"/>
-        <route-files value="C:\Users\breje\Desktop\projektKoncowy\simulation\demand/netedit_cfg.rou.xml,C:\Users\breje\Desktop\projektKoncowy\simulation\demand/osm_pt.rou.xml"/>
-        <sumo-net-file value="C:\Users\breje\Desktop\projektKoncowy\simulation\network/osm.net.xml"/>
+        <sumocfg-file value=" simulation\osm.sumocfg"/>
+        <additional-files value=" simulation\osm.add.xml"/>
+        <route-files value=" simulation\demand/netedit_cfg.rou.xml, simulation\demand/osm_pt.rou.xml"/>
+        <sumo-net-file value=" simulation\network/osm.net.xml"/>
     </input>
 
     <output>
-        <output-file value="C:\Users\breje\Desktop\projektKoncowy\simulation\network/osm.net.xml"/>
+        <output-file value=" simulation\network/osm.net.xml"/>
         <output.street-names value="true"/>
     </output>
 
