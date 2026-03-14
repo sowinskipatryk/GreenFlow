@@ -82,7 +82,7 @@
         sigma="0.1" 
         maxSpeed="19.4" 
         color="red" 
-        guiShape="passenger/train"
+        guiShape="tram"
         emissionClass="Energy/unknown" />
 
 </additional>
