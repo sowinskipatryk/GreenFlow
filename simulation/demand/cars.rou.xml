@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-03-14T14:37:03.475742+01:00 by Eclipse SUMO netedit 1.26.0
+<!-- generated on 2026-03-14T20:45:19.051009+01:00 by Eclipse SUMO netedit 1.26.0
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
@@ -55,9 +55,6 @@
     <vehicle id="car_19" type="car" depart="28.50" departLane="free" departSpeed="max">
         <route edges="942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247"/>
     </vehicle>
-    <vehicle id="car_20" type="car" depart="30.00" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
     <vehicle id="car_21" type="car" depart="31.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
@@ -82,9 +79,6 @@
     <vehicle id="car_33" type="car" depart="49.50" departLane="free" departSpeed="max">
         <route edges="1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0"/>
     </vehicle>
-    <vehicle id="car_34" type="car" depart="51.00" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 27348585#0"/>
-    </vehicle>
     <vehicle id="car_36" type="car" depart="54.00" departLane="free" departSpeed="max">
         <route edges="277203721 277203724 200568452#0"/>
     </vehicle>
@@ -97,17 +91,11 @@
     <vehicle id="car_40" type="car" depart="60.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0"/>
     </vehicle>
-    <vehicle id="car_41" type="car" depart="61.50" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
     <vehicle id="car_42" type="car" depart="63.00" departLane="free" departSpeed="max">
         <route edges="161297931#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
     <vehicle id="car_43" type="car" depart="64.50" departLane="free" departSpeed="max">
         <route edges="187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
-    </vehicle>
-    <vehicle id="car_44" type="car" depart="66.00" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
     <vehicle id="car_46" type="car" depart="69.00" departLane="free" departSpeed="max">
         <route edges="61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
@@ -133,9 +121,6 @@
     <vehicle id="car_55" type="car" depart="82.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 187938713#0 287311357#0"/>
     </vehicle>
-    <vehicle id="car_56" type="car" depart="84.00" departLane="free" departSpeed="max">
-        <route edges="961539471 961539472 236811148 236811149#0 1271126935 169400610#0 E2"/>
-    </vehicle>
     <vehicle id="car_57" type="car" depart="85.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935"/>
     </vehicle>
@@ -151,17 +136,11 @@
     <vehicle id="car_65" type="car" depart="97.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 287956205 25126523"/>
     </vehicle>
-    <vehicle id="car_66" type="car" depart="99.00" departLane="free" departSpeed="max">
-        <route edges="E2"/>
-    </vehicle>
     <vehicle id="car_67" type="car" depart="100.50" departLane="free" departSpeed="max">
         <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 153776638#0 153776638#0.87 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
     <vehicle id="car_68" type="car" depart="102.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0"/>
-    </vehicle>
-    <vehicle id="car_70" type="car" depart="105.00" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
     <vehicle id="car_71" type="car" depart="106.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1451328237#0 E1 1323631883"/>
@@ -187,9 +166,6 @@
     <vehicle id="car_91" type="car" depart="136.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2 1232799370"/>
     </vehicle>
-    <vehicle id="car_92" type="car" depart="138.00" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
     <vehicle id="car_95" type="car" depart="142.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
@@ -214,9 +190,6 @@
     <vehicle id="car_103" type="car" depart="154.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
-    <vehicle id="car_104" type="car" depart="156.00" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0"/>
-    </vehicle>
     <vehicle id="car_106" type="car" depart="159.00" departLane="free" departSpeed="max">
         <route edges="29114711#0.184 1362017843"/>
     </vehicle>
@@ -229,9 +202,6 @@
     <vehicle id="car_109" type="car" depart="163.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
-    <vehicle id="car_110" type="car" depart="165.00" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
     <vehicle id="car_111" type="car" depart="166.50" departLane="free" departSpeed="max" departEdge="0">
         <route edges="432309716#0 287956206#2 1271126935 187938713#0 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712"/>
     </vehicle>
@@ -240,9 +210,6 @@
     </vehicle>
     <vehicle id="car_114" type="car" depart="171.00" departLane="free" departSpeed="max">
         <route edges="942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="car_116" type="car" depart="174.00" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2"/>
     </vehicle>
     <vehicle id="car_117" type="car" depart="175.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247"/>
@@ -279,15 +246,6 @@
     </vehicle>
     <vehicle id="car_131" type="car" depart="196.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0 25126523 1362019277 1362020490"/>
-    </vehicle>
-    <vehicle id="car_133" type="car" depart="199.50" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
-    <vehicle id="car_134" type="car" depart="201.00" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0"/>
-    </vehicle>
-    <vehicle id="car_135" type="car" depart="202.50" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0"/>
     </vehicle>
     <vehicle id="car_136" type="car" depart="204.00" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
@@ -352,9 +310,6 @@
     <vehicle id="car_162" type="car" depart="243.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0 25126523 1362019277 1362020490"/>
     </vehicle>
-    <vehicle id="car_163" type="car" depart="244.50" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
     <vehicle id="car_167" type="car" depart="250.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2"/>
     </vehicle>
@@ -381,9 +336,6 @@
     </vehicle>
     <vehicle id="car_178" type="car" depart="267.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
-    </vehicle>
-    <vehicle id="car_179" type="car" depart="268.50" departLane="free" departSpeed="max">
-        <route edges="961539471 961539472 236811148 236811149#0 1271126935 169400610#0 E2"/>
     </vehicle>
     <vehicle id="car_180" type="car" depart="270.00" departLane="free" departSpeed="max">
         <route edges="1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0"/>
@@ -445,12 +397,6 @@
     <vehicle id="car_208" type="car" depart="312.00" departLane="free" departSpeed="max">
         <route edges="942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
-    <vehicle id="car_209" type="car" depart="313.50" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="car_210" type="car" depart="315.00" departLane="free" departSpeed="max">
-        <route edges="961539471 961539472 236811148 236811149#0 1271126935 169400610#0 E2"/>
-    </vehicle>
     <vehicle id="car_211" type="car" depart="316.50" departLane="free" departSpeed="max">
         <route edges="407552210#0 430532795"/>
     </vehicle>
@@ -483,9 +429,6 @@
     </vehicle>
     <vehicle id="car_225" type="car" depart="337.50" departLane="free" departSpeed="max">
         <route edges="407552210#0 430532795"/>
-    </vehicle>
-    <vehicle id="car_227" type="car" depart="340.50" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395"/>
     </vehicle>
     <vehicle id="car_228" type="car" depart="342.00" departLane="free" departSpeed="max">
         <route edges="277203721 277203724 200568452#0"/>
@@ -532,9 +475,6 @@
     <vehicle id="car_252" type="car" depart="378.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
-    <vehicle id="car_253" type="car" depart="379.50" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0"/>
-    </vehicle>
     <vehicle id="car_254" type="car" depart="381.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
@@ -553,14 +493,8 @@
     <vehicle id="car_262" type="car" depart="393.00" departLane="free" departSpeed="max">
         <route edges="1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
-    <vehicle id="car_263" type="car" depart="394.50" departLane="free" departSpeed="max">
-        <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 E2"/>
-    </vehicle>
     <vehicle id="car_265" type="car" depart="397.50" departLane="free" departSpeed="max">
         <route edges="407552210#0 430532795"/>
-    </vehicle>
-    <vehicle id="car_266" type="car" depart="399.00" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0"/>
     </vehicle>
     <vehicle id="car_267" type="car" depart="400.50" departLane="free" departSpeed="max">
         <route edges="27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
@@ -582,9 +516,6 @@
     </vehicle>
     <vehicle id="car_278" type="car" depart="417.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="car_279" type="car" depart="418.50" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
     <vehicle id="car_282" type="car" depart="423.00" departLane="free" departSpeed="max">
         <route edges="236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818220#0"/>
@@ -679,9 +610,6 @@
     <vehicle id="car_324" type="car" depart="486.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 1232964863 287311364 236825277"/>
     </vehicle>
-    <vehicle id="car_325" type="car" depart="487.50" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
     <vehicle id="car_326" type="car" depart="489.00" departLane="free" departSpeed="max">
         <route edges="236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
@@ -712,14 +640,8 @@
     <vehicle id="car_342" type="car" depart="513.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
-    <vehicle id="car_344" type="car" depart="516.00" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="187938713#0 287311357#0 432309716#0 287956206#2 1271126935 169400610#0 E2"/>
-    </vehicle>
     <vehicle id="car_345" type="car" depart="517.50" departLane="free" departSpeed="max">
         <route edges="236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
-    <vehicle id="car_347" type="car" depart="520.50" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0"/>
     </vehicle>
     <vehicle id="car_348" type="car" depart="522.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4"/>
@@ -778,14 +700,8 @@
     <vehicle id="car_371" type="car" depart="556.50" departLane="free" departSpeed="max">
         <route edges="27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
-    <vehicle id="car_372" type="car" depart="558.00" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="E2 287311357#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
-    </vehicle>
     <vehicle id="car_373" type="car" depart="559.50" departLane="free" departSpeed="max">
         <route edges="961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958"/>
-    </vehicle>
-    <vehicle id="car_374" type="car" depart="561.00" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
     <vehicle id="car_375" type="car" depart="562.50" departLane="free" departSpeed="max" departEdge="0">
         <route edges="236811148 236811149#0 1271126935 187938713#0 287311357#0 432309716#0 287956206#2"/>
@@ -838,14 +754,8 @@
     <vehicle id="car_394" type="car" depart="591.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214"/>
     </vehicle>
-    <vehicle id="car_400" type="car" depart="600.00" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0"/>
-    </vehicle>
     <vehicle id="car_401" type="car" depart="601.50" departLane="free" departSpeed="max">
         <route edges="255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="car_402" type="car" depart="603.00" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
     <vehicle id="car_403" type="car" depart="604.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818221#0 224821293#2"/>
@@ -870,9 +780,6 @@
     </vehicle>
     <vehicle id="car_412" type="car" depart="618.00" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
-    </vehicle>
-    <vehicle id="car_413" type="car" depart="619.50" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 432309716#0 287956206#2 1271126935 169400610#0"/>
     </vehicle>
     <vehicle id="car_415" type="car" depart="622.50" departLane="free" departSpeed="max">
         <route edges="236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
@@ -913,9 +820,6 @@
     <vehicle id="car_436" type="car" depart="654.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0"/>
     </vehicle>
-    <vehicle id="car_437" type="car" depart="655.50" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
     <vehicle id="car_439" type="car" depart="658.50" departLane="free" departSpeed="max">
         <route edges="187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943"/>
     </vehicle>
@@ -948,9 +852,6 @@
     </vehicle>
     <vehicle id="car_450" type="car" depart="675.00" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0 -1348067248"/>
-    </vehicle>
-    <vehicle id="car_453" type="car" depart="679.50" departLane="free" departSpeed="max">
-        <route edges="961539471 961539472 236811148 236811149#0 1271126935 169400610#0 E2"/>
     </vehicle>
     <vehicle id="car_455" type="car" depart="682.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1451328237#0 E1"/>
@@ -1009,14 +910,8 @@
     <vehicle id="car_480" type="car" depart="720.00" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
-    <vehicle id="car_481" type="car" depart="721.50" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
     <vehicle id="car_482" type="car" depart="723.00" departLane="free" departSpeed="max">
         <route edges="236818214 187938710#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="car_483" type="car" depart="724.50" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277"/>
     </vehicle>
     <vehicle id="car_484" type="car" depart="726.00" departLane="free" departSpeed="max">
         <route edges="287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818221#0"/>
@@ -1059,9 +954,6 @@
     </vehicle>
     <vehicle id="car_505" type="car" depart="757.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0"/>
-    </vehicle>
-    <vehicle id="car_507" type="car" depart="760.50" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 27348585#0 61316915 187938712"/>
     </vehicle>
     <vehicle id="car_509" type="car" depart="763.50" departLane="free" departSpeed="max">
         <route edges="227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
@@ -1189,9 +1081,6 @@
     <vehicle id="car_569" type="car" depart="853.50" departLane="free" departSpeed="max">
         <route edges="1362019276 29092803 432309717 -27476683 942711942 1232964862 27476764#0"/>
     </vehicle>
-    <vehicle id="car_570" type="car" depart="855.00" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
     <vehicle id="car_571" type="car" depart="856.50" departLane="free" departSpeed="max">
         <route edges="E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
@@ -1255,9 +1144,6 @@
     <vehicle id="car_603" type="car" depart="904.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0 25126523"/>
     </vehicle>
-    <vehicle id="car_604" type="car" depart="906.00" departLane="free" departSpeed="max">
-        <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 E2"/>
-    </vehicle>
     <vehicle id="car_607" type="car" depart="910.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
@@ -1317,9 +1203,6 @@
     </vehicle>
     <vehicle id="car_632" type="car" depart="948.00" departLane="free" departSpeed="max">
         <route edges="-27476683 942711942 1232964862 1232964863 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="car_634" type="car" depart="951.00" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
     <vehicle id="car_636" type="car" depart="954.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712"/>
@@ -1504,17 +1387,11 @@
     <vehicle id="car_719" type="car" depart="1078.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 1232964863 287311364 236825277 -1316855122#3"/>
     </vehicle>
-    <vehicle id="car_720" type="car" depart="1080.00" departLane="free" departSpeed="max">
-        <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 E2"/>
-    </vehicle>
     <vehicle id="car_722" type="car" depart="1083.00" departLane="free" departSpeed="max">
         <route edges="313992354#1 1362017841 153776638#0 153776638#0.87 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
     <vehicle id="car_723" type="car" depart="1084.50" departLane="free" departSpeed="max" departEdge="0">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 432309716#0"/>
-    </vehicle>
-    <vehicle id="car_724" type="car" depart="1086.00" departLane="free" departSpeed="max">
-        <route edges="1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 E2"/>
     </vehicle>
     <vehicle id="car_726" type="car" depart="1089.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0 25126523 1362019277 1362020490"/>
@@ -1666,9 +1543,6 @@
     <vehicle id="car_809" type="car" depart="1213.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
-    <vehicle id="car_811" type="car" depart="1216.50" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
     <vehicle id="car_812" type="car" depart="1218.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
@@ -1677,9 +1551,6 @@
     </vehicle>
     <vehicle id="car_814" type="car" depart="1221.00" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="car_816" type="car" depart="1224.00" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
     <vehicle id="car_817" type="car" depart="1225.50" departLane="free" departSpeed="max">
         <route edges="236818215 236818214 187938710#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
@@ -1698,9 +1569,6 @@
     </vehicle>
     <vehicle id="car_825" type="car" depart="1237.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 224821293#0"/>
-    </vehicle>
-    <vehicle id="car_826" type="car" depart="1239.00" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="E2 287311357#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
     <vehicle id="car_827" type="car" depart="1240.50" departLane="free" departSpeed="max">
         <route edges="255904385#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
@@ -1768,9 +1636,6 @@
     <vehicle id="car_861" type="car" depart="1291.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818221#0"/>
     </vehicle>
-    <vehicle id="car_862" type="car" depart="1293.00" departLane="free" departSpeed="max">
-        <route edges="942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 E2"/>
-    </vehicle>
     <vehicle id="car_863" type="car" depart="1294.50" departLane="free" departSpeed="max">
         <route edges="227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0"/>
     </vehicle>
@@ -1780,17 +1645,8 @@
     <vehicle id="car_865" type="car" depart="1297.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
-    <vehicle id="car_866" type="car" depart="1299.00" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
     <vehicle id="car_867" type="car" depart="1300.50" departLane="free" departSpeed="max">
         <route edges="287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
-    <vehicle id="car_868" type="car" depart="1302.00" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="car_869" type="car" depart="1303.50" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
     <vehicle id="car_870" type="car" depart="1305.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
@@ -1942,12 +1798,6 @@
     <vehicle id="car_947" type="car" depart="1420.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
-    <vehicle id="car_948" type="car" depart="1422.00" departLane="free" departSpeed="max">
-        <route edges="169400610#0 E2 287311357#0 27348585#0 61316915 287956205 25126523"/>
-    </vehicle>
-    <vehicle id="car_949" type="car" depart="1423.50" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="287311357#0 432309716#0 287956206#2 1271126935 169400610#0 E2"/>
-    </vehicle>
     <vehicle id="car_950" type="car" depart="1425.00" departLane="free" departSpeed="max">
         <route edges="-27476683 942711942 1232964862 1232964863 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
@@ -1977,9 +1827,6 @@
     </vehicle>
     <vehicle id="car_962" type="car" depart="1443.00" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712"/>
-    </vehicle>
-    <vehicle id="car_963" type="car" depart="1444.50" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915"/>
     </vehicle>
     <vehicle id="car_964" type="car" depart="1446.00" departLane="free" departSpeed="max">
         <route edges="1323631883 430532793.85 430532793.85.34 430532793.85.34.10 -407552210#1"/>
@@ -2062,9 +1909,6 @@
     <vehicle id="car_999" type="car" depart="1498.50" departLane="free" departSpeed="max">
         <route edges="942711942 1232964862 1232964863 287311364 236825277 -1316855122#3"/>
     </vehicle>
-    <vehicle id="car_1000" type="car" depart="1500.00" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
     <vehicle id="car_1003" type="car" depart="1504.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0 25126523 1362019277 1362020490"/>
     </vehicle>
@@ -2083,9 +1927,6 @@
     <vehicle id="car_1008" type="car" depart="1512.00" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
-    <vehicle id="car_1009" type="car" depart="1513.50" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="169400610#0 E2 287311357#0 432309716#0 287956206#2 1271126935 187938713#0"/>
-    </vehicle>
     <vehicle id="car_1010" type="car" depart="1515.00" departLane="free" departSpeed="max">
         <route edges="1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0 25126523 1362019277 1362020490"/>
     </vehicle>
@@ -2097,12 +1938,6 @@
     </vehicle>
     <vehicle id="car_1013" type="car" depart="1519.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
-    </vehicle>
-    <vehicle id="car_1014" type="car" depart="1521.00" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
-    <vehicle id="car_1018" type="car" depart="1527.00" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
     <vehicle id="car_1019" type="car" depart="1528.50" departLane="free" departSpeed="max">
         <route edges="161297931#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
@@ -2145,9 +1980,6 @@
     </vehicle>
     <vehicle id="car_1040" type="car" depart="1560.00" departLane="free" departSpeed="max">
         <route edges="942711933 196664103 1362019277 1362020490"/>
-    </vehicle>
-    <vehicle id="car_1041" type="car" depart="1561.50" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
     <vehicle id="car_1042" type="car" depart="1563.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
@@ -2194,9 +2026,6 @@
     <vehicle id="car_1058" type="car" depart="1587.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 432309717 -27476683 942711942 1232964862 1232964863 287311364 236825277 -1316855122#3"/>
     </vehicle>
-    <vehicle id="car_1059" type="car" depart="1588.50" departLane="free" departSpeed="max">
-        <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 E2"/>
-    </vehicle>
     <vehicle id="car_1060" type="car" depart="1590.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0 25126523 1362019277 1362020490"/>
     </vehicle>
@@ -2217,9 +2046,6 @@
     </vehicle>
     <vehicle id="car_1069" type="car" depart="1603.50" departLane="free" departSpeed="max">
         <route edges="277203721 277203724 200568452#0"/>
-    </vehicle>
-    <vehicle id="car_1070" type="car" depart="1605.00" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
     <vehicle id="car_1071" type="car" depart="1606.50" departLane="free" departSpeed="max">
         <route edges="187938712 287311363#0 1348067247"/>
@@ -2353,9 +2179,6 @@
     <vehicle id="car_1135" type="car" depart="1702.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215"/>
     </vehicle>
-    <vehicle id="car_1136" type="car" depart="1704.00" departLane="free" departSpeed="max">
-        <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 E2"/>
-    </vehicle>
     <vehicle id="car_1138" type="car" depart="1707.00" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
@@ -2382,9 +2205,6 @@
     </vehicle>
     <vehicle id="car_1151" type="car" depart="1726.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 432309717 -27476683"/>
-    </vehicle>
-    <vehicle id="car_1152" type="car" depart="1728.00" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
     <vehicle id="car_1153" type="car" depart="1729.50" departLane="free" departSpeed="max">
         <route edges="1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
@@ -2428,9 +2248,6 @@
     <vehicle id="car_1175" type="car" depart="1762.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
-    <vehicle id="car_1176" type="car" depart="1764.00" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395"/>
-    </vehicle>
     <vehicle id="car_1177" type="car" depart="1765.50" departLane="free" departSpeed="max" departEdge="0">
         <route edges="287311357#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0"/>
     </vehicle>
@@ -2448,9 +2265,6 @@
     </vehicle>
     <vehicle id="car_1183" type="car" depart="1774.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 196664102 -942711933"/>
-    </vehicle>
-    <vehicle id="car_1184" type="car" depart="1776.00" departLane="free" departSpeed="max">
-        <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 E2"/>
     </vehicle>
     <vehicle id="car_1185" type="car" depart="1777.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1451328237#0 E1"/>
@@ -2487,9 +2301,6 @@
     </vehicle>
     <vehicle id="car_1200" type="car" depart="1800.00" departLane="free" departSpeed="max">
         <route edges="771467599#0 224821292#0 1147624737#0 1147624737#1"/>
-    </vehicle>
-    <vehicle id="car_1201" type="car" depart="1801.50" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2"/>
     </vehicle>
     <vehicle id="car_1202" type="car" depart="1803.00" departLane="free" departSpeed="max">
         <route edges="236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395"/>
@@ -2551,17 +2362,11 @@
     <vehicle id="car_1230" type="car" depart="1845.00" departLane="free" departSpeed="max">
         <route edges="29092803 942711932#0 61316958 236818221#0 224821293#2 1232799370"/>
     </vehicle>
-    <vehicle id="car_1232" type="car" depart="1848.00" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0 -1348067248"/>
-    </vehicle>
     <vehicle id="car_1234" type="car" depart="1851.00" departLane="free" departSpeed="max">
         <route edges="187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
     <vehicle id="car_1235" type="car" depart="1852.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 432309717 -27476683 942711942"/>
-    </vehicle>
-    <vehicle id="car_1237" type="car" depart="1855.50" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943"/>
     </vehicle>
     <vehicle id="car_1238" type="car" depart="1857.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 432309717 -27476683 942711942 1232964862 27476764#0 -1348067248 61295588#0"/>
@@ -2586,9 +2391,6 @@
     </vehicle>
     <vehicle id="car_1247" type="car" depart="1870.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0"/>
-    </vehicle>
-    <vehicle id="car_1248" type="car" depart="1872.00" departLane="free" departSpeed="max">
-        <route edges="1271126935 169400610#0 E2"/>
     </vehicle>
     <vehicle id="car_1249" type="car" depart="1873.50" departLane="free" departSpeed="max">
         <route edges="236825276 291941452 942711943 1347887395"/>
@@ -2626,9 +2428,6 @@
     <vehicle id="car_1267" type="car" depart="1900.50" departLane="free" departSpeed="max">
         <route edges="287956206#2 1271126935 187938713#0 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
-    <vehicle id="car_1270" type="car" depart="1905.00" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
     <vehicle id="car_1271" type="car" depart="1906.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1451328237#0 E1 1323631883"/>
     </vehicle>
@@ -2653,17 +2452,11 @@
     <vehicle id="car_1281" type="car" depart="1921.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0"/>
     </vehicle>
-    <vehicle id="car_1282" type="car" depart="1923.00" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
     <vehicle id="car_1283" type="car" depart="1924.50" departLane="free" departSpeed="max">
         <route edges="961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
     <vehicle id="car_1284" type="car" depart="1926.00" departLane="free" departSpeed="max">
         <route edges="1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="car_1285" type="car" depart="1927.50" departLane="free" departSpeed="max">
-        <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 E2"/>
     </vehicle>
     <vehicle id="car_1287" type="car" depart="1930.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0"/>
@@ -2725,9 +2518,6 @@
     <vehicle id="car_1318" type="car" depart="1977.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 432309717 -27476683 942711942 1232964862 27476764#0"/>
     </vehicle>
-    <vehicle id="car_1320" type="car" depart="1980.00" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 287956205"/>
-    </vehicle>
     <vehicle id="car_1321" type="car" depart="1981.50" departLane="free" departSpeed="max">
         <route edges="287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
@@ -2779,14 +2569,8 @@
     <vehicle id="car_1342" type="car" depart="2013.00" departLane="free" departSpeed="max">
         <route edges="287956206#2 1271126935 187938713#0 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
-    <vehicle id="car_1344" type="car" depart="2016.00" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
     <vehicle id="car_1345" type="car" depart="2017.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 432309717 -27476683 942711942 1232964862 1232964863 287311364 236825277 -1316855122#3"/>
-    </vehicle>
-    <vehicle id="car_1346" type="car" depart="2019.00" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
     <vehicle id="car_1348" type="car" depart="2022.00" departLane="free" departSpeed="max">
         <route edges="227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0"/>
@@ -2802,9 +2586,6 @@
     </vehicle>
     <vehicle id="car_1352" type="car" depart="2028.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 169400609#0"/>
-    </vehicle>
-    <vehicle id="car_1354" type="car" depart="2031.00" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
     <vehicle id="car_1355" type="car" depart="2032.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0"/>
@@ -2896,9 +2677,6 @@
     <vehicle id="car_1396" type="car" depart="2094.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 432309717 -27476683 942711942 1232964862 27476764#0"/>
     </vehicle>
-    <vehicle id="car_1397" type="car" depart="2095.50" departLane="free" departSpeed="max">
-        <route edges="169400610#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
     <vehicle id="car_1399" type="car" depart="2098.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
@@ -2932,17 +2710,11 @@
     <vehicle id="car_1411" type="car" depart="2116.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0"/>
     </vehicle>
-    <vehicle id="car_1413" type="car" depart="2119.50" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
     <vehicle id="car_1414" type="car" depart="2121.00" departLane="free" departSpeed="max">
         <route edges="1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0"/>
     </vehicle>
     <vehicle id="car_1416" type="car" depart="2124.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="car_1418" type="car" depart="2127.00" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 432309716#0 287956206#2 1271126935 169400610#0"/>
     </vehicle>
     <vehicle id="car_1419" type="car" depart="2128.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
@@ -2992,9 +2764,6 @@
     <vehicle id="car_1440" type="car" depart="2160.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205"/>
     </vehicle>
-    <vehicle id="car_1441" type="car" depart="2161.50" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2"/>
-    </vehicle>
     <vehicle id="car_1442" type="car" depart="2163.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0"/>
     </vehicle>
@@ -3018,9 +2787,6 @@
     </vehicle>
     <vehicle id="car_1454" type="car" depart="2181.00" departLane="free" departSpeed="max">
         <route edges="61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0 -1348067248"/>
-    </vehicle>
-    <vehicle id="car_1455" type="car" depart="2182.50" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="E2 287311357#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0"/>
     </vehicle>
     <vehicle id="car_1456" type="car" depart="2184.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370"/>
@@ -3076,14 +2842,8 @@
     <vehicle id="car_1485" type="car" depart="2227.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4"/>
     </vehicle>
-    <vehicle id="car_1487" type="car" depart="2230.50" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4"/>
-    </vehicle>
     <vehicle id="car_1489" type="car" depart="2233.50" departLane="free" departSpeed="max">
         <route edges="187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958"/>
-    </vehicle>
-    <vehicle id="car_1490" type="car" depart="2235.00" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
     <vehicle id="car_1491" type="car" depart="2236.50" departLane="free" departSpeed="max">
         <route edges="224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
@@ -3205,9 +2965,6 @@
     <vehicle id="car_1551" type="car" depart="2326.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
-    <vehicle id="car_1553" type="car" depart="2329.50" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
     <vehicle id="car_1554" type="car" depart="2331.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 1232964863 287311364 236825277 -1316855122#3"/>
     </vehicle>
@@ -3244,9 +3001,6 @@
     <vehicle id="car_1571" type="car" depart="2356.50" departLane="free" departSpeed="max">
         <route edges="61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0"/>
     </vehicle>
-    <vehicle id="car_1573" type="car" depart="2359.50" departLane="free" departSpeed="max">
-        <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 E2"/>
-    </vehicle>
     <vehicle id="car_1574" type="car" depart="2361.00" departLane="free" departSpeed="max">
         <route edges="277203712 236809165"/>
     </vehicle>
@@ -3255,9 +3009,6 @@
     </vehicle>
     <vehicle id="car_1579" type="car" depart="2368.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0"/>
-    </vehicle>
-    <vehicle id="car_1580" type="car" depart="2370.00" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
     <vehicle id="car_1581" type="car" depart="2371.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0"/>
@@ -3318,9 +3069,6 @@
     </vehicle>
     <vehicle id="car_1604" type="car" depart="2406.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
-    <vehicle id="car_1605" type="car" depart="2407.50" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
     <vehicle id="car_1606" type="car" depart="2409.00" departLane="free" departSpeed="max">
         <route edges="1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2"/>
@@ -3460,9 +3208,6 @@
     <vehicle id="car_1671" type="car" depart="2506.50" departLane="free" departSpeed="max">
         <route edges="61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 224821293#0"/>
     </vehicle>
-    <vehicle id="car_1672" type="car" depart="2508.00" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2"/>
-    </vehicle>
     <vehicle id="car_1674" type="car" depart="2511.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
@@ -3472,9 +3217,6 @@
     <vehicle id="car_1677" type="car" depart="2515.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
-    <vehicle id="car_1678" type="car" depart="2517.00" departLane="free" departSpeed="max">
-        <route edges="961539471 961539472 236811148 236811149#0 1271126935 169400610#0 E2"/>
-    </vehicle>
     <vehicle id="car_1681" type="car" depart="2521.50" departLane="free" departSpeed="max">
         <route edges="236825276 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0 25126523 1362019277 1362020490"/>
     </vehicle>
@@ -3483,9 +3225,6 @@
     </vehicle>
     <vehicle id="car_1689" type="car" depart="2533.50" departLane="free" departSpeed="max">
         <route edges="942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247"/>
-    </vehicle>
-    <vehicle id="car_1690" type="car" depart="2535.00" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 27348585#0"/>
     </vehicle>
     <vehicle id="car_1693" type="car" depart="2539.50" departLane="free" departSpeed="max">
         <route edges="187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
@@ -3498,9 +3237,6 @@
     </vehicle>
     <vehicle id="car_1697" type="car" depart="2545.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 432309717 -27476683"/>
-    </vehicle>
-    <vehicle id="car_1700" type="car" depart="2550.00" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0"/>
     </vehicle>
     <vehicle id="car_1701" type="car" depart="2551.50" departLane="free" departSpeed="max">
         <route edges="407552210#0 430532795"/>
@@ -3550,9 +3286,6 @@
     <vehicle id="car_1721" type="car" depart="2581.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
-    <vehicle id="car_1722" type="car" depart="2583.00" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
     <vehicle id="car_1724" type="car" depart="2586.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
@@ -3570,9 +3303,6 @@
     </vehicle>
     <vehicle id="car_1737" type="car" depart="2605.50" departLane="free" departSpeed="max">
         <route edges="61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
-    </vehicle>
-    <vehicle id="car_1738" type="car" depart="2607.00" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
     <vehicle id="car_1739" type="car" depart="2608.50" departLane="free" departSpeed="max">
         <route edges="277203712 236809165"/>
@@ -3796,17 +3526,11 @@
     <vehicle id="car_1857" type="car" depart="2785.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 287956205 25126523"/>
     </vehicle>
-    <vehicle id="car_1858" type="car" depart="2787.00" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
     <vehicle id="car_1859" type="car" depart="2788.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0"/>
     </vehicle>
     <vehicle id="car_1860" type="car" depart="2790.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="car_1861" type="car" depart="2791.50" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
     <vehicle id="car_1862" type="car" depart="2793.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
@@ -3825,9 +3549,6 @@
     </vehicle>
     <vehicle id="car_1875" type="car" depart="2812.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
-    </vehicle>
-    <vehicle id="car_1876" type="car" depart="2814.00" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 27348585#0 61316915"/>
     </vehicle>
     <vehicle id="car_1877" type="car" depart="2815.50" departLane="free" departSpeed="max">
         <route edges="1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915"/>
@@ -3876,9 +3597,6 @@
     </vehicle>
     <vehicle id="car_1897" type="car" depart="2845.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
-    </vehicle>
-    <vehicle id="car_1898" type="car" depart="2847.00" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0"/>
     </vehicle>
     <vehicle id="car_1900" type="car" depart="2850.00" departLane="free" departSpeed="max">
         <route edges="255904385#0 61316958 236818220#0"/>
@@ -3979,12 +3697,6 @@
     <vehicle id="car_1952" type="car" depart="2928.00" departLane="free" departSpeed="max">
         <route edges="227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
-    <vehicle id="car_1953" type="car" depart="2929.50" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0"/>
-    </vehicle>
-    <vehicle id="car_1955" type="car" depart="2932.50" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
     <vehicle id="car_1956" type="car" depart="2934.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
@@ -3993,9 +3705,6 @@
     </vehicle>
     <vehicle id="car_1958" type="car" depart="2937.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="car_1959" type="car" depart="2938.50" departLane="free" departSpeed="max">
-        <route edges="E2"/>
     </vehicle>
     <vehicle id="car_1960" type="car" depart="2940.00" departLane="free" departSpeed="max" departEdge="0">
         <route edges="432309716#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277"/>
@@ -4063,9 +3772,6 @@
     <vehicle id="car_1991" type="car" depart="2986.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0"/>
     </vehicle>
-    <vehicle id="car_1992" type="car" depart="2988.00" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
     <vehicle id="car_1993" type="car" depart="2989.50" departLane="free" departSpeed="max">
         <route edges="61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
@@ -4077,9 +3783,6 @@
     </vehicle>
     <vehicle id="car_1998" type="car" depart="2997.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
-    <vehicle id="car_1999" type="car" depart="2998.50" departLane="free" departSpeed="max">
-        <route edges="169400610#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
     <vehicle id="car_2000" type="car" depart="3000.00" departLane="free" departSpeed="max">
         <route edges="407552210#0 430532795"/>
@@ -4111,9 +3814,6 @@
     <vehicle id="car_2010" type="car" depart="3015.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
-    <vehicle id="car_2013" type="car" depart="3019.50" departLane="free" departSpeed="max">
-        <route edges="169400610#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
     <vehicle id="car_2014" type="car" depart="3021.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
@@ -4125,9 +3825,6 @@
     </vehicle>
     <vehicle id="car_2017" type="car" depart="3025.50" departLane="free" departSpeed="max">
         <route edges="236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
-    <vehicle id="car_2018" type="car" depart="3027.00" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="169400610#0 E2 287311357#0 432309716#0 287956206#2 1451328237#0 E1 1323631883"/>
     </vehicle>
     <vehicle id="car_2020" type="car" depart="3030.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0"/>
@@ -4312,9 +4009,6 @@
     <vehicle id="car_2112" type="car" depart="3168.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1451328237#0 E1"/>
     </vehicle>
-    <vehicle id="car_2113" type="car" depart="3169.50" departLane="free" departSpeed="max">
-        <route edges="161297931#0 432309716#0 287956206#2 1271126935 169400610#0 E2"/>
-    </vehicle>
     <vehicle id="car_2114" type="car" depart="3171.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
@@ -4333,9 +4027,6 @@
     <vehicle id="car_2119" type="car" depart="3178.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
-    <vehicle id="car_2121" type="car" depart="3181.50" departLane="free" departSpeed="max">
-        <route edges="169400610#0 E2 287311357#0 27348585#0 61316915 287956205 25126523"/>
-    </vehicle>
     <vehicle id="car_2122" type="car" depart="3183.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0"/>
     </vehicle>
@@ -4348,9 +4039,6 @@
     <vehicle id="car_2127" type="car" depart="3190.50" departLane="free" departSpeed="max">
         <route edges="236825277 -1316855122#3"/>
     </vehicle>
-    <vehicle id="car_2128" type="car" depart="3192.00" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
     <vehicle id="car_2129" type="car" depart="3193.50" departLane="free" departSpeed="max">
         <route edges="61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
@@ -4359,9 +4047,6 @@
     </vehicle>
     <vehicle id="car_2134" type="car" depart="3201.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0"/>
-    </vehicle>
-    <vehicle id="car_2135" type="car" depart="3202.50" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="313992351#0 E2 287311357#0 432309716#0 287956206#2 1451328237#0"/>
     </vehicle>
     <vehicle id="car_2138" type="car" depart="3207.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 1232964863 287311364 236825277 -1316855122#3"/>
@@ -4395,9 +4080,6 @@
     </vehicle>
     <vehicle id="car_2151" type="car" depart="3226.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2"/>
-    </vehicle>
-    <vehicle id="car_2152" type="car" depart="3228.00" departLane="free" departSpeed="max">
-        <route edges="169400610#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
     <vehicle id="car_2153" type="car" depart="3229.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
@@ -4470,9 +4152,6 @@
     </vehicle>
     <vehicle id="car_2191" type="car" depart="3286.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
-    </vehicle>
-    <vehicle id="car_2192" type="car" depart="3288.00" departLane="free" departSpeed="max">
-        <route edges="169400610#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395"/>
     </vehicle>
     <vehicle id="car_2193" type="car" depart="3289.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
@@ -4585,9 +4264,6 @@
     <vehicle id="car_2239" type="car" depart="3358.50" departLane="free" departSpeed="max">
         <route edges="407552210#0 430532795"/>
     </vehicle>
-    <vehicle id="car_2240" type="car" depart="3360.00" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
     <vehicle id="car_2241" type="car" depart="3361.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
@@ -4645,12 +4321,6 @@
     <vehicle id="car_2265" type="car" depart="3397.50" departLane="free" departSpeed="max">
         <route edges="61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0"/>
     </vehicle>
-    <vehicle id="car_2266" type="car" depart="3399.00" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
-    <vehicle id="car_2268" type="car" depart="3402.00" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
     <vehicle id="car_2271" type="car" depart="3406.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2"/>
     </vehicle>
@@ -4659,9 +4329,6 @@
     </vehicle>
     <vehicle id="car_2273" type="car" depart="3409.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0"/>
-    </vehicle>
-    <vehicle id="car_2274" type="car" depart="3411.00" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
     <vehicle id="car_2275" type="car" depart="3412.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
@@ -4759,9 +4426,6 @@
     <vehicle id="car_2325" type="car" depart="3487.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
-    <vehicle id="car_2327" type="car" depart="3490.50" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2"/>
-    </vehicle>
     <vehicle id="car_2328" type="car" depart="3492.00" departLane="free" departSpeed="max">
         <route edges="61293002.258 236825276 291941452 291941449 1232964862 1232964863 287311364 236825277 -1316855122#3"/>
     </vehicle>
@@ -4788,9 +4452,6 @@
     </vehicle>
     <vehicle id="car_2337" type="car" depart="3505.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0"/>
-    </vehicle>
-    <vehicle id="car_2342" type="car" depart="3513.00" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0"/>
     </vehicle>
     <vehicle id="car_2343" type="car" depart="3514.50" departLane="free" departSpeed="max">
         <route edges="61316915 287956205 25126523 1362019277 1362020490"/>
@@ -4837,9 +4498,6 @@
     <vehicle id="car_2364" type="car" depart="3546.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
-    <vehicle id="car_2365" type="car" depart="3547.50" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
     <vehicle id="car_2366" type="car" depart="3549.00" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 169400609#0"/>
     </vehicle>
@@ -4848,9 +4506,6 @@
     </vehicle>
     <vehicle id="car_2368" type="car" depart="3552.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247"/>
-    </vehicle>
-    <vehicle id="car_2369" type="car" depart="3553.50" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="E2 287311357#0 432309716#0 287956206#2 1271126935 187938713#0"/>
     </vehicle>
     <vehicle id="car_2370" type="car" depart="3555.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
@@ -4867,9 +4522,6 @@
     <vehicle id="car_2375" type="car" depart="3562.50" departLane="free" departSpeed="max">
         <route edges="771467599#0"/>
     </vehicle>
-    <vehicle id="car_2377" type="car" depart="3565.50" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
     <vehicle id="car_2378" type="car" depart="3567.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214"/>
     </vehicle>
@@ -4878,9 +4530,6 @@
     </vehicle>
     <vehicle id="car_2381" type="car" depart="3571.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 224821293#0"/>
-    </vehicle>
-    <vehicle id="car_2382" type="car" depart="3573.00" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
     <vehicle id="car_2386" type="car" depart="3579.00" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
@@ -4966,9 +4615,6 @@
     <vehicle id="car_2430" type="car" depart="3645.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0 25126523 1362019277 1362020490"/>
     </vehicle>
-    <vehicle id="car_2431" type="car" depart="3646.50" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
     <vehicle id="car_2432" type="car" depart="3648.00" departLane="free" departSpeed="max">
         <route edges="236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0"/>
     </vehicle>
@@ -5026,9 +4672,6 @@
     <vehicle id="car_2457" type="car" depart="3685.50" departLane="free" departSpeed="max">
         <route edges="227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
-    <vehicle id="car_2458" type="car" depart="3687.00" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
     <vehicle id="car_2460" type="car" depart="3690.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
@@ -5055,9 +4698,6 @@
     </vehicle>
     <vehicle id="car_2475" type="car" depart="3712.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
-    <vehicle id="car_2476" type="car" depart="3714.00" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
     <vehicle id="car_2477" type="car" depart="3715.50" departLane="free" departSpeed="max">
         <route edges="432309717 -27476683 942711942 1232964862 27476764#0 -1348067248 61295588#0 25126523 1362019277 1362020490"/>
@@ -5197,9 +4837,6 @@
     <vehicle id="car_2549" type="car" depart="3823.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 432309717 -27476683 942711942 1232964862 27476764#0 -1348067248"/>
     </vehicle>
-    <vehicle id="car_2550" type="car" depart="3825.00" departLane="free" departSpeed="max">
-        <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 E2"/>
-    </vehicle>
     <vehicle id="car_2552" type="car" depart="3828.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
@@ -5275,9 +4912,6 @@
     <vehicle id="car_2586" type="car" depart="3879.00" departLane="free" departSpeed="max" departEdge="0">
         <route edges="236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 432309716#0"/>
     </vehicle>
-    <vehicle id="car_2587" type="car" depart="3880.50" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
     <vehicle id="car_2588" type="car" depart="3882.00" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277"/>
     </vehicle>
@@ -5323,9 +4957,6 @@
     <vehicle id="car_2611" type="car" depart="3916.50" departLane="free" departSpeed="max">
         <route edges="236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
-    <vehicle id="car_2612" type="car" depart="3918.00" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0"/>
-    </vehicle>
     <vehicle id="car_2614" type="car" depart="3921.00" departLane="free" departSpeed="max">
         <route edges="187938713#0 287311357#0 169400609#0 224821293#0 224821293#2"/>
     </vehicle>
@@ -5361,9 +4992,6 @@
     </vehicle>
     <vehicle id="car_2629" type="car" depart="3943.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
-    <vehicle id="car_2630" type="car" depart="3945.00" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
     <vehicle id="car_2632" type="car" depart="3948.00" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
@@ -5493,12 +5121,6 @@
     </vehicle>
     <vehicle id="car_2692" type="car" depart="4038.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 1232964863 287311364 236825277 -1316855122#3"/>
-    </vehicle>
-    <vehicle id="car_2693" type="car" depart="4039.50" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
-    <vehicle id="car_2694" type="car" depart="4041.00" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0"/>
     </vehicle>
     <vehicle id="car_2696" type="car" depart="4044.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
@@ -5656,9 +5278,6 @@
     <vehicle id="car_2775" type="car" depart="4162.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0 -1348067248"/>
     </vehicle>
-    <vehicle id="car_2776" type="car" depart="4164.00" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818220#0"/>
-    </vehicle>
     <vehicle id="car_2777" type="car" depart="4165.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0 25126523 1362019277 1362020490"/>
     </vehicle>
@@ -5752,9 +5371,6 @@
     <vehicle id="car_2828" type="car" depart="4242.00" departLane="free" departSpeed="max">
         <route edges="236811149#0 1271126935 187938713#0 287311357#0 169400609#0"/>
     </vehicle>
-    <vehicle id="car_2829" type="car" depart="4243.50" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 27348585#0 61316915"/>
-    </vehicle>
     <vehicle id="car_2831" type="car" depart="4246.50" departLane="free" departSpeed="max" departEdge="0">
         <route edges="432309716#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
@@ -5772,9 +5388,6 @@
     </vehicle>
     <vehicle id="car_2837" type="car" depart="4255.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="car_2838" type="car" depart="4257.00" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
     <vehicle id="car_2839" type="car" depart="4258.50" departLane="free" departSpeed="max">
         <route edges="942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523"/>
@@ -5902,9 +5515,6 @@
     <vehicle id="car_2899" type="car" depart="4348.50" departLane="free" departSpeed="max">
         <route edges="27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
-    <vehicle id="car_2900" type="car" depart="4350.00" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="1362017841 313992351#0 E2 287311357#0 432309716#0 287956206#2 1271126935 187938713#0"/>
-    </vehicle>
     <vehicle id="car_2901" type="car" depart="4351.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0 25126523 1362019277 1362020490"/>
     </vehicle>
@@ -6016,9 +5626,6 @@
     <vehicle id="car_2952" type="car" depart="4428.00" departLane="free" departSpeed="max" departEdge="0">
         <route edges="187938713#0 287311357#0 432309716#0"/>
     </vehicle>
-    <vehicle id="car_2953" type="car" depart="4429.50" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="169400610#0 E2 287311357#0 432309716#0 287956206#2 1451328237#0 E1"/>
-    </vehicle>
     <vehicle id="car_2955" type="car" depart="4432.50" departLane="free" departSpeed="max">
         <route edges="255904385#0 61316958 236818220#0 224821293#0"/>
     </vehicle>
@@ -6039,9 +5646,6 @@
     </vehicle>
     <vehicle id="car_2964" type="car" depart="4446.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="car_2965" type="car" depart="4447.50" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 169400609#0 224821293#0"/>
     </vehicle>
     <vehicle id="car_2966" type="car" depart="4449.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
@@ -6070,17 +5674,11 @@
     <vehicle id="car_2979" type="car" depart="4468.50" departLane="free" departSpeed="max">
         <route edges="407552210#0 430532795"/>
     </vehicle>
-    <vehicle id="car_2981" type="car" depart="4471.50" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
     <vehicle id="car_2982" type="car" depart="4473.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215"/>
     </vehicle>
     <vehicle id="car_2983" type="car" depart="4474.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0 25126523 1362019277 1362020490"/>
-    </vehicle>
-    <vehicle id="car_2984" type="car" depart="4476.00" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
     <vehicle id="car_2987" type="car" depart="4480.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
@@ -6121,9 +5719,6 @@
     <vehicle id="car_3004" type="car" depart="4506.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0"/>
     </vehicle>
-    <vehicle id="car_3005" type="car" depart="4507.50" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
     <vehicle id="car_3007" type="car" depart="4510.50" departLane="free" departSpeed="max">
         <route edges="61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0"/>
     </vehicle>
@@ -6153,9 +5748,6 @@
     </vehicle>
     <vehicle id="car_3018" type="car" depart="4527.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247"/>
-    </vehicle>
-    <vehicle id="car_3020" type="car" depart="4530.00" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="169400610#0 E2 287311357#0 432309716#0 287956206#2 1271126935 187938713#0"/>
     </vehicle>
     <vehicle id="car_3022" type="car" depart="4533.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803"/>
@@ -6259,9 +5851,6 @@
     <vehicle id="car_3068" type="car" depart="4602.00" departLane="free" departSpeed="max" departEdge="0">
         <route edges="432309716#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0"/>
     </vehicle>
-    <vehicle id="car_3069" type="car" depart="4603.50" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
     <vehicle id="car_3071" type="car" depart="4606.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 1232964863 287311364 236825277 -1316855122#3"/>
     </vehicle>
@@ -6307,9 +5896,6 @@
     <vehicle id="car_3091" type="car" depart="4636.50" departLane="free" departSpeed="max">
         <route edges="61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
-    <vehicle id="car_3093" type="car" depart="4639.50" departLane="free" departSpeed="max">
-        <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 E2"/>
-    </vehicle>
     <vehicle id="car_3094" type="car" depart="4641.00" departLane="free" departSpeed="max">
         <route edges="1362019276 29092803 942711932#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
@@ -6352,9 +5938,6 @@
     <vehicle id="car_3113" type="car" depart="4669.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0"/>
     </vehicle>
-    <vehicle id="car_3115" type="car" depart="4672.50" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
     <vehicle id="car_3117" type="car" depart="4675.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
@@ -6376,9 +5959,6 @@
     <vehicle id="car_3126" type="car" depart="4689.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 432309717 -27476683 942711942 1232964862 1232964863 287311364 236825277 -1316855122#3"/>
     </vehicle>
-    <vehicle id="car_3130" type="car" depart="4695.00" departLane="free" departSpeed="max">
-        <route edges="169400610#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
     <vehicle id="car_3132" type="car" depart="4698.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0"/>
     </vehicle>
@@ -6399,9 +5979,6 @@
     </vehicle>
     <vehicle id="car_3140" type="car" depart="4710.00" departLane="free" departSpeed="max">
         <route edges="236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915"/>
-    </vehicle>
-    <vehicle id="car_3141" type="car" depart="4711.50" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="E2 287311357#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
     <vehicle id="car_3142" type="car" depart="4713.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
@@ -6453,9 +6030,6 @@
     </vehicle>
     <vehicle id="car_3170" type="car" depart="4755.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0"/>
-    </vehicle>
-    <vehicle id="car_3172" type="car" depart="4758.00" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 169400609#0 224821293#0 224821293#2"/>
     </vehicle>
     <vehicle id="car_3174" type="car" depart="4761.00" departLane="free" departSpeed="max">
         <route edges="27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
@@ -6531,9 +6105,6 @@
     </vehicle>
     <vehicle id="car_3207" type="car" depart="4810.50" departLane="free" departSpeed="max">
         <route edges="187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="car_3208" type="car" depart="4812.00" departLane="free" departSpeed="max">
-        <route edges="169400610#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
     <vehicle id="car_3212" type="car" depart="4818.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
@@ -6640,9 +6211,6 @@
     <vehicle id="car_3259" type="car" depart="4888.50" departLane="free" departSpeed="max">
         <route edges="1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958"/>
     </vehicle>
-    <vehicle id="car_3260" type="car" depart="4890.00" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277"/>
-    </vehicle>
     <vehicle id="car_3261" type="car" depart="4891.50" departLane="free" departSpeed="max">
         <route edges="287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
@@ -6703,9 +6271,6 @@
     <vehicle id="car_3288" type="car" depart="4932.00" departLane="free" departSpeed="max">
         <route edges="942711942 1232964862 1232964863 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0"/>
     </vehicle>
-    <vehicle id="car_3289" type="car" depart="4933.50" departLane="free" departSpeed="max">
-        <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 E2"/>
-    </vehicle>
     <vehicle id="car_3291" type="car" depart="4936.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0"/>
     </vehicle>
@@ -6751,14 +6316,8 @@
     <vehicle id="car_3309" type="car" depart="4963.50" departLane="free" departSpeed="max">
         <route edges="161297931#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
-    <vehicle id="car_3310" type="car" depart="4965.00" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
     <vehicle id="car_3311" type="car" depart="4966.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0"/>
-    </vehicle>
-    <vehicle id="car_3312" type="car" depart="4968.00" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2"/>
     </vehicle>
     <vehicle id="car_3314" type="car" depart="4971.00" departLane="free" departSpeed="max" departEdge="0">
         <route edges="432309716#0 287956206#2 1271126935 187938713#0 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
@@ -6789,9 +6348,6 @@
     </vehicle>
     <vehicle id="car_3328" type="car" depart="4992.00" departLane="free" departSpeed="max">
         <route edges="313992351#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
-    </vehicle>
-    <vehicle id="car_3330" type="car" depart="4995.00" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 432309716#0 287956206#2 1451328237#0 E1 1323631883"/>
     </vehicle>
     <vehicle id="car_3331" type="car" depart="4996.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712"/>
@@ -6934,9 +6490,6 @@
     <vehicle id="car_3401" type="car" depart="5101.50" departLane="free" departSpeed="max">
         <route edges="1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
-    <vehicle id="car_3402" type="car" depart="5103.00" departLane="free" departSpeed="max">
-        <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 E2"/>
-    </vehicle>
     <vehicle id="car_3403" type="car" depart="5104.50" departLane="free" departSpeed="max">
         <route edges="1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
@@ -7027,9 +6580,6 @@
     <vehicle id="car_3440" type="car" depart="5160.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 432309717 -27476683 942711942 1232964862 1232964863 287311364 236825277 -1316855122#3"/>
     </vehicle>
-    <vehicle id="car_3441" type="car" depart="5161.50" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0"/>
-    </vehicle>
     <vehicle id="car_3445" type="car" depart="5167.50" departLane="free" departSpeed="max">
         <route edges="153776638#0 153776638#0.87 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
@@ -7045,9 +6595,6 @@
     <vehicle id="car_3450" type="car" depart="5175.00" departLane="free" departSpeed="max">
         <route edges="287956206#2 1271126935 187938713#0 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
-    <vehicle id="car_3451" type="car" depart="5176.50" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
     <vehicle id="car_3453" type="car" depart="5179.50" departLane="free" departSpeed="max">
         <route edges="942711942 1232964862 1232964863 287311364 236825277 -1316855122#3"/>
     </vehicle>
@@ -7059,9 +6606,6 @@
     </vehicle>
     <vehicle id="car_3456" type="car" depart="5184.00" departLane="free" departSpeed="max">
         <route edges="432309717 -27476683 942711942 1232964862 1232964863 287311364 27476746 291941452 942711943"/>
-    </vehicle>
-    <vehicle id="car_3457" type="car" depart="5185.50" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
     <vehicle id="car_3458" type="car" depart="5187.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
@@ -7132,9 +6676,6 @@
     <vehicle id="car_3491" type="car" depart="5236.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0"/>
     </vehicle>
-    <vehicle id="car_3492" type="car" depart="5238.00" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
     <vehicle id="car_3494" type="car" depart="5241.00" departLane="free" departSpeed="max">
         <route edges="1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
@@ -7164,9 +6705,6 @@
     </vehicle>
     <vehicle id="car_3510" type="car" depart="5265.00" departLane="free" departSpeed="max">
         <route edges="236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0"/>
-    </vehicle>
-    <vehicle id="car_3511" type="car" depart="5266.50" departLane="free" departSpeed="max">
-        <route edges="169400610#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
     <vehicle id="car_3512" type="car" depart="5268.00" departLane="free" departSpeed="max">
         <route edges="153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
@@ -7203,9 +6741,6 @@
     </vehicle>
     <vehicle id="car_3525" type="car" depart="5287.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0"/>
-    </vehicle>
-    <vehicle id="car_3526" type="car" depart="5289.00" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
     <vehicle id="car_3528" type="car" depart="5292.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
@@ -7258,9 +6793,6 @@
     <vehicle id="car_3557" type="car" depart="5335.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
-    <vehicle id="car_3559" type="car" depart="5338.50" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0"/>
-    </vehicle>
     <vehicle id="car_3560" type="car" depart="5340.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 224821293#0"/>
     </vehicle>
@@ -7269,9 +6801,6 @@
     </vehicle>
     <vehicle id="car_3562" type="car" depart="5343.00" departLane="free" departSpeed="max">
         <route edges="1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0 -1348067248"/>
-    </vehicle>
-    <vehicle id="car_3564" type="car" depart="5346.00" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
     <vehicle id="car_3565" type="car" depart="5347.50" departLane="free" departSpeed="max">
         <route edges="236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 169400609#0"/>
@@ -7363,12 +6892,6 @@
     <vehicle id="car_3607" type="car" depart="5410.50" departLane="free" departSpeed="max">
         <route edges="187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0 25126523 1362019277 1362020490"/>
     </vehicle>
-    <vehicle id="car_3608" type="car" depart="5412.00" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 27348585#0 61316915 187938712"/>
-    </vehicle>
-    <vehicle id="car_3610" type="car" depart="5415.00" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 169400609#0 224821293#0"/>
-    </vehicle>
     <vehicle id="car_3612" type="car" depart="5418.00" departLane="free" departSpeed="max">
         <route edges="961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
@@ -7435,17 +6958,11 @@
     <vehicle id="car_3642" type="car" depart="5463.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0 25126523"/>
     </vehicle>
-    <vehicle id="car_3643" type="car" depart="5464.50" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 432309716#0 287956206#2 1451328237#0 E1 1323631883"/>
-    </vehicle>
     <vehicle id="car_3644" type="car" depart="5466.00" departLane="free" departSpeed="max">
         <route edges="1347887395 255904385#0 61316958"/>
     </vehicle>
     <vehicle id="car_3645" type="car" depart="5467.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
-    <vehicle id="car_3646" type="car" depart="5469.00" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 432309716#0 287956206#2 1451328237#0"/>
     </vehicle>
     <vehicle id="car_3649" type="car" depart="5473.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 432309717"/>
@@ -7551,9 +7068,6 @@
     </vehicle>
     <vehicle id="car_3699" type="car" depart="5548.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
-    </vehicle>
-    <vehicle id="car_3701" type="car" depart="5551.50" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712"/>
     </vehicle>
     <vehicle id="car_3702" type="car" depart="5553.00" departLane="free" departSpeed="max">
         <route edges="161297931#0 432309716#0 287956206#2 1271126935 187938713#0 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
@@ -7684,17 +7198,11 @@
     <vehicle id="car_3753" type="car" depart="5629.50" departLane="free" departSpeed="max">
         <route edges="-1348067248 61295588#0 25126523 1362019277 1362020490"/>
     </vehicle>
-    <vehicle id="car_3754" type="car" depart="5631.00" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
     <vehicle id="car_3755" type="car" depart="5632.50" departLane="free" departSpeed="max">
         <route edges="61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0 -1348067248"/>
     </vehicle>
     <vehicle id="car_3756" type="car" depart="5634.00" departLane="free" departSpeed="max">
         <route edges="61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0"/>
-    </vehicle>
-    <vehicle id="car_3758" type="car" depart="5637.00" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818221#0"/>
     </vehicle>
     <vehicle id="car_3759" type="car" depart="5638.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0"/>
@@ -7707,9 +7215,6 @@
     </vehicle>
     <vehicle id="car_3762" type="car" depart="5643.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
-    </vehicle>
-    <vehicle id="car_3764" type="car" depart="5646.00" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395"/>
     </vehicle>
     <vehicle id="car_3765" type="car" depart="5647.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
@@ -7743,9 +7248,6 @@
     </vehicle>
     <vehicle id="car_3777" type="car" depart="5665.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
-    <vehicle id="car_3778" type="car" depart="5667.00" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958"/>
     </vehicle>
     <vehicle id="car_3780" type="car" depart="5670.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0"/>
@@ -7842,9 +7344,6 @@
     </vehicle>
     <vehicle id="car_3831" type="car" depart="5746.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
-    <vehicle id="car_3832" type="car" depart="5748.00" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
     <vehicle id="car_3833" type="car" depart="5749.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
@@ -7969,9 +7468,6 @@
     <vehicle id="car_3893" type="car" depart="5839.50" departLane="free" departSpeed="max">
         <route edges="287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
-    <vehicle id="car_3897" type="car" depart="5845.50" departLane="free" departSpeed="max">
-        <route edges="169400610#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0"/>
-    </vehicle>
     <vehicle id="car_3898" type="car" depart="5847.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 1232964863 287311364 236825277 -1316855122#3"/>
     </vehicle>
@@ -8020,14 +7516,8 @@
     <vehicle id="car_3921" type="car" depart="5881.50" departLane="free" departSpeed="max">
         <route edges="942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
-    <vehicle id="car_3922" type="car" depart="5883.00" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
     <vehicle id="car_3923" type="car" depart="5884.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2"/>
-    </vehicle>
-    <vehicle id="car_3925" type="car" depart="5887.50" departLane="free" departSpeed="max">
-        <route edges="169400610#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
     <vehicle id="car_3927" type="car" depart="5890.50" departLane="free" departSpeed="max">
         <route edges="1348067246#0"/>
@@ -8085,9 +7575,6 @@
     </vehicle>
     <vehicle id="car_3956" type="car" depart="5934.00" departLane="free" departSpeed="max">
         <route edges="255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="car_3959" type="car" depart="5938.50" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 27348585#0"/>
     </vehicle>
     <vehicle id="car_3961" type="car" depart="5941.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0"/>
@@ -8155,9 +7642,6 @@
     <vehicle id="car_3995" type="car" depart="5992.50" departLane="free" departSpeed="max">
         <route edges="236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
-    <vehicle id="car_3996" type="car" depart="5994.00" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
     <vehicle id="car_4000" type="car" depart="6000.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
@@ -8184,9 +7668,6 @@
     </vehicle>
     <vehicle id="car_4010" type="car" depart="6015.00" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 169400609#0"/>
-    </vehicle>
-    <vehicle id="car_4011" type="car" depart="6016.50" departLane="free" departSpeed="max">
-        <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 E2"/>
     </vehicle>
     <vehicle id="car_4012" type="car" depart="6018.00" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
@@ -8239,9 +7720,6 @@
     <vehicle id="car_4040" type="car" depart="6060.00" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
-    <vehicle id="car_4042" type="car" depart="6063.00" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
     <vehicle id="car_4043" type="car" depart="6064.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
@@ -8251,9 +7729,6 @@
     <vehicle id="car_4049" type="car" depart="6073.50" departLane="free" departSpeed="max">
         <route edges="287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
-    <vehicle id="car_4053" type="car" depart="6079.50" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2"/>
-    </vehicle>
     <vehicle id="car_4054" type="car" depart="6081.00" departLane="free" departSpeed="max">
         <route edges="277203721 277203724 200568452#0"/>
     </vehicle>
@@ -8262,9 +7737,6 @@
     </vehicle>
     <vehicle id="car_4057" type="car" depart="6085.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 432309717 -27476683 942711942 1232964862 27476764#0"/>
-    </vehicle>
-    <vehicle id="car_4058" type="car" depart="6087.00" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
     <vehicle id="car_4060" type="car" depart="6090.00" departLane="free" departSpeed="max">
         <route edges="1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
@@ -8434,9 +7906,6 @@
     <vehicle id="car_4140" type="car" depart="6210.00" departLane="free" departSpeed="max">
         <route edges="29092803 432309717 -27476683 942711942 1232964862 1232964863 287311364 27476746 291941452 942711943 1347887395"/>
     </vehicle>
-    <vehicle id="car_4141" type="car" depart="6211.50" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277"/>
-    </vehicle>
     <vehicle id="car_4142" type="car" depart="6213.00" departLane="free" departSpeed="max">
         <route edges="942711942 1232964862 1232964863 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
@@ -8472,9 +7941,6 @@
     </vehicle>
     <vehicle id="car_4159" type="car" depart="6238.50" departLane="free" departSpeed="max">
         <route edges="277203721 277203724 200568452#0"/>
-    </vehicle>
-    <vehicle id="car_4163" type="car" depart="6244.50" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="432309716#0 287956206#2 1271126935 169400610#0 E2"/>
     </vehicle>
     <vehicle id="car_4164" type="car" depart="6246.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
@@ -8530,9 +7996,6 @@
     <vehicle id="car_4192" type="car" depart="6288.00" departLane="free" departSpeed="max">
         <route edges="407552210#0 430532795"/>
     </vehicle>
-    <vehicle id="car_4193" type="car" depart="6289.50" departLane="free" departSpeed="max">
-        <route edges="169400610#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
     <vehicle id="car_4196" type="car" depart="6294.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
@@ -8568,9 +8031,6 @@
     </vehicle>
     <vehicle id="car_4212" type="car" depart="6318.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
-    <vehicle id="car_4213" type="car" depart="6319.50" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
     <vehicle id="car_4215" type="car" depart="6322.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205"/>
@@ -8611,9 +8071,6 @@
     <vehicle id="car_4229" type="car" depart="6343.50" departLane="free" departSpeed="max">
         <route edges="432309717 -27476683 942711942 1232964862 1232964863 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205"/>
     </vehicle>
-    <vehicle id="car_4232" type="car" depart="6348.00" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
     <vehicle id="car_4233" type="car" depart="6349.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 1232964863 287311364 236825277 -1316855122#3"/>
     </vehicle>
@@ -8629,9 +8086,6 @@
     <vehicle id="car_4240" type="car" depart="6360.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
-    <vehicle id="car_4242" type="car" depart="6363.00" departLane="free" departSpeed="max">
-        <route edges="169400610#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4"/>
-    </vehicle>
     <vehicle id="car_4243" type="car" depart="6364.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
@@ -8640,9 +8094,6 @@
     </vehicle>
     <vehicle id="car_4245" type="car" depart="6367.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="car_4246" type="car" depart="6369.00" departLane="free" departSpeed="max">
-        <route edges="961539471 961539472 236811148 236811149#0 1271126935 169400610#0 E2"/>
     </vehicle>
     <vehicle id="car_4247" type="car" depart="6370.50" departLane="free" departSpeed="max">
         <route edges="407552210#0 430532795"/>
@@ -8797,9 +8248,6 @@
     <vehicle id="car_4321" type="car" depart="6481.50" departLane="free" departSpeed="max">
         <route edges="1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
-    <vehicle id="car_4322" type="car" depart="6483.00" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
-    </vehicle>
     <vehicle id="car_4323" type="car" depart="6484.50" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0"/>
     </vehicle>
@@ -8808,9 +8256,6 @@
     </vehicle>
     <vehicle id="car_4325" type="car" depart="6487.50" departLane="free" departSpeed="max">
         <route edges="1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 187938713#0"/>
-    </vehicle>
-    <vehicle id="car_4326" type="car" depart="6489.00" departLane="free" departSpeed="max" departEdge="0">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 432309716#0 287956206#2 1451328237#0 E1 1323631883"/>
     </vehicle>
     <vehicle id="car_4328" type="car" depart="6492.00" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
@@ -8980,9 +8425,6 @@
     <vehicle id="car_4404" type="car" depart="6606.00" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
-    <vehicle id="car_4405" type="car" depart="6607.50" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0 -1348067248"/>
-    </vehicle>
     <vehicle id="car_4407" type="car" depart="6610.50" departLane="free" departSpeed="max">
         <route edges="313992351#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
@@ -8994,9 +8436,6 @@
     </vehicle>
     <vehicle id="car_4412" type="car" depart="6618.00" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 169400610#0 771467599#0"/>
-    </vehicle>
-    <vehicle id="car_4414" type="car" depart="6621.00" departLane="free" departSpeed="max">
-        <route edges="1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
     <vehicle id="car_4415" type="car" depart="6622.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
@@ -9027,12 +8466,6 @@
     </vehicle>
     <vehicle id="car_4428" type="car" depart="6642.00" departLane="free" departSpeed="max">
         <route edges="287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="car_4429" type="car" depart="6643.50" departLane="free" departSpeed="max">
-        <route edges="313992351#0 E2 287311357#0"/>
-    </vehicle>
-    <vehicle id="car_4430" type="car" depart="6645.00" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
     <vehicle id="car_4431" type="car" depart="6646.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0 25126523 1362019277 1362020490"/>
@@ -9175,9 +8608,6 @@
     <vehicle id="car_4503" type="car" depart="6754.50" departLane="free" departSpeed="max">
         <route edges="153776638#0 153776638#0.87 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
-    <vehicle id="car_4504" type="car" depart="6756.00" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
     <vehicle id="car_4505" type="car" depart="6757.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
@@ -9213,9 +8643,6 @@
     </vehicle>
     <vehicle id="car_4520" type="car" depart="6780.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
-    <vehicle id="car_4521" type="car" depart="6781.50" departLane="free" departSpeed="max">
-        <route edges="1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
     <vehicle id="car_4523" type="car" depart="6784.50" departLane="free" departSpeed="max">
         <route edges="236825276 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0 25126523 1362019277 1362020490"/>
@@ -9397,9 +8824,6 @@
     <vehicle id="car_4606" type="car" depart="6909.00" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0 25126523 1362019277"/>
     </vehicle>
-    <vehicle id="car_4607" type="car" depart="6910.50" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
     <vehicle id="car_4609" type="car" depart="6913.50" departLane="free" departSpeed="max">
         <route edges="407552210#0 430532795"/>
     </vehicle>
@@ -9457,9 +8881,6 @@
     <vehicle id="car_4641" type="car" depart="6961.50" departLane="free" departSpeed="max">
         <route edges="236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 291941449 1232964862 27476764#0 -1348067248 61295588#0"/>
     </vehicle>
-    <vehicle id="car_4642" type="car" depart="6963.00" departLane="free" departSpeed="max">
-        <route edges="200568455#0 227216231#0 236818215 236818214 161297931#0 432309716#0 287956206#2 1271126935 169400610#0 E2"/>
-    </vehicle>
     <vehicle id="car_4643" type="car" depart="6964.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
@@ -9495,9 +8916,6 @@
     </vehicle>
     <vehicle id="car_4657" type="car" depart="6985.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205"/>
-    </vehicle>
-    <vehicle id="car_4659" type="car" depart="6988.50" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
     <vehicle id="car_4661" type="car" depart="6991.50" departLane="free" departSpeed="max">
         <route edges="313992354#0"/>
@@ -9589,9 +9007,6 @@
     <vehicle id="car_4705" type="car" depart="7057.50" departLane="free" departSpeed="max">
         <route edges="432309717 -27476683 942711942 1232964862 1232964863 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818221#0 224821293#2 1232799370 1232799371#2 1232799371#4"/>
     </vehicle>
-    <vehicle id="car_4706" type="car" depart="7059.00" departLane="free" departSpeed="max">
-        <route edges="E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277"/>
-    </vehicle>
     <vehicle id="car_4709" type="car" depart="7063.50" departLane="free" departSpeed="max">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
@@ -9639,12 +9054,6 @@
     </vehicle>
     <vehicle id="car_4729" type="car" depart="7093.50" departLane="free" departSpeed="max">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915"/>
-    </vehicle>
-    <vehicle id="car_4731" type="car" depart="7096.50" departLane="free" departSpeed="max">
-        <route edges="313992354#0 313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
-    <vehicle id="car_4735" type="car" depart="7102.50" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
     <vehicle id="car_4736" type="car" depart="7104.00" departLane="free" departSpeed="max">
         <route edges="287956205 25126523 1362019277 1362020490"/>
@@ -9771,9 +9180,6 @@
     </vehicle>
     <vehicle id="car_4794" type="car" depart="7191.00" departLane="free" departSpeed="max">
         <route edges="161297934 1362019276 29092803 942711932#0 61316958 236818220#0 287956206#2 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
-    <vehicle id="car_4795" type="car" depart="7192.50" departLane="free" departSpeed="max">
-        <route edges="313992354#1 1362017841 313992351#0 E2 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
     <vehicle id="car_4797" type="car" depart="7195.50" departLane="free" departSpeed="max">
         <route edges="61293002 61293002.258 236825276 291941452 291941449 1232964862 1232964863 287311364 236825277 -1316855122#3"/>

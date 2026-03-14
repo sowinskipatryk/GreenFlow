@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-03-14 19:17:36.347204 by Eclipse SUMO tlsCoordinator.py v1_26_0+0000-fa7df22d7f1
+<configuration>
+    <net-file value="C:\Users\breje\Desktop\projektKoncowy\simulation\network\osm.net.xml"/>
+    <output-file value="C:\Users\breje\Desktop\projektKoncowy\simulation\demand\tlsCoordinated.add.xml"/>
+    <route-file value="C:\Users\breje\Desktop\projektKoncowy\simulation\demand\cars.rou.xml"/>
+    <verbose value="True"/>
+    <evaluate value="True"/>
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="280272723" programID="0" offset="45.10"/>
+    <tlLogic id="301681267" programID="0" offset="33.72"/>
+    <tlLogic id="4313891394" programID="0" offset="8.83"/>
+    <tlLogic id="GS_1664172659" programID="0" offset="-90.06"/>
+    <tlLogic id="GS_1985727749" programID="0" offset="-32.44"/>
+    <tlLogic id="clusterJ11_J12_cluster1923923897_2447939514" programID="0" offset="-56.96"/>
+    <tlLogic id="clusterJ6_J9" programID="0" offset="0.71"/>
+    <tlLogic id="clusterJ7_clusterJ9_cluster1664172634_8729417981" programID="0" offset="1.36"/>
+    <tlLogic id="clustercluster1923923898_26378754_cluster_1087952522_11804517184" programID="0" offset="0.00"/>
+</additional>
