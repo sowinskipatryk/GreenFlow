@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-03-14T14:31:46.505628+01:00 by Eclipse SUMO GUI 1.26.0
+<!-- generated on 2026-03-14T21:10:36.768950+01:00 by Eclipse SUMO GUI 1.26.0
 <sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -23,10 +23,4 @@
 -->
 
 <detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
-    <interval begin="0.00" end="300.00" id="e1_9" nVehContrib="9" flow="108.00" occupancy="1.67" speed="9.79" harmonicMeanSpeed="8.99" length="5.00" nVehEntered="9"/>
-    <interval begin="300.00" end="600.00" id="e1_9" nVehContrib="12" flow="144.00" occupancy="12.18" speed="7.61" harmonicMeanSpeed="1.97" length="5.00" nVehEntered="13"/>
-    <interval begin="600.00" end="900.00" id="e1_9" nVehContrib="10" flow="120.00" occupancy="20.19" speed="7.06" harmonicMeanSpeed="0.75" length="5.00" nVehEntered="9"/>
-    <interval begin="900.00" end="1200.00" id="e1_9" nVehContrib="13" flow="156.00" occupancy="26.54" speed="6.75" harmonicMeanSpeed="0.82" length="5.00" nVehEntered="13"/>
-    <interval begin="1200.00" end="1500.00" id="e1_9" nVehContrib="11" flow="132.00" occupancy="2.30" speed="8.64" harmonicMeanSpeed="7.96" length="5.00" nVehEntered="11"/>
-    <interval begin="1500.00" end="1784.00" id="e1_9" nVehContrib="6" flow="76.06" occupancy="1.64" speed="7.35" harmonicMeanSpeed="6.45" length="5.00" nVehEntered="6"/>
 </detector>

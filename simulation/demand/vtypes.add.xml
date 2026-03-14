@@ -21,8 +21,8 @@
         guiShape="passenger/hatchback" 
         lcSpeedGain="3.5" 
         lcStrategic="0.5"
-         lcAssertive="1.5" 
-         emissionClass="Energy/unknown" />
+        lcAssertive="1.5" 
+        emissionClass="Energy/unknown" />
     
     <vType id="motorcycle" 
         vClass="motorcycle" 
@@ -72,5 +72,17 @@
         color="red" 
         guiShape="emergency" 
         emissionClass="HBEFA3/PC_G_EU4" />
+
+        <vType id="tram_gdansk" 
+        vClass="tram" 
+        length="30.0" 
+        width="2.4"
+        accel="1.0" 
+        decel="2.8" 
+        sigma="0.1" 
+        maxSpeed="19.4" 
+        color="red" 
+        guiShape="passenger/train"
+        emissionClass="Energy/unknown" />
 
 </additional>
