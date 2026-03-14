@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-03-14T10:43:11.017593+01:00 by Eclipse SUMO netedit 1.26.0
+<!-- generated on 2026-03-14T14:46:50.985828+01:00 by Eclipse SUMO netedit 1.26.0
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <busStop id="Galeria_Baltycka_03" lane="224821293#2_0" startPos="17.08" endPos="27.08" parkingLength="20.00"/>
+    <busStop id="Galeria_Baltycka_04" lane="224821292#0_0" startPos="141.63" endPos="151.63" parkingLength="20.00"/>
+    <busStop id="Galeria_Baltycka_06" lane="1451328237#0_0" startPos="17.39" endPos="27.39" parkingLength="20.00"/>
+    <busStop id="Galeria_Baltycka_07" lane="287956205_0" startPos="24.76" endPos="34.76" parkingLength="20.00"/>
+    <busStop id="bs_0" lane="182045481#4.51_0" startPos="591.06" endPos="601.06" parkingLength="20.00"/>
+    <busStop id="bs_1" lane="24811285#3_0" startPos="41.49" endPos="51.49" parkingLength="20.00"/>
     <!-- Detectors -->
     <inductionLoop id="e1_0" lane="236811148_3" pos="0.00" period="300.00" file="e1_0.xml"/>
     <inductionLoop id="e1_1" lane="236811148_0" pos="0.00" period="300.00" file="e1_1.xml"/>
@@ -15,7 +22,7 @@
     <inductionLoop id="e1_15" lane="187938710#0_0" pos="28.78" period="300.00" file="e1_15.xml"/>
     <inductionLoop id="e1_16" lane="187938710#0_1" pos="28.71" period="300.00" file="e1_16.xml"/>
     <inductionLoop id="e1_17" lane="187938710#0_2" pos="28.63" period="300.00" file="e1_17.xml"/>
-    <inductionLoop id="e1_18" lane="187938710#0_3" pos="28.56" period="300.00" file="e1_18.xml"/>
+    <inductionLoop id="e1_18" lane="187938710#0_3" pos="28.54" period="300.00" file="e1_18.xml"/>
     <inductionLoop id="e1_19" lane="161297931#0_0" pos="35.10" period="300.00" file="e1_19.xml"/>
     <inductionLoop id="e1_2" lane="236811148_2" pos="0.00" period="300.00" file="e1_2.xml"/>
     <inductionLoop id="e1_20" lane="161297931#0_1" pos="35.76" period="300.00" file="e1_20.xml"/>
