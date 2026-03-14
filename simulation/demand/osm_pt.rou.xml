@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-03-10T23:00:07.639168+01:00 by Eclipse SUMO netedit 1.26.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="pt_aerialway" length="2.50" vClass="cable_car" width="2.00" personCapacity="4"/>
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_minibus" vClass="bus"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_share_taxi" vClass="taxi"/>
+    <vType id="pt_subway" vClass="subway"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+</routes>

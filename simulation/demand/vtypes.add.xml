@@ -1,0 +1,5 @@
+<additional>
+    <vType id="moto_type" vClass="motorcycle" length="2.2" width="0.9" accel="6.0" decel="10.0" maxSpeed="30.0" guiShape="motorcycle"/>
+
+    <vType id="emergency_type" vClass="emergency" length="5.5" width="2.0" accel="3.5" decel="8.0" speedFactor="1.2" guiShape="emergency"/>
+</additional>
