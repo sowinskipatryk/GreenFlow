@@ -71,11 +71,13 @@
         accel="4.0" 
         decel="6.0" 
         sigma="0.2" 
-        maxSpeed="60.0" 
+        maxSpeed="60.0"
+        laneChangeModel="SL2015"
         speedFactor="1.5" 
         color="red" 
         guiShape="emergency" 
-        emissionClass="HBEFA3/PC_G_EU4" />
+        emissionClass="HBEFA3/PC_G_EU4"
+        <param key="has.bluelight.device" value="true"/>/>
 
         <vType id="tram_gdansk" 
         vClass="tram" 

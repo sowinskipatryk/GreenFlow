@@ -1,52 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-03-14 22:17:50.776089 by Eclipse SUMO randomTrips.py v1_26_0+0000-fa7df22d7f1
-<configuration>
-    <net-file value="C:\Users\breje\Desktop\projektKoncowy\simulation\network\osm.net.xml"/>
-    <additional-files value="C:\Users\breje\Desktop\projektKoncowy\simulation\demand\vtypes.add.xml"/>
-    <output-trip-file value="C:\Users\breje\Desktop\projektKoncowy\simulation\demand\truck.trips.xml"/>
-    <route-file value="C:\Users\breje\Desktop\projektKoncowy\simulation\demand\truck.rou.xml"/>
-    <prefix value="truck_"/>
-    <trip-attributes value="type=&quot;truck&quot;"/>
-    <lanes value="True"/>
-    <fringe-factor value="50.0"/>
-    <verbose value="True"/>
-    <period value="40.0"/>
-    <poisson value="True"/>
-</configuration>
--->
-
-<!-- generated on 2026-03-14T22:17:50.707662+01:00 by Eclipse SUMO duarouter 1.26.0
-<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
-
-    <input>
-        <net-file value="C:\Users\breje\Desktop\projektKoncowy\simulation\network\osm.net.xml"/>
-        <additional-files value="C:\Users\breje\Desktop\projektKoncowy\simulation\demand\vtypes.add.xml"/>
-        <route-files value="C:\Users\breje\Desktop\projektKoncowy\simulation\demand\truck.trips.xml"/>
-    </input>
-
-    <output>
-        <output-file value="C:\Users\breje\Desktop\projektKoncowy\simulation\demand\truck.rou.xml"/>
-        <alternatives-output value="NUL"/>
-    </output>
-
-    <time>
-        <begin value="0"/>
-        <end value="3600"/>
-    </time>
-
-    <report>
-        <verbose value="true"/>
-        <no-warnings value="true"/>
-        <ignore-errors value="true"/>
-        <no-step-log value="true"/>
-    </report>
-
-</duarouterConfiguration>
+<!-- generated on 2026-03-15T10:47:43.581850+01:00 by Eclipse SUMO netedit 1.26.0
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
     <vType id="truck" length="12.00" maxSpeed="25.00" vClass="truck" emissionClass="HBEFA3/HDV_D_EU4" guiShape="truck" color="blue" accel="1.2" decel="4.0" sigma="0.5"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
     <vehicle id="truck_0" type="truck" depart="0.00">
         <route edges="29114711#0.184 1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
@@ -62,17 +22,11 @@
     <vehicle id="truck_4" type="truck" depart="160.00">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
     </vehicle>
-    <vehicle id="truck_5" type="truck" depart="200.00">
-        <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
     <vehicle id="truck_6" type="truck" depart="240.00">
         <route edges="236811148 236811149#0 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
     </vehicle>
     <vehicle id="truck_7" type="truck" depart="280.00">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
-    </vehicle>
-    <vehicle id="truck_8" type="truck" depart="320.00">
-        <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
     <vehicle id="truck_9" type="truck" depart="360.00">
         <route edges="277203721 277203724 200568452#0"/>
@@ -104,14 +58,8 @@
     <vehicle id="truck_18" type="truck" depart="720.00">
         <route edges="187938713#0 287311357#0 27348585#0 61316915 287956205 25126523 1362019277 1362020490"/>
     </vehicle>
-    <vehicle id="truck_19" type="truck" depart="760.00">
-        <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
     <vehicle id="truck_20" type="truck" depart="800.00">
         <route edges="29114711#0.184 1362017843 1362017842.95 313992354#0 313992354#1 1362017841 313992351#0 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="truck_21" type="truck" depart="840.00">
-        <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
     <vehicle id="truck_22" type="truck" depart="880.00">
         <route edges="200568455#0 227216231#0 236818215 236818214 187938710#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 236825277 -1316855122#3"/>
@@ -173,9 +121,6 @@
     <vehicle id="truck_41" type="truck" depart="1640.00">
         <route edges="1271126935 187938713#0 287311357#0 432309716#0 287956206#2 1451328237#0 E1 1323631883 430532793.85 430532793.85.34 430532793.85.34.10 430532795"/>
     </vehicle>
-    <vehicle id="truck_42" type="truck" depart="1680.00">
-        <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712"/>
-    </vehicle>
     <vehicle id="truck_43" type="truck" depart="1720.00">
         <route edges="961539471 961539472 236811148 236811149#0 1451328237#0 E1 1323631883 430532793.85 430532793.85.34 430532793.85.34.10 430532795"/>
     </vehicle>
@@ -193,9 +138,6 @@
     </vehicle>
     <vehicle id="truck_48" type="truck" depart="1920.00">
         <route edges="287956206#2 1271126935 187938713#0 287311357#0 169400609#0 224821293#0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
-    </vehicle>
-    <vehicle id="truck_49" type="truck" depart="1960.00">
-        <route edges="961539472 236811148 153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
     <vehicle id="truck_50" type="truck" depart="2000.00">
         <route edges="277203721 277203724 200568452#0"/>
@@ -292,9 +234,6 @@
     </vehicle>
     <vehicle id="truck_81" type="truck" depart="3240.00">
         <route edges="27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0 287311364 27476746 291941452 942711943 1347887395 255904385#0 61316958 236818220#0 287956206#2 1271126935 169400610#0 771467599#0 224821292#0 1147624737#0 1147624737#1"/>
-    </vehicle>
-    <vehicle id="truck_82" type="truck" depart="3280.00">
-        <route edges="961539471 961539472 236811148 153776637#0 E0 224821293#2 1232799370 1232799371#2 1232799371#4 277203712 236809165"/>
     </vehicle>
     <vehicle id="truck_83" type="truck" depart="3320.00">
         <route edges="961539471 961539472 236811148 236811149#0 1271126935 187938713#0 287311357#0 27348585#0 61316915 187938712 287311363#0 1348067247 1348067246#0"/>
