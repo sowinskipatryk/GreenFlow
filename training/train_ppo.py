@@ -1,3 +1,12 @@
+"""
+Train a PPO agent on the Baltycka intersection environment.
+
+Usage:
+    python training/train_ppo.py
+    python training/train_ppo.py --timesteps 500_000 --model-name ppo_baltycka_v2
+    python training/train_ppo.py --gui
+"""
+
 import argparse
 import sys
 from pathlib import Path
