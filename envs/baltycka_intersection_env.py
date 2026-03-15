@@ -8,7 +8,7 @@ import traci
 SUMOCFG_PATH = os.path.join(os.path.dirname(__file__), '..', 'simulation', 'osm.sumocfg')
 
 # The main traffic light on the Baltycka intersection -> controlled by the RL agent
-TL_ID = 'Glowny_wezel'
+TL_ID = 'clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184'
 
 # Lanes linked to the intersection (from detectors/osm.add.xml)
 DETECTOR_LANES = [
@@ -27,7 +27,7 @@ DETECTOR_LANES = [
     '236811148_5',
 ]
 
-NUM_GREEN_PHASES = 7               # number of green phases in the intersection
+NUM_GREEN_PHASES = 11              # number of green phases in the intersection
 YELLOW_TIME = 3                    # seconds spent in yellow phase during phase transition
 MIN_GREEN_TIME = 10                # minimum seconds before a phase switch is allowed (to avoid phase flickering)
 DELTA_TIME = 5                     # simulation seconds per agent step
@@ -43,8 +43,8 @@ class BaltyckaIntersectionEnv(gym.Env):
 
     Observations (21):
         [0:13]  halting vehicles per detector lane, normalized to [0, 1]
-        [13:20] one-hot encoding of current green phase (for NUM_GREEN_PHASES = 7)
-        [21]    elapsed time in current phase, normalized to [0, 1]
+        [13:24] one-hot encoding of current green phase (for NUM_GREEN_PHASES = 11)
+        [24]    elapsed time in current phase, normalized to [0, 1]
 
     Actions (2):
         0 — keep current green phase
