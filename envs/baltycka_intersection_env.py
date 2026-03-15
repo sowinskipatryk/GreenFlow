@@ -1,6 +1,7 @@
 import gymnasium as gym
 import numpy as np
 import os
+import random
 import traci
 
 # Path to simulation config
@@ -55,7 +56,7 @@ class BaltyckaIntersectionEnv(gym.Env):
 
     metadata = {'render_modes': ['human']}
 
-    def __init__(self, use_gui: bool = False, seed: int = 42):
+    def __init__(self, use_gui: bool = False, seed: int = None):
         super().__init__()
 
         self.use_gui = use_gui
@@ -138,8 +139,9 @@ class BaltyckaIntersectionEnv(gym.Env):
             '-c', os.path.abspath(SUMOCFG_PATH),
             '--no-warnings',
             '--no-step-log',
-            '--seed', str(self._seed),
         ]
+        seed = self._seed if self._seed is not None else random.randint(0, 2**31 - 1)  # seed is a 32-bit signed integer
+        sumo_cmd += ['--seed', str(seed)]
         if self.use_gui:
             sumo_cmd += ['--start', '--delay', '100']
         traci.start(sumo_cmd)

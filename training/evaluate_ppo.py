@@ -5,6 +5,7 @@ Usage:
     python training/evaluate_ppo.py --model-name ppo_baltycka --episodes 3
     python training/evaluate_ppo.py --baseline
     python training/evaluate_ppo.py --model-name ppo_baltycka --episodes 3 --gui
+    python training/evaluate_ppo.py --model-name ppo_baltycka --episodes 5 --seed 42
 """
 
 import argparse
@@ -42,12 +43,12 @@ def _run_episode(env: BaltyckaIntersectionEnv, action_fn) -> tuple[float, float]
     return total_reward, avg_halting_per_step
 
 
-def evaluate_agent(model_name: str, episodes: int, use_gui: bool) -> float:
+def evaluate_agent(model_name: str, episodes: int, use_gui: bool, seed: int = None) -> float:
     model_path = MODELS_DIR / f'{model_name}.zip'
     if not model_path.exists():
         raise FileNotFoundError(f'Model not found: {model_path}')
 
-    env = BaltyckaIntersectionEnv(use_gui=use_gui)
+    env = BaltyckaIntersectionEnv(use_gui=use_gui, seed=seed)
     model = PPO.load(model_path)
     model.verbose = 0  # get rid of wrapper info logs
     model.set_env(env)
@@ -70,8 +71,8 @@ def evaluate_agent(model_name: str, episodes: int, use_gui: bool) -> float:
     return float(mean)
 
 
-def evaluate_baseline(episodes: int, cycle_steps: int = 12) -> float:
-    env = BaltyckaIntersectionEnv(use_gui=False)
+def evaluate_baseline(episodes: int, cycle_steps: int = 12, seed: int = None) -> float:
+    env = BaltyckaIntersectionEnv(use_gui=False, seed=seed)
 
     def action_fn(__obs):
         return 1 if env._step_count % cycle_steps == 0 and env._step_count > 0 else 0
@@ -96,15 +97,16 @@ if __name__ == '__main__':
     parser.add_argument('--episodes', type=int, default=3)
     parser.add_argument('--gui', action='store_true', help='Run in GUI mode')
     parser.add_argument('--baseline', action='store_true', help='Run baseline only (no model needed)')
+    parser.add_argument('--seed', type=int, default=None, help='Fixed seed for reproducibility (disabled by default)')
     args = parser.parse_args()
 
     print(f"\nEpisode length: {EPISODE_STEPS} steps x {DELTA_TIME}s = {EPISODE_STEPS * DELTA_TIME}s simulated\n")
 
     if args.baseline:
-        evaluate_baseline(episodes=args.episodes)
+        evaluate_baseline(episodes=args.episodes, seed=args.seed)
     else:
-        baseline_mean = evaluate_baseline(episodes=args.episodes)
-        agent_mean = evaluate_agent(model_name=args.model_name, episodes=args.episodes, use_gui=args.gui)
+        baseline_mean = evaluate_baseline(episodes=args.episodes, seed=args.seed)
+        agent_mean = evaluate_agent(model_name=args.model_name, episodes=args.episodes, use_gui=args.gui, seed=args.seed)
         if baseline_mean != 0:
             improvement = (agent_mean - baseline_mean) / abs(baseline_mean) * 100
             print(f"\nImprovement over baseline: {improvement:+.1f}%\n")
