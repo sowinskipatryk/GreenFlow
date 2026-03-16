@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-03-15T19:03:24.683115+01:00 by Eclipse SUMO netedit 1.26.0
+<!-- generated on 2026-03-16T22:35:31.943555+01:00 by Eclipse SUMO netedit 1.26.0
 <neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
@@ -1347,39 +1347,18 @@
         <phase duration="42" state="rG" minDur="20" maxDur="60"/>
         <phase duration="3"  state="ry"/>
     </tlLogic>
-    <tlLogic id="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" type="actuated" programID="0" offset="0">
-        <phase duration="31" state="rrrrrGGGGGGrrrrGGGrrGGGGGGGGrrrrrrGrrGGGrrGrGrr" minDur="5" maxDur="70"/>
-        <phase duration="3"  state="rrrrryyyyyyrrrrGgGrrgyyyyyyyrrrrrryrrGGGrryryrr" minDur="5" maxDur="70"/>
-        <phase duration="31" state="GGGGGrrrrrrGGGGrrrrrgrrrrrrrGgGGGGrrrGGGGGrrrrr" minDur="5" maxDur="70"/>
-        <phase duration="3"  state="GGGGGrrrrrryyyyrrrrryrrrrrrrGgGGGGrrrGGGGGrrrrr" minDur="5" maxDur="70"/>
-        <phase duration="1"  state="GGGGGrrrrrrrrrrrrrrrrrrrrrrrGgGGGGrrrGGGGGrrrrr" minDur="5" maxDur="70"/>
-        <phase duration="31" state="GGGGGrrrrrrrrrrGGGGGrrrrrrrrGgGGGGrrrGGGGGrrrrr" minDur="5" maxDur="70"/>
-        <phase duration="3"  state="GGGGGrrrrrrrrrrGGGGGrrrrrrrryyyyyyrrryyyyyrrrrr" minDur="5" maxDur="70"/>
-        <phase duration="1"  state="GGGGGrrrrrrrrrrGGGGGrrrrrrrrrrrrrrrrrrrrrrrrrrr" minDur="5" maxDur="70"/>
-        <phase duration="31" state="GGGGGrrrrrrrrrrGGGGGGGGGGGGrrrrrrrrGGrrrrrrGrGG" minDur="5" maxDur="70"/>
-        <phase duration="3"  state="yyyyyrrrrrrrrrrGGGyyGGGGGGGrrrrrrrryyrrrrrryryy" minDur="5" maxDur="70"/>
-        <phase duration="1"  state="rrrrrrrrrrrrrrrGGGrrGGGGGGGrrrrrrrrrrrrrrrrrrrr" minDur="5" maxDur="70"/>
-        <param key="153776638#0_0" value="e1_12"/>
-        <param key="161297931#0_0" value="e1_19"/>
-        <param key="161297931#0_1" value="e1_20"/>
-        <param key="182045481#4.51_0" value="e1_14"/>
-        <param key="187938710#0_0" value="e1_15"/>
-        <param key="187938710#0_1" value="e1_16"/>
-        <param key="187938710#0_2" value="e1_17"/>
-        <param key="187938710#0_3" value="e1_18"/>
-        <param key="236811148_0" value="e1_1"/>
-        <param key="236811148_1" value="e1_4"/>
-        <param key="236811148_2" value="e1_2"/>
-        <param key="236811148_3" value="e1_0"/>
-        <param key="236811148_4" value="e1_3"/>
-        <param key="236811148_5" value="e1_5"/>
-        <param key="24811285#0_0" value="e1_13"/>
-        <param key="313992351#0_0" value="e1_11"/>
-        <param key="313992351#0_1" value="e1_10"/>
-        <param key="61316958_0" value="e1_6"/>
-        <param key="61316958_1" value="e1_7"/>
-        <param key="61316958_2" value="e1_8"/>
-        <param key="61316958_3" value="e1_9"/>
+    <tlLogic id="Glowny_wezel" type="static" programID="0" offset="0">
+        <phase duration="31" state="rrrrrGGGGGGrrrrGGGrrGGGGGGGGrrrrrrGrrGGGrrGrGrr"/>
+        <phase duration="3"  state="rrrrryyyyyyrrrrGgGrrgyyyyyyyrrrrrryrrGGGrryryrr"/>
+        <phase duration="31" state="GGGGGrrrrrrGGGGyyyrrgrrrrrrrGgGGGGrrrGGGGGrrrrr"/>
+        <phase duration="3"  state="GGGGGrrrrrryyyyrrrrryrrrrrrrGgGGGGrrrGGGGGrrrrr"/>
+        <phase duration="1"  state="GGGGGrrrrrrrrrrrrrrrrrrrrrrrGgGGGGrrrGGGGGrrrrr"/>
+        <phase duration="31" state="GGGGGrrrrrrrrrrGGGGGrrrrrrrrGgGGGGrrrGGGGGrrrrr"/>
+        <phase duration="3"  state="GGGGGrrrrrrrrrrGGGGGrrrrrrrryyyyyyrrryyyyyrrrrr"/>
+        <phase duration="1"  state="GGGGGrrrrrrrrrrGGGGGrrrrrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="31" state="GGGGGrrrrrrrrrrGGGGGGGGGGGGrrrrrrrrGGrrrrrrGrGG"/>
+        <phase duration="3"  state="yyyyyrrrrrrrrrrGGGyyGGGGGGGrrrrrrrryyrrrrrryryy"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrGGGrrGGGGGGGrrrrrrrrrrrrrrrrrrrr"/>
     </tlLogic>
 
     <junction id="1026680147" type="dead_end" x="1746.70" y="2720.32" incLanes="" intLanes="" shape="1747.92,2721.36 1745.48,2719.28"/>
@@ -1762,29 +1741,29 @@
     <connection from="1362019277" to="1362020490" fromLane="0" toLane="0" via=":12610354263_0_0" dir="s" state="M"/>
     <connection from="1362019277" to="1362020490" fromLane="1" toLane="1" via=":12610354263_0_1" dir="s" state="M"/>
     <connection from="1451328237#0" to="E1" fromLane="1" toLane="0" via=":4066709245_0_0" dir="s" state="M"/>
-    <connection from="153776637#0" to="224821293#2" fromLane="0" toLane="2" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_8_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="43" dir="l" state="o"/>
-    <connection from="153776638#0" to="224821292#0" fromLane="0" toLane="0" via=":cluster1664172659_clusterJ6_J9_0_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="11" dir="r" state="o"/>
-    <connection from="153776638#0" to="224821292#0" fromLane="1" toLane="1" via=":cluster1664172659_clusterJ6_J9_0_1" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="12" dir="r" state="o"/>
-    <connection from="161297931#0" to="432309716#0" fromLane="0" toLane="0" via=":clusterJ11_J12_cluster1923923897_2447939514_5_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="25" dir="s" state="O"/>
-    <connection from="161297931#0" to="432309716#0" fromLane="1" toLane="1" via=":clusterJ11_J12_cluster1923923897_2447939514_5_1" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="26" dir="s" state="O"/>
+    <connection from="153776637#0" to="224821293#2" fromLane="0" toLane="2" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_8_0" tl="Glowny_wezel" linkIndex="43" dir="l" state="o"/>
+    <connection from="153776638#0" to="224821292#0" fromLane="0" toLane="0" via=":cluster1664172659_clusterJ6_J9_0_0" tl="Glowny_wezel" linkIndex="11" dir="r" state="o"/>
+    <connection from="153776638#0" to="224821292#0" fromLane="1" toLane="1" via=":cluster1664172659_clusterJ6_J9_0_1" tl="Glowny_wezel" linkIndex="12" dir="r" state="o"/>
+    <connection from="161297931#0" to="432309716#0" fromLane="0" toLane="0" via=":clusterJ11_J12_cluster1923923897_2447939514_5_0" tl="Glowny_wezel" linkIndex="25" dir="s" state="O"/>
+    <connection from="161297931#0" to="432309716#0" fromLane="1" toLane="1" via=":clusterJ11_J12_cluster1923923897_2447939514_5_1" tl="Glowny_wezel" linkIndex="26" dir="s" state="O"/>
     <connection from="161297934" to="1362019276" fromLane="0" toLane="0" via=":12610341666_0_0" dir="s" state="M"/>
     <connection from="161297934" to="1362019276" fromLane="1" toLane="1" via=":12610341666_0_1" dir="s" state="M"/>
-    <connection from="169400609#0" to="224821293#2" fromLane="0" toLane="0" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_2_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="37" dir="s" state="O"/>
-    <connection from="169400609#0" to="224821293#2" fromLane="1" toLane="1" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_2_1" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="38" dir="s" state="O"/>
-    <connection from="169400609#0" to="224821293#2" fromLane="2" toLane="2" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_2_2" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="39" dir="s" state="O"/>
-    <connection from="169400610#0" to="224821292#0" fromLane="0" toLane="0" via=":cluster1664172659_clusterJ6_J9_4_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="15" dir="s" state="o"/>
-    <connection from="169400610#0" to="224821292#0" fromLane="1" toLane="1" via=":cluster1664172659_clusterJ6_J9_4_1" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="16" dir="s" state="o"/>
-    <connection from="169400610#0" to="224821292#0" fromLane="2" toLane="2" via=":cluster1664172659_clusterJ6_J9_4_2" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="17" dir="s" state="o"/>
-    <connection from="182045481#4.51" to="182045481#5" fromLane="0" toLane="0" via=":clusterJ11_J12_cluster1923923897_2447939514_7_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="27" dir="s" state="O"/>
-    <connection from="182045481#5" to="182045481#7" fromLane="0" toLane="0" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_7_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="42" dir="s" state="O"/>
-    <connection from="187938710#0" to="27348585#0" fromLane="0" toLane="0" via=":clusterJ11_J12_cluster1923923897_2447939514_0_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="20" dir="r" state="O"/>
-    <connection from="187938710#0" to="27348585#0" fromLane="0" toLane="1" via=":clusterJ11_J12_cluster1923923897_2447939514_0_1" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="21" dir="r" state="O"/>
-    <connection from="187938710#0" to="169400609#0" fromLane="1" toLane="0" via=":clusterJ11_J12_cluster1923923897_2447939514_2_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="22" dir="s" state="O"/>
-    <connection from="187938710#0" to="169400609#0" fromLane="2" toLane="1" via=":clusterJ11_J12_cluster1923923897_2447939514_2_1" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="23" dir="s" state="O"/>
-    <connection from="187938710#0" to="169400609#0" fromLane="3" toLane="2" via=":clusterJ11_J12_cluster1923923897_2447939514_2_2" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="24" dir="s" state="O"/>
+    <connection from="169400609#0" to="224821293#2" fromLane="0" toLane="0" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_2_0" tl="Glowny_wezel" linkIndex="37" dir="s" state="O"/>
+    <connection from="169400609#0" to="224821293#2" fromLane="1" toLane="1" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_2_1" tl="Glowny_wezel" linkIndex="38" dir="s" state="O"/>
+    <connection from="169400609#0" to="224821293#2" fromLane="2" toLane="2" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_2_2" tl="Glowny_wezel" linkIndex="39" dir="s" state="O"/>
+    <connection from="169400610#0" to="224821292#0" fromLane="0" toLane="0" via=":cluster1664172659_clusterJ6_J9_4_0" tl="Glowny_wezel" linkIndex="15" dir="s" state="o"/>
+    <connection from="169400610#0" to="224821292#0" fromLane="1" toLane="1" via=":cluster1664172659_clusterJ6_J9_4_1" tl="Glowny_wezel" linkIndex="16" dir="s" state="o"/>
+    <connection from="169400610#0" to="224821292#0" fromLane="2" toLane="2" via=":cluster1664172659_clusterJ6_J9_4_2" tl="Glowny_wezel" linkIndex="17" dir="s" state="o"/>
+    <connection from="182045481#4.51" to="182045481#5" fromLane="0" toLane="0" via=":clusterJ11_J12_cluster1923923897_2447939514_7_0" tl="Glowny_wezel" linkIndex="27" dir="s" state="O"/>
+    <connection from="182045481#5" to="182045481#7" fromLane="0" toLane="0" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_7_0" tl="Glowny_wezel" linkIndex="42" dir="s" state="O"/>
+    <connection from="187938710#0" to="27348585#0" fromLane="0" toLane="0" via=":clusterJ11_J12_cluster1923923897_2447939514_0_0" tl="Glowny_wezel" linkIndex="20" dir="r" state="O"/>
+    <connection from="187938710#0" to="27348585#0" fromLane="0" toLane="1" via=":clusterJ11_J12_cluster1923923897_2447939514_0_1" tl="Glowny_wezel" linkIndex="21" dir="r" state="O"/>
+    <connection from="187938710#0" to="169400609#0" fromLane="1" toLane="0" via=":clusterJ11_J12_cluster1923923897_2447939514_2_0" tl="Glowny_wezel" linkIndex="22" dir="s" state="O"/>
+    <connection from="187938710#0" to="169400609#0" fromLane="2" toLane="1" via=":clusterJ11_J12_cluster1923923897_2447939514_2_1" tl="Glowny_wezel" linkIndex="23" dir="s" state="O"/>
+    <connection from="187938710#0" to="169400609#0" fromLane="3" toLane="2" via=":clusterJ11_J12_cluster1923923897_2447939514_2_2" tl="Glowny_wezel" linkIndex="24" dir="s" state="O"/>
     <connection from="187938712" to="287311363#0" fromLane="0" toLane="1" via=":4313891394_1_0" tl="4313891394" linkIndex="1" dir="s" state="O"/>
-    <connection from="187938713#0" to="287311357#0" fromLane="0" toLane="0" via=":cluster1664172659_clusterJ6_J9_7_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="18" dir="l" state="o"/>
-    <connection from="187938713#0" to="287311357#0" fromLane="1" toLane="1" via=":cluster1664172659_clusterJ6_J9_7_1" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="19" dir="l" state="o"/>
+    <connection from="187938713#0" to="287311357#0" fromLane="0" toLane="0" via=":cluster1664172659_clusterJ6_J9_7_0" tl="Glowny_wezel" linkIndex="18" dir="l" state="o"/>
+    <connection from="187938713#0" to="287311357#0" fromLane="1" toLane="1" via=":cluster1664172659_clusterJ6_J9_7_1" tl="Glowny_wezel" linkIndex="19" dir="l" state="o"/>
     <connection from="196662201" to="942711933" fromLane="0" toLane="0" keepClear="0" via=":2616169375_1_0" dir="s" state="M"/>
     <connection from="196664102" to="-942711933" fromLane="0" toLane="0" keepClear="0" via=":2069674078_0_0" dir="s" state="M"/>
     <connection from="196664103" to="1362019277" fromLane="0" toLane="1" keepClear="0" via=":294067124_1_0" dir="s" state="M"/>
@@ -1807,12 +1786,12 @@
     <connection from="236811148" to="236811149#0" fromLane="3" toLane="3" via=":1732884306_0_3" dir="s" state="M"/>
     <connection from="236811148" to="236811149#0" fromLane="4" toLane="4" via=":1732884306_0_4" dir="s" state="M"/>
     <connection from="236811148" to="153776637#0" fromLane="5" toLane="0" via=":1732884306_5_0" dir="l" state="M"/>
-    <connection from="236811149#0" to="1451328237#0" fromLane="0" toLane="0" via=":280272723_5_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="5" dir="r" state="O"/>
-    <connection from="236811149#0" to="1271126935" fromLane="0" toLane="0" via=":280272723_6_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="6" dir="s" state="O"/>
-    <connection from="236811149#0" to="1271126935" fromLane="1" toLane="1" via=":280272723_6_1" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="7" dir="s" state="O"/>
-    <connection from="236811149#0" to="1271126935" fromLane="2" toLane="2" via=":280272723_6_2" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="8" dir="s" state="O"/>
-    <connection from="236811149#0" to="1271126935" fromLane="3" toLane="3" via=":280272723_6_3" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="9" dir="s" state="O"/>
-    <connection from="236811149#0" to="1271126935" fromLane="4" toLane="4" via=":280272723_6_4" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="10" dir="s" state="O"/>
+    <connection from="236811149#0" to="1451328237#0" fromLane="0" toLane="0" via=":280272723_5_0" tl="Glowny_wezel" linkIndex="5" dir="r" state="O"/>
+    <connection from="236811149#0" to="1271126935" fromLane="0" toLane="0" via=":280272723_6_0" tl="Glowny_wezel" linkIndex="6" dir="s" state="O"/>
+    <connection from="236811149#0" to="1271126935" fromLane="1" toLane="1" via=":280272723_6_1" tl="Glowny_wezel" linkIndex="7" dir="s" state="O"/>
+    <connection from="236811149#0" to="1271126935" fromLane="2" toLane="2" via=":280272723_6_2" tl="Glowny_wezel" linkIndex="8" dir="s" state="O"/>
+    <connection from="236811149#0" to="1271126935" fromLane="3" toLane="3" via=":280272723_6_3" tl="Glowny_wezel" linkIndex="9" dir="s" state="O"/>
+    <connection from="236811149#0" to="1271126935" fromLane="4" toLane="4" via=":280272723_6_4" tl="Glowny_wezel" linkIndex="10" dir="s" state="O"/>
     <connection from="236818214" to="187938710#0" fromLane="0" toLane="0" via=":478545002_0_0" dir="s" state="M"/>
     <connection from="236818214" to="187938710#0" fromLane="1" toLane="1" via=":478545002_0_1" dir="s" state="M"/>
     <connection from="236818214" to="187938710#0" fromLane="2" toLane="2" via=":478545002_0_2" dir="s" state="M"/>
@@ -1825,15 +1804,15 @@
     <connection from="236818215" to="236818214" fromLane="3" toLane="3" via=":2447888138_0_3" dir="s" state="M"/>
     <connection from="236818215" to="236818214" fromLane="3" toLane="4" via=":2447888138_0_4" dir="s" state="M"/>
     <connection from="236818215" to="236818214" fromLane="3" toLane="5" via=":2447888138_0_5" dir="s" state="M"/>
-    <connection from="236818220#0" to="287956206#2" fromLane="0" toLane="0" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_0_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="35" dir="s" state="o"/>
-    <connection from="236818220#0" to="287956206#2" fromLane="1" toLane="1" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_0_1" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="36" dir="s" state="o"/>
-    <connection from="236818221#0" to="224821293#2" fromLane="0" toLane="0" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_10_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="45" dir="r" state="o"/>
-    <connection from="236818221#0" to="224821293#2" fromLane="1" toLane="1" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_10_1" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="46" dir="r" state="o"/>
+    <connection from="236818220#0" to="287956206#2" fromLane="0" toLane="0" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_0_0" tl="Glowny_wezel" linkIndex="35" dir="s" state="o"/>
+    <connection from="236818220#0" to="287956206#2" fromLane="1" toLane="1" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_0_1" tl="Glowny_wezel" linkIndex="36" dir="s" state="o"/>
+    <connection from="236818221#0" to="224821293#2" fromLane="0" toLane="0" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_10_0" tl="Glowny_wezel" linkIndex="45" dir="r" state="o"/>
+    <connection from="236818221#0" to="224821293#2" fromLane="1" toLane="1" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_10_1" tl="Glowny_wezel" linkIndex="46" dir="r" state="o"/>
     <connection from="236825276" to="291941452" fromLane="0" toLane="0" keepClear="0" via=":1664172675_0_0" dir="r" state="m" visibility="9.00"/>
     <connection from="236825277" to="-1316855122#3" fromLane="0" toLane="0" via=":301670818_1_0" dir="s" state="M"/>
     <connection from="241159845" to="1323631883" fromLane="0" toLane="1" via=":2445871025_1_0" dir="s" state="M"/>
-    <connection from="24811285#0" to="24811285#2" fromLane="0" toLane="0" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_9_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="44" dir="s" state="O"/>
-    <connection from="24811285#2" to="24811285#3" fromLane="0" toLane="0" via=":clusterJ11_J12_cluster1923923897_2447939514_14_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="34" dir="s" state="O"/>
+    <connection from="24811285#0" to="24811285#2" fromLane="0" toLane="0" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_9_0" tl="Glowny_wezel" linkIndex="44" dir="s" state="O"/>
+    <connection from="24811285#2" to="24811285#3" fromLane="0" toLane="0" via=":clusterJ11_J12_cluster1923923897_2447939514_14_0" tl="Glowny_wezel" linkIndex="34" dir="s" state="O"/>
     <connection from="25126523" to="1362019277" fromLane="0" toLane="0" keepClear="0" via=":294067124_0_0" dir="s" state="M"/>
     <connection from="255904385#0" to="61316958" fromLane="0" toLane="0" via=":301681267_3_0" tl="301681267" linkIndex="3" dir="r" state="O"/>
     <connection from="27348585#0" to="27476801" fromLane="0" toLane="0" via=":301681293_0_0" dir="r" state="M"/>
@@ -1851,21 +1830,21 @@
     <connection from="277203724" to="200568452#0" fromLane="0" toLane="0" via=":1841762981_0_0" dir="s" state="M"/>
     <connection from="277203724" to="200568452#0" fromLane="1" toLane="1" via=":1841762981_0_1" dir="s" state="M"/>
     <connection from="277203724" to="200568452#0" fromLane="2" toLane="2" via=":1841762981_0_2" dir="s" state="M"/>
-    <connection from="287311357#0" to="27348585#0" fromLane="0" toLane="0" via=":clusterJ11_J12_cluster1923923897_2447939514_8_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="28" dir="s" state="o"/>
-    <connection from="287311357#0" to="169400609#0" fromLane="0" toLane="1" via=":clusterJ11_J12_cluster1923923897_2447939514_9_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="29" dir="L" state="o"/>
-    <connection from="287311357#0" to="27348585#0" fromLane="1" toLane="1" via=":clusterJ11_J12_cluster1923923897_2447939514_10_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="30" dir="s" state="o"/>
-    <connection from="287311357#0" to="27348585#0" fromLane="1" toLane="2" via=":clusterJ11_J12_cluster1923923897_2447939514_10_1" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="31" dir="s" state="o"/>
-    <connection from="287311357#0" to="169400609#0" fromLane="1" toLane="2" via=":clusterJ11_J12_cluster1923923897_2447939514_12_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="32" dir="L" state="o"/>
-    <connection from="287311357#0" to="432309716#0" fromLane="1" toLane="1" via=":clusterJ11_J12_cluster1923923897_2447939514_13_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="33" dir="l" state="o"/>
+    <connection from="287311357#0" to="27348585#0" fromLane="0" toLane="0" via=":clusterJ11_J12_cluster1923923897_2447939514_8_0" tl="Glowny_wezel" linkIndex="28" dir="s" state="o"/>
+    <connection from="287311357#0" to="169400609#0" fromLane="0" toLane="1" via=":clusterJ11_J12_cluster1923923897_2447939514_9_0" tl="Glowny_wezel" linkIndex="29" dir="L" state="o"/>
+    <connection from="287311357#0" to="27348585#0" fromLane="1" toLane="1" via=":clusterJ11_J12_cluster1923923897_2447939514_10_0" tl="Glowny_wezel" linkIndex="30" dir="s" state="o"/>
+    <connection from="287311357#0" to="27348585#0" fromLane="1" toLane="2" via=":clusterJ11_J12_cluster1923923897_2447939514_10_1" tl="Glowny_wezel" linkIndex="31" dir="s" state="o"/>
+    <connection from="287311357#0" to="169400609#0" fromLane="1" toLane="2" via=":clusterJ11_J12_cluster1923923897_2447939514_12_0" tl="Glowny_wezel" linkIndex="32" dir="L" state="o"/>
+    <connection from="287311357#0" to="432309716#0" fromLane="1" toLane="1" via=":clusterJ11_J12_cluster1923923897_2447939514_13_0" tl="Glowny_wezel" linkIndex="33" dir="l" state="o"/>
     <connection from="287311363#0" to="1348067247" fromLane="0" toLane="0" keepClear="0" via=":2447939519_1_0" dir="s" state="M"/>
     <connection from="287311364" to="236825277" fromLane="0" toLane="0" keepClear="0" via=":1664172679_0_0" dir="r" state="M"/>
     <connection from="287311364" to="27476746" fromLane="0" toLane="0" keepClear="0" via=":1664172679_1_0" dir="s" state="M"/>
     <connection from="287956205" to="25126523" fromLane="0" toLane="0" via=":1985727749_1_0" tl="GS_1985727749" linkIndex="1" dir="s" state="O"/>
-    <connection from="287956206#2" to="1451328237#0" fromLane="0" toLane="0" via=":280272723_0_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="0" dir="s" state="o"/>
-    <connection from="287956206#2" to="1451328237#0" fromLane="1" toLane="1" via=":280272723_0_1" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="1" dir="s" state="o"/>
-    <connection from="287956206#2" to="1271126935" fromLane="1" toLane="2" via=":280272723_2_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="2" dir="l" state="o"/>
-    <connection from="287956206#2" to="1271126935" fromLane="1" toLane="3" via=":280272723_2_1" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="3" dir="l" state="o"/>
-    <connection from="287956206#2" to="1271126935" fromLane="1" toLane="4" via=":280272723_2_2" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="4" dir="l" state="o"/>
+    <connection from="287956206#2" to="1451328237#0" fromLane="0" toLane="0" via=":280272723_0_0" tl="Glowny_wezel" linkIndex="0" dir="s" state="o"/>
+    <connection from="287956206#2" to="1451328237#0" fromLane="1" toLane="1" via=":280272723_0_1" tl="Glowny_wezel" linkIndex="1" dir="s" state="o"/>
+    <connection from="287956206#2" to="1271126935" fromLane="1" toLane="2" via=":280272723_2_0" tl="Glowny_wezel" linkIndex="2" dir="l" state="o"/>
+    <connection from="287956206#2" to="1271126935" fromLane="1" toLane="3" via=":280272723_2_1" tl="Glowny_wezel" linkIndex="3" dir="l" state="o"/>
+    <connection from="287956206#2" to="1271126935" fromLane="1" toLane="4" via=":280272723_2_2" tl="Glowny_wezel" linkIndex="4" dir="l" state="o"/>
     <connection from="29092803" to="432309717" fromLane="0" toLane="0" via=":4313891438_0_0" dir="r" state="M"/>
     <connection from="29092803" to="942711932#0" fromLane="0" toLane="0" via=":4313891438_1_0" dir="s" state="M"/>
     <connection from="29092803" to="942711932#0" fromLane="0" toLane="1" via=":4313891438_1_1" dir="s" state="M"/>
@@ -1876,8 +1855,8 @@
     <connection from="291941449" to="1232964862" fromLane="0" toLane="0" keepClear="0" via=":1664172677_0_0" dir="s" state="M"/>
     <connection from="291941452" to="942711943" fromLane="0" toLane="0" keepClear="0" via=":1985727762_0_0" dir="r" state="M"/>
     <connection from="291941452" to="291941449" fromLane="0" toLane="0" keepClear="0" via=":1985727762_1_0" dir="s" state="M"/>
-    <connection from="313992351#0" to="287311357#0" fromLane="0" toLane="0" via=":cluster1664172659_clusterJ6_J9_2_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="13" dir="s" state="O"/>
-    <connection from="313992351#0" to="287311357#0" fromLane="1" toLane="1" via=":cluster1664172659_clusterJ6_J9_2_1" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="14" dir="s" state="O"/>
+    <connection from="313992351#0" to="287311357#0" fromLane="0" toLane="0" via=":cluster1664172659_clusterJ6_J9_2_0" tl="Glowny_wezel" linkIndex="13" dir="s" state="O"/>
+    <connection from="313992351#0" to="287311357#0" fromLane="1" toLane="1" via=":cluster1664172659_clusterJ6_J9_2_1" tl="Glowny_wezel" linkIndex="14" dir="s" state="O"/>
     <connection from="313992354#0" to="-981046127#1" fromLane="0" toLane="0" keepClear="0" via=":9074839992_1_0" dir="r" state="M"/>
     <connection from="313992354#0" to="313992354#1" fromLane="0" toLane="0" keepClear="0" via=":9074839992_2_0" dir="s" state="M"/>
     <connection from="313992354#0" to="313992354#1" fromLane="1" toLane="1" keepClear="0" via=":9074839992_2_1" dir="s" state="M"/>
@@ -1892,8 +1871,8 @@
     <connection from="430532793.85.34.10" to="-407552210#1" fromLane="0" toLane="0" keepClear="0" via=":4096038404_0_0" dir="r" state="M"/>
     <connection from="430532793.85.34.10" to="430532795" fromLane="1" toLane="0" keepClear="0" via=":4096038404_1_0" dir="s" state="M"/>
     <connection from="430532793.85.34.10" to="430532795" fromLane="2" toLane="1" keepClear="0" via=":4096038404_1_1" dir="s" state="M"/>
-    <connection from="432309716#0" to="287956206#2" fromLane="0" toLane="0" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_5_0" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="40" dir="l" state="o"/>
-    <connection from="432309716#0" to="287956206#2" fromLane="1" toLane="1" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_5_1" tl="clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184" linkIndex="41" dir="l" state="o"/>
+    <connection from="432309716#0" to="287956206#2" fromLane="0" toLane="0" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_5_0" tl="Glowny_wezel" linkIndex="40" dir="l" state="o"/>
+    <connection from="432309716#0" to="287956206#2" fromLane="1" toLane="1" via=":clusterclusterJ7_clusterJ9_cluster1664172634_8729417981_clustercluster1923923898_26378754_cluster_1087952522_11804517184_5_1" tl="Glowny_wezel" linkIndex="41" dir="l" state="o"/>
     <connection from="432309717" to="-27476683" fromLane="0" toLane="0" via=":1027663419_1_0" dir="s" state="M"/>
     <connection from="61293002" to="61293002.258" fromLane="0" toLane="0" via=":J4_0_0" dir="s" state="M"/>
     <connection from="61293002.258" to="236825276" fromLane="0" toLane="0" via=":301670818_0_0" dir="s" state="M"/>
