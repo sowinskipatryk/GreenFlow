@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+
+# IDE
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# SUMO simulation results and logs
+results/
+scripts/sumo_errors.txt
+scripts/sumo_log.txt
+
+# Backups files
+*.xml.bak
+*.rou.bak
+*.net.bak
+
+#Models file (should be deleted to push best model to the repository)
+models
