@@ -40,10 +40,11 @@ class BaltyckaIntersectionEnv(gym.Env):
     """
     RL environment for the Galeria Bałtycka intersection in Gdańsk.
 
-    Observations (21):
+    Observations (38):
         [0:13]  halting vehicles per detector lane, normalized by lane length
-        [13:24] one-hot encoding of current green phase (for NUM_GREEN_PHASES = 11)
-        [24]    elapsed time in current phase, normalized to [0, 1]
+        [13:26] vehicle density per detector lane, normalized by lane length
+        [26:37] one-hot encoding of current green phase (for NUM_GREEN_PHASES = 11)
+        [37]    elapsed time in current phase, normalized to [0, 1]
 
     Actions (2):
         0 — keep current green phase
@@ -76,7 +77,7 @@ class BaltyckaIntersectionEnv(gym.Env):
         self.observation_space = gym.spaces.Box(
             low=0.0,
             high=1.0,
-            shape=(len(DETECTOR_LANES) + NUM_GREEN_PHASES + 1,),
+            shape=(2 * len(DETECTOR_LANES) + NUM_GREEN_PHASES + 1,),
             dtype=np.float32,
         )
 
@@ -192,15 +193,23 @@ class BaltyckaIntersectionEnv(gym.Env):
         return False
 
     def _get_observations(self) -> np.ndarray:
+        lane_lengths = np.array(self._lane_lengths, dtype=np.float32)
+
         halting = np.array(
             [traci.lane.getLastStepHaltingNumber(lane) for lane in DETECTOR_LANES],
             dtype=np.float32,
         )
-        halting_norm = np.clip(halting / self._lane_lengths, 0.0, 1.0)
+        density = np.array(
+            [traci.lane.getLastStepVehicleNumber(lane) for lane in DETECTOR_LANES],
+            dtype=np.float32,
+        )
+        halting_norm = np.clip(halting / lane_lengths, 0.0, 1.0)
+        density_norm = np.clip(density / lane_lengths, 0.0, 1.0)
+
         phase_one_hot = np.zeros(NUM_GREEN_PHASES, dtype=np.float32)
         phase_one_hot[self._current_green_idx] = 1.0
         elapsed_norm = np.array([min(self._green_timer / MAX_PHASE_DURATION, 1.0)], dtype=np.float32)
-        return np.concatenate([halting_norm, phase_one_hot, elapsed_norm])
+        return np.concatenate([halting_norm, density_norm, phase_one_hot, elapsed_norm])
 
     def _get_reward(self) -> float:
         current_waiting = sum(traci.lane.getWaitingTime(lane) for lane in DETECTOR_LANES)
