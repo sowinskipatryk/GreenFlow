@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-03-16T22:35:32.301774+01:00 by Eclipse SUMO sumo 1.26.0
+<!-- generated on 2026-03-20T10:04:37.885850+01:00 by Eclipse SUMO sumo 1.26.0
 -->
 
 <sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
@@ -13,18 +13,6 @@
 
     <output>
         <emission-output value="results/emissions.xml"/>
-        <summary-output value="results/stats.xml"/>
-        <tripinfo-output value="results/tripinfos.xml"/>
-        <stop-output value="results/stopinfos.xml"/>
-        <statistic-output value="results/baseline_statistics.xml"/>
     </output>
-
-    <processing>
-        <lateral-resolution value="0.4"/>
-        <ignore-junction-blocker value="20"/>
-        <collision.action value="warn"/>
-        <time-to-teleport value="300"/>
-        <max-depart-delay value="300"/>
-    </processing>
 
 </sumoConfiguration>
