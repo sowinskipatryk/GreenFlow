@@ -189,3 +189,20 @@ def filter_tripinfos(
         mask &= df["depart"].between(time_range[0], time_range[1])
 
     return df.loc[mask].reset_index(drop=True)
+
+
+def aggregate_trip_metrics(df: pd.DataFrame, sim_duration: float) -> dict:
+    if df.empty:
+        return {
+            "avg_waitingTime": 0.0, "avg_speed": 0.0, "avg_timeLoss": 0.0,
+            "avg_departDelay": 0.0, "trip_count": 0, "throughput": 0.0,
+        }
+    minutes = sim_duration / 60.0
+    return {
+        "avg_waitingTime": float(df["waitingTime"].mean()),
+        "avg_speed": float(df["avg_speed"].mean()),
+        "avg_timeLoss": float(df["timeLoss"].mean()),
+        "avg_departDelay": float(df["departDelay"].mean()),
+        "trip_count": len(df),
+        "throughput": len(df) / minutes if minutes > 0 else 0.0,
+    }

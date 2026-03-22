@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-from ..data_loader import ExperimentData
+from ..data_loader import ExperimentData, aggregate_trip_metrics
 
 MG_TO_KG = 1e-6
 
@@ -18,13 +18,14 @@ def _pct_change(baseline_val: float, other_val: float) -> str:
 
 def _build_comparison_row(name: str, exp_data: ExperimentData) -> dict:
     s = exp_data.stats
+    t = aggregate_trip_metrics(exp_data.trips, s["simulation_duration"])
     co2_kg = exp_data.trips["CO2_abs"].sum() * MG_TO_KG if not exp_data.trips.empty else 0.0
     return {
-        "Śr. oczekiwanie [s]": s["avg_waitingTime"],
-        "Śr. prędkość [m/s]": s["avg_speed"],
-        "Śr. timeLoss [s]": s["avg_timeLoss"],
-        "Śr. departDelay [s]": s["avg_departDelay"],
-        "Przepustowość [poj/min]": s["throughput"],
+        "Śr. oczekiwanie [s]": t["avg_waitingTime"],
+        "Śr. prędkość [m/s]": t["avg_speed"],
+        "Śr. timeLoss [s]": t["avg_timeLoss"],
+        "Śr. departDelay [s]": t["avg_departDelay"],
+        "Przepustowość [poj/min]": t["throughput"],
         "Ukończenie [%]": s["completion_rate"],
         "Teleporty": s["teleports_total"],
         "CO₂ łącznie [kg]": co2_kg,

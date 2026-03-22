@@ -4,29 +4,30 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-from ..data_loader import ExperimentData
+from ..data_loader import ExperimentData, aggregate_trip_metrics
 
 
 def render(data: dict[str, ExperimentData]) -> None:
     for exp_name, exp_data in data.items():
         st.subheader(f"📊 {exp_name}")
         stats = exp_data.stats
+        t = aggregate_trip_metrics(exp_data.trips, stats["simulation_duration"])
 
         # Row 1 — primary KPI
         c1, c2, c3, c4, c5, c6 = st.columns(6)
         c1.metric("Pojazdy", f"{stats['inserted']} / {stats['loaded']}")
         c2.metric("Ukończenie", f"{stats['completion_rate']:.1f}%")
-        c3.metric("Śr. oczekiwanie", f"{stats['avg_waitingTime']:.1f} s")
-        c4.metric("Śr. prędkość", f"{stats['avg_speed']:.2f} m/s")
+        c3.metric("Śr. oczekiwanie", f"{t['avg_waitingTime']:.1f} s")
+        c4.metric("Śr. prędkość", f"{t['avg_speed']:.2f} m/s")
         c5.metric("Teleporty", stats["teleports_total"])
         c6.metric("Kolizje", stats["collisions"])
 
         # Row 2 — context KPI
         trips = exp_data.trips
         c1, c2, c3, c4 = st.columns(4)
-        c1.metric("Śr. opóźnienie wyjazdu", f"{stats['avg_departDelay']:.1f} s")
+        c1.metric("Śr. opóźnienie wyjazdu", f"{t['avg_departDelay']:.1f} s")
         c2.metric("Pojazdy oczekujące", stats["waiting"])
-        c3.metric("Przepustowość", f"{stats['throughput']:.1f} poj/min")
+        c3.metric("Przepustowość", f"{t['throughput']:.1f} poj/min")
         if not trips.empty:
             tl_ratio = (trips["timeLoss"] / trips["duration"].replace(0, float("nan"))).mean()
             c4.metric("Strata czasu", f"{tl_ratio * 100:.1f}%" if pd.notna(tl_ratio) else "—", help="timeLoss / duration")
