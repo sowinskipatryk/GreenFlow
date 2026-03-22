@@ -12,7 +12,7 @@ MG_TO_KG = 1e-6
 def _pct_change(baseline_val: float, other_val: float) -> str:
     if baseline_val == 0:
         return "—"
-    pct = (other_val - baseline_val) / abs(baseline_val) * 100
+    pct = (other_val - baseline_val) / baseline_val * 100
     return f"{pct:+.1f}%"
 
 
