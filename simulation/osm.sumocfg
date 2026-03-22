@@ -12,7 +12,18 @@
     </input>
 
     <output>
-        <emission-output value="results/emissions.xml"/>
+        <emission-output value="results/reference_results/emissions.xml"/>
+        <tripinfo-output value="results/reference_results/tripinfos.xml"/>
+        <tripinfo-output.write-unfinished value="true"/>
+        <stop-output value="results/reference_results/stopinfos.xml"/>
+        <statistic-output value="results/reference_results/stats.xml"/>
     </output>
+    <report>
+        <duration-log.statistics value="true"/>
+    </report>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
 
 </sumoConfiguration>
