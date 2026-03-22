@@ -1,7 +1,16 @@
-import streamlit as st
+import sys
 from pathlib import Path
 
-from data_loader import (
+# Streamlit runs this file as a synthetic __main__ module (no __package__), so
+# `from .components` would raise ImportError. Put the repo root on sys.path and
+# import the `dashboard` package by absolute name instead.
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(_PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(_PROJECT_ROOT))
+
+import streamlit as st
+
+from dashboard.data_loader import (
     ExperimentData,
     list_experiments,
     load_tripinfos,
@@ -9,7 +18,7 @@ from data_loader import (
     load_stopinfos,
     filter_tripinfos,
 )
-from components import overview, comparison, emissions, temporal
+from dashboard.components import comparison, emissions, overview, temporal
 
 RESULTS_DIR = Path(__file__).parent.parent / "simulation" / "results"
 

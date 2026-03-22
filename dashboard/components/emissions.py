@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-from data_loader import ExperimentData
+from ..data_loader import ExperimentData
 
 MG_TO_KG = 1e-6
 MG_TO_G = 1e-3

@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-from data_loader import ExperimentData
+from ..data_loader import ExperimentData
 
 
 def render(data: dict[str, ExperimentData]) -> None:

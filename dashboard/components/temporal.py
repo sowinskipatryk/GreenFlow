@@ -5,7 +5,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-from data_loader import ExperimentData
+from ..data_loader import ExperimentData
 
 BIN_SIZE = 300  # 5 minutes
 MG_TO_KG = 1e-6
