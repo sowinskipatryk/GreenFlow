@@ -6,7 +6,6 @@ import json
 from stable_baselines3 import PPO
 from stable_baselines3.common.callbacks import EvalCallback
 from sumo_rl import SumoEnvironment
-from optuna.integration import OptunaPruning
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -74,10 +73,9 @@ def objective(trial):
 
     # Train and evaluate model
     eval_env = environment_setup()
-    pruning_callback = OptunaPruning(trial, "mean_reward")
+
     eval_callback = EvalCallback(
         eval_env,
-        callback_after_eval=pruning_callback,
         best_model_save_path=f'../models/optuna/trial_{trial.number}/',
         log_path=f'../models/optuna_tensorboard/trial_{trial.number}/',
         eval_freq=5000,
@@ -86,9 +84,9 @@ def objective(trial):
     )
     
     try:
-        model.learn(total_timesteps=30000, callback=eval_callback)
+        model.learn(total_timesteps=10000, callback=eval_callback)
     except (AssertionError, ValueError) as e:
-        logging.error(e)
+        logging.info(e)
         raise optuna.exceptions.TrialPruned()
     finally:
         env.close()
@@ -99,11 +97,11 @@ def objective(trial):
     return last_mean_reward
 
 def main():
-    pruner = optuna.pruners.MedianPruner(n_startup_trials=5, n_warmup_steps=10000)
+    pruner = optuna.pruners.MedianPruner(n_startup_trials=5, n_warmup_steps=2000)
     study = optuna.create_study(direction='maximize', pruner=pruner)
     
     try:
-        study.optimize(objective, n_trials=50, timeout=7200)
+        study.optimize(objective, n_trials=20, timeout=7200)
     except KeyboardInterrupt:
         pass
 
