@@ -47,13 +47,13 @@ def baltycka_reward_fn(ts) -> float:
     # 3. Average vehicle speed (already normalized by sumo-rl)
     avg_speed = ts.get_average_speed()
 
-    # 4. Public transport priority (penalty for buses/trams waiting)
-    pt_penalty = 0.0
-    for veh_id in ts._get_veh_list():
-        if ts.sumo.vehicle.getTypeID(veh_id) in PT_VEHICLE_TYPES:
-            wait = ts.sumo.vehicle.getAccumulatedWaitingTime(veh_id)
-            pt_penalty -= min(wait, PT_WAIT_CAP) * PT_WAIT_MULTIPLIER
-    pt_penalty /= PT_WAIT_NORM
+    # 4. Public transport priority (penalty for waiting time of buses/trams - averaged, capped and normalized)
+    pt_waits = [
+        min(ts.sumo.vehicle.getAccumulatedWaitingTime(veh_id), PT_WAIT_CAP)
+        for veh_id in ts._get_veh_list()
+        if ts.sumo.vehicle.getTypeID(veh_id) in PT_VEHICLE_TYPES
+    ]
+    pt_penalty = -np.mean(pt_waits) * PT_WAIT_MULTIPLIER / PT_WAIT_NORM if pt_waits else 0.0
 
     # 5. Phase switching penalty (punishes hard rapid phase changes, gentle to rare switches)
     switch_penalty = 0.0
