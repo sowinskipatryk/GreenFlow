@@ -18,7 +18,7 @@ logging.basicConfig(level=logging.INFO,
 
 
 def environment_setup(use_gui=False, seed=None):
-    logging.info("Setting up SUMO environment.")
+    logging.debug("Setting up SUMO environment.")
     route_files = (
             "../simulation/demand/car_ev.rou.xml,"
             "../simulation/demand/car.rou.xml,"
@@ -39,7 +39,7 @@ def environment_setup(use_gui=False, seed=None):
         num_seconds=3600,
         sumo_seed=seed if seed is not None else 'random',
     )
-    logging.info("SUMO environment created.")
+    logging.debug("SUMO environment created.")
     return env
 
 
