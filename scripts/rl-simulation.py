@@ -1,10 +1,19 @@
 import os
 import sys
 import logging
+import json
 import numpy as np
 from stable_baselines3 import PPO
 from stable_baselines3.common.callbacks import EvalCallback
 from sumo_rl import SumoEnvironment, env
+
+# Constants for reward function
+PT_VEHICLE_TYPES = {'bus', 'tram_gdansk'}
+PT_WAIT_CAP = 60.0        # maximum PT waiting time considered in penalty (seconds)
+PT_WAIT_MULTIPLIER = 2.0  # multiplier for PT waiting time penalty (added not to spoil the function composition that sums up to 1)
+PT_WAIT_NORM = 100.0      # normalization factor for total PT waiting time
+WAIT_NORM = 100.0         # expected max waiting time change per step (seconds)
+
 
 # Configure logging
 logging.basicConfig(level=logging.INFO,
@@ -24,14 +33,6 @@ def check_sumo_home():
     else:
         logging.error("SUMO_HOME environment variable not set. Please set it to your SUMO installation directory.")
         sys.exit("Error: SUMO_HOME environment variable not set. Please set it to your SUMO installation directory.")
-
-
-PT_VEHICLE_TYPES = {'bus', 'tram_gdansk'}
-PT_WAIT_CAP = 60.0        # maximum PT waiting time considered in penalty (seconds)
-PT_WAIT_MULTIPLIER = 2.0  # multiplier for PT waiting time penalty (added not to spoil the function composition that sums up to 1)
-PT_WAIT_NORM = 100.0      # normalization factor for total PT waiting time
-WAIT_NORM = 100.0         # expected max waiting time change per step (seconds)
-
 
 def baltycka_reward_fn(ts) -> float:
     # 1. Waiting time difference between current and previous step
@@ -69,9 +70,7 @@ def baltycka_reward_fn(ts) -> float:
         0.25 * queue_penalty +
         0.20 * avg_speed +
         0.15 * pt_penalty +
-        0.10 * switch_penalty
-    )
-
+        0.10 * switch_penalty)
 
 def environment_setup():
     logging.info("Setting up SUMO environment.")
@@ -97,28 +96,63 @@ def environment_setup():
     logging.info("SUMO environment created.")
     return env
 
+def load_best_hyperparameters(params):
+    try:
+        with open("best_params.json", "r") as f:
+            best_params = json.load(f)
+            logging.info(f"Loaded hyperparameters from best_params.json: {best_params}")
+
+            params['learning_rate'] = best_params.get('learning_rate', params['learning_rate'])
+            params['n_steps'] = best_params.get('n_steps', params['n_steps'])
+            params['gamma'] = best_params.get('gamma', params['gamma'])
+            params['ent_coef'] = best_params.get('ent_coef', params['ent_coef'])
+            params['batch_size'] = best_params.get('batch_size', params['batch_size'])
+
+            net_arch_dict = {
+                'tiny': [64, 64],
+                'small': [256, 128],
+                'medium': [256, 128, 64]
+            }
+            net_arch_str = best_params.get('net_arch', 'medium')
+            params['net_arch'] = net_arch_dict.get(net_arch_str, params['net_arch'])
+
+    except FileNotFoundError:
+        logging.info("best_params.json not found. Using default hyperparameters.")
+
+    return params
+
 def create_model(env):
     logging.info("Initializing PPO model...")
-    
+
+    default_params = {
+        'learning_rate': 0.001,
+        'n_steps': 2048,
+        'gamma': 0.99,
+        'ent_coef': 0.05,
+        'batch_size': 128,
+        'net_arch': [256, 128, 64]}
+
+    params = load_best_hyperparameters(default_params)
+
     model = PPO(
-        "MlpPolicy", 
-        env, 
-        verbose=1, 
-        learning_rate=0.001,
-        ent_coef=0.05,
-        gamma=0.99,
-        n_steps=2048,
-        batch_size=128,
+        "MlpPolicy",
+        env,
+        verbose=1,
+        learning_rate=params['learning_rate'],
+        ent_coef=params['ent_coef'],
+        gamma=params['gamma'],
+        n_steps=params['n_steps'],
+        batch_size=params['batch_size'],
         device='auto',
-        policy_kwargs=dict(net_arch=[256, 128, 64]),
+        policy_kwargs=dict(net_arch=params['net_arch']),
         tensorboard_log="../models/ppo_traffic_tensorboard/")
-    
+
     logging.info("PPO model initialized.")
     return model
 
 def model_learn(model, callback=None):
     logging.info("Starting model training.")
-    model.learn(total_timesteps=100_000, callback=callback)
+    model.learn(total_timesteps=200_000, callback=callback)
     logging.info("Training finished!")
 
 
@@ -136,7 +170,7 @@ def evaluate_model(eval_env):
             eval_env, 
             best_model_save_path='../models/best_model/',
             log_path='../models/ppo_traffic_tensorboard/eval_logs/', 
-            eval_freq=5_000, 
+            eval_freq=10_000, 
             deterministic=True, 
             render=False)
     logging.info("Evaluation callback created.")
