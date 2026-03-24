@@ -1,6 +1,7 @@
 import os
 import sys
 import logging
+import numpy as np
 from stable_baselines3 import PPO
 from stable_baselines3.common.callbacks import EvalCallback
 from sumo_rl import SumoEnvironment, env
@@ -24,6 +25,54 @@ def check_sumo_home():
         logging.error("SUMO_HOME environment variable not set. Please set it to your SUMO installation directory.")
         sys.exit("Error: SUMO_HOME environment variable not set. Please set it to your SUMO installation directory.")
 
+
+PT_VEHICLE_TYPES = {'bus', 'tram_gdansk'}
+PT_WAIT_CAP = 60.0        # maximum PT waiting time considered in penalty (seconds)
+PT_WAIT_MULTIPLIER = 2.0  # multiplier for PT waiting time penalty (added not to spoil the function composition that sums up to 1)
+PT_WAIT_NORM = 100.0      # normalization factor for total PT waiting time
+WAIT_NORM = 100.0         # expected max waiting time change per step (seconds)
+
+
+def baltycka_reward_fn(ts) -> float:
+    # 1. Waiting time difference between current and previous step
+    current_wait = sum(ts.get_accumulated_waiting_time_per_lane())
+    last_wait = getattr(ts, '_last_wait', current_wait)
+    waiting_time_delta = np.clip((last_wait - current_wait) / WAIT_NORM, -1, 1)  # clipped so it won't dominate the rest
+    ts._last_wait = current_wait
+
+    # 2. Quadratic queue penalty (normalized by number of lanes)
+    queues = ts.get_lanes_queue()
+    queue_penalty = -sum(q ** 2 for q in queues) / len(queues)
+
+    # 3. Average vehicle speed (already normalized by sumo-rl)
+    avg_speed = ts.get_average_speed()
+
+    # 4. Public transport priority (penalty for waiting time of buses/trams - averaged, capped and normalized)
+    pt_waits = [
+        min(ts.sumo.vehicle.getAccumulatedWaitingTime(veh_id), PT_WAIT_CAP)
+        for veh_id in ts._get_veh_list()
+        if ts.sumo.vehicle.getTypeID(veh_id) in PT_VEHICLE_TYPES
+    ]
+    pt_penalty = -np.mean(pt_waits) * PT_WAIT_MULTIPLIER / PT_WAIT_NORM if pt_waits else 0.0
+
+    # 5. Phase switching penalty (punishes hard rapid phase changes, gentle to rare switches)
+    switch_penalty = 0.0
+    now = ts.env.sim_step
+    if getattr(ts, '_last_phase', None) != ts.green_phase:
+        dt = now - getattr(ts, '_last_switch_time', now)
+        switch_penalty = -1.0 / (dt + 1)
+        ts._last_switch_time = now
+    ts._last_phase = ts.green_phase
+
+    return (
+        0.30 * waiting_time_delta +
+        0.25 * queue_penalty +
+        0.20 * avg_speed +
+        0.15 * pt_penalty +
+        0.10 * switch_penalty
+    )
+
+
 def environment_setup():
     logging.info("Setting up SUMO environment.")
     route_files = (
@@ -44,7 +93,7 @@ def environment_setup():
         ts_ids =['Glowny_wezel'],
         use_gui=False,
         num_seconds=3600,
-        reward_fn='diff-waiting-time')
+        reward_fn=baltycka_reward_fn)
     logging.info("SUMO environment created.")
     return env
 
