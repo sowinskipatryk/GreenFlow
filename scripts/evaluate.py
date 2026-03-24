@@ -8,13 +8,14 @@ setup_sumo_home()
 from stable_baselines3 import PPO
 from sumo_rl import SumoEnvironment
 
-# Configure logging
-logging.basicConfig(level=logging.INFO,
-                    format='%(asctime)s - %(levelname)s - %(message)s',
-                    handlers=[
-                        logging.FileHandler("evaluate.log"),
-                        logging.StreamHandler()
-                    ])
+def configure_logging(level='INFO'):
+    logging.basicConfig(level=getattr(logging, level.upper(), logging.INFO),
+                        format='%(asctime)s - %(levelname)s - %(message)s',
+                        handlers=[
+                            logging.FileHandler("evaluate.log"),
+                            logging.StreamHandler()
+                        ],
+                        force=True)
 
 
 def environment_setup(use_gui=False, seed=None):
@@ -137,7 +138,11 @@ if __name__ == '__main__':
     parser.add_argument('--gui', action='store_true', help='Run in GUI mode')
     parser.add_argument('--baseline', action='store_true', help='Run baseline only (no model needed)')
     parser.add_argument('--seed', type=int, default=None, help='Fixed seed for reproducibility')
+    parser.add_argument('--log-level', type=str, default='INFO',
+                        choices=['DEBUG', 'INFO', 'WARNING', 'ERROR'],
+                        help='Logging level (default: INFO)')
     args = parser.parse_args()
 
+    configure_logging(args.log_level)
     main(model_name=args.model_name, episodes=args.episodes, use_gui=args.gui,
          baseline_only=args.baseline, seed=args.seed)

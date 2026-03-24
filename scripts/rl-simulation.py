@@ -18,13 +18,14 @@ PT_WAIT_NORM = 100.0      # normalization factor for total PT waiting time
 WAIT_NORM = 100.0         # expected max waiting time change per step (seconds)
 
 
-# Configure logging
-logging.basicConfig(level=logging.INFO,
-                    format='%(asctime)s - %(levelname)s - %(message)s',
-                    handlers=[
-                        logging.FileHandler("rl-simulation.log"),
-                        logging.StreamHandler()
-                    ])
+def configure_logging(level='INFO'):
+    logging.basicConfig(level=getattr(logging, level.upper(), logging.INFO),
+                        format='%(asctime)s - %(levelname)s - %(message)s',
+                        handlers=[
+                            logging.FileHandler("rl-simulation.log"),
+                            logging.StreamHandler()
+                        ],
+                        force=True)
 
 # sumo-rl documentation: https://lucasalegre.github.io/sumo-rl/
 
@@ -177,6 +178,9 @@ def evaluate_model(eval_env):
 
 def main(model_name, total_timesteps, use_gui):
     logging.info("--- Starting RL Simulation ---")
+    logging.info(f"Model: {model_name}")
+    logging.info(f"Timesteps: {total_timesteps:_}")
+    logging.info(f"GUI mode: {use_gui}")
     training_env = environment_setup(use_gui=use_gui)
     check_env(training_env, warn=True)
     eval_env = environment_setup()
@@ -197,6 +201,10 @@ if __name__ == "__main__":
     parser.add_argument('--timesteps', type=int, default=200_000,
                         help='Total training timesteps (default: 200_000)')
     parser.add_argument('--gui', action='store_true', help='Run simulation with SUMO GUI')
+    parser.add_argument('--log-level', type=str, default='INFO',
+                        choices=['DEBUG', 'INFO', 'WARNING', 'ERROR'],
+                        help='Logging level (default: INFO)')
     args = parser.parse_args()
 
+    configure_logging(args.log_level)
     main(model_name=args.model_name, total_timesteps=args.timesteps, use_gui=args.gui)
