@@ -6,7 +6,7 @@ from utils import setup_sumo_home
 setup_sumo_home()
 
 from stable_baselines3 import PPO
-from stable_baselines3.common.callbacks import EvalCallback
+from stable_baselines3.common.callbacks import EvalCallback, CheckpointCallback, CallbackList
 from stable_baselines3.common.env_checker import check_env
 from sumo_rl import SumoEnvironment, env
 
@@ -147,7 +147,12 @@ def create_model(env):
 
 def model_learn(model, callback=None, total_timesteps=200_000):
     logging.info("Starting model training.")
-    model.learn(total_timesteps=total_timesteps, callback=callback)
+    checkpoint_callback = CheckpointCallback(
+        save_freq=10_000,
+        save_path='../models/checkpoints/',
+        name_prefix='ppo_baltycka'
+    )
+    model.learn(total_timesteps=total_timesteps, callback=CallbackList([callback, checkpoint_callback]))
     logging.info("Training finished!")
 
 def model_save(model, model_name):
