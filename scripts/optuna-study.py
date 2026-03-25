@@ -1,9 +1,10 @@
-import os
-import sys
 import optuna
 import logging
 import json
 import numpy as np
+from utils import setup_sumo_home
+setup_sumo_home()
+
 from stable_baselines3 import PPO
 from stable_baselines3.common.callbacks import EvalCallback
 from sumo_rl import SumoEnvironment
