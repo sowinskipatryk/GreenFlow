@@ -627,7 +627,7 @@
         <lane id="1362017842.95_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="31.23" shape="2118.37,1658.50 2147.29,1670.27">
             <param key="origId" value="1362017842"/>
         </lane>
-        <lane id="1362017842.95_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="31.23" shape="2117.16,1661.46 2146.08,1673.23" changeLeft="authority">
+        <lane id="1362017842.95_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="31.23" shape="2117.16,1661.46 2146.08,1673.23" changeLeft="authority" changeRight="all">
             <param key="origId" value="1362017842"/>
         </lane>
         <lane id="1362017842.95_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="31.23" shape="2115.95,1664.42 2144.88,1676.20">

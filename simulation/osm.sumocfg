@@ -28,4 +28,10 @@
         <duration-log.statistics value="true"/>
     </report>
 
+    <processing>
+        <time-to-teleport value="500"/>
+        <collision.action value="remove"/>
+        <ignore-route-errors value="true"/>
+    </processing>
+
 </sumoConfiguration>
