@@ -1,5 +1,3 @@
-import os
-import sys
 import optuna
 import logging
 import json
@@ -151,12 +149,12 @@ def main():
         pass
 
 
-    logging.info("Number of finished trials: ", len(study.trials))
+    logging.info(f"Number of finished trials: {len(study.trials)}")
     logging.info("Best trial:")
     trial = study.best_trial
 
-    logging.info("  Value: ", trial.value)
-    logging.info("  Params: ")
+    logging.info(f"  Value: {trial.value}")
+    logging.info("  Params:")
     for key, value in trial.params.items():
         print("    {}: {}".format(key, value))
 
